@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <region code="traditional" name="traditionalReg"/>
+    <region code="freeloveTR" name="freeloveTRReg"/>
+    <region code="freeloveES" name="freeloveESReg"/>
+    <region code="default" name="defaultReg"/>
+</config>

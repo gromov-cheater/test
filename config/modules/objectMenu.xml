@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menuItems>
+        <item id="back" tag="BACK" icon="action_back_icon" lable="backButtonTitle" />
+
+        <item id="passport" tag="PASSPORT" icon="action_passport_icon" lable="passportButtonTitle" />
+        <item id="visit" tag="VISIT" icon="action_toguest_icon" lable="visitHouseButtonTitle" />
+        <item id="talk" tag="TALK" icon="action_say_icon" lable="messageButtonTitle" />
+
+        <item id="exchange" tag="EXCHANGE" icon="icon_action_exchange" label="exchangeButtonTitle" />
+        <item id="gifts" tag="MENU" icon="icon_action_gift" label="giftsButtonTitle" />
+        <item id="make_gift" tag="MAKE_GIFT" icon="action_gift_icon" label="giftButtonTitle"/>
+
+        <item id="actions" tag="MENU" icon="action_activity_icon" label="actionButtonTitle" />
+        <item id="kick" tag="KICK" icon="action_kick_icon" label="kickButtonTitle" />
+        <item id="slap" tag="SLAP" icon="action_slap_icon" label="slapButtonTitle"/>
+        <item id="fight" tag="FIGHT" icon="action_fight_icon" label="fightButtonTitle"/>
+        <item id="kiss" tag="KISS" icon="action_kiss_icon" label="kissButtonTitle" privilege="kiss"> 
+            <condition type="censure" /> 
+        </item>
+        <item id="kiss_nocens" tag="KISS" icon="action_kiss_icon" label="kissButtonTitle" privilege="kiss_nocens"> 
+            <condition type="not">
+                <condition type="censure" />
+            </condition>
+        </item>
+        <item id="kiss_long" tag="KISS_LONG" icon="action_kiss_icon" label="longKissButtonTitle" privilege="longKiss" >
+            <condition type="censure" />
+        </item>
+        <item id="kiss_long_nocens" tag="KISS_LONG" icon="action_kiss_icon" label="longKissButtonTitle" privilege="longKiss_nocens"> 
+            <condition type="not">
+                <condition type="censure" />
+            </condition>
+        </item>
+        <item id="hug" tag="HUG" icon="action_hug_icon" label="hugButtonTitle"/>
+        <item id="throw_cake" tag="THROW_CAKE" icon="action_throw_cake_icon" label="smearCakeButtonTitle">
+            <condition type="locationChanged" location="cafe"/>
+        </item>
+        
+        <item id="pairDance" tag="EVENT_ACTION" icon="action_pdnc_menu_icon" label="#danceButtonTitle">
+            <condition type="locationChanged" location="club"/>
+        </item> 
+
+        <!--<item id="throwSnowball" tag="EVENT_ACTION" icon="action_hlwn20_operat_icon" label="#throwSnowball_label">
+            <condition type="any">
+                 <condition type="locationChanged" location="yard"/> 
+                <condition type="locationChanged" location="park"/>
+                <condition type="locationChanged" location="street"/>
+            </condition>
+        </item>  -->
+         
+        <item id="relations" tag="MENU" icon="action_relation_icon" label="relations" />
+        <item id="be_buddies" tag="BE_BUDDIES" icon="action_to_buddy_icon" label="associateButtonTitle" privilege="addToAssociates" />
+        <item id="remove_from_buddies" tag="REMOVE_FROM_BUDDIES" icon="action_remove_buddy_icon" label="removeBuddyButtonTitle" privilege="removeFromAssociates"/>
+        <item id="be_enemies" tag="BE_ENEMIES" icon="action_to_enemy_icon" label="enemyButtonTitle" privilege="addToEnemys"/>
+        <item id="remove_from_enemies" tag="REMOVE_FROM_ENEMIES" icon="action_to_buddy_icon" label="noEnemyButtonTitle" privilege="removeFromEnemys" />
+        <item id="be_friends" tag="BE_FRIENDS" icon="action_to_buddy_icon" label="addFriendButtonTitle" privilege="addToFriends" />
+        <item id="remove_from_friends" tag="REMOVE_FROM_FRIENDS" icon="action_remove_buddy_icon" label="removeFriendButtonTitle" privilege="removeFromFriends" />
+        <item id="be_loved" tag="BE_LOVED" icon="action_add_beloved_icon" label="addBelovedButtonTitle" privilege="addToBeloved"> 
+            <condition type="censure" />
+        </item>
+        <item id="remove_from_loved" tag="REMOVE_FROM_LOVED" icon="action_remove_from_beloved_icon" label="removeFromBelovedButtonTitle" privilege="removeFromBeloved" />
+        <item id="be_engaged" tag="BE_ENGAGED" icon="action_add_beloved_icon" label="addEngagedButtonTitle" privilege="addToEngaged"> 
+            <condition type="censure" />
+        </item>
+        <item id="remove_from_engaged" tag="REMOVE_FROM_ENGAGED" icon="action_remove_from_beloved_icon" label="removeFromEngagedButtonTitle" privilege="removeFromEngaged" />
+        <item id="be_married" tag="BE_MARRIED" icon="action_add_beloved_icon" label="addMarriedButtonTitle" privilege="addToMarried"> 
+            <condition type="censure" />
+        </item>
+        <item id="remove_from_married" tag="REMOVE_FROM_MARRIED" icon="action_remove_from_beloved_icon" label="removeFromMarriedButtonTitle" privilege="removeFromMarried" />
+        <item id="be_loved_nocens" tag="BE_LOVED" icon="action_add_beloved_icon" label="addBelovedButtonTitle" privilege="addToBeloved_nocens"> 
+            <condition type="not">
+                <condition type="censure" />
+            </condition>
+        </item>
+        <item id="be_engaged_nocens" tag="BE_ENGAGED" icon="action_add_beloved_icon" label="addEngagedButtonTitle" privilege="addToEngaged_nocens"> 
+            <condition type="not">
+                <condition type="censure" />
+            </condition>
+        </item>
+        <item id="be_married_nocens" tag="BE_MARRIED" icon="action_add_beloved_icon" label="addMarriedButtonTitle" privilege="addToMarried_nocens"> 
+            <condition type="not">
+                <condition type="censure" />
+            </condition>
+        </item>
+
+        <item id="treat" tag="TREAT" icon="icon_action_order" label="sendCafeDishButtonTitle">
+            <condition type="any">
+                <condition type="locationChanged" location="club"/>
+                <condition type="locationChanged" location="cafe"/>
+                <condition type="locationChanged" location="publicBeach"/>
+            </condition>
+        </item>
+        <item id="ny_treat" tag="TREAT" icon="icon_action_order" label="sendCafeDishButtonTitle">
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="kick_out" tag="KICK_OUT" icon="icon_exit" label="driveOutButtonTitle">
+            <condition type="myHouse" />
+        </item>
+
+        <item id="rage" tag="RAGE" icon="action_rage_icon" label="angryButtonTitle" />
+        <item id="wash_up" tag="WASH_UP" icon="action_wash_up_icon" label="washButtonTitle">
+            <condition type="avatarDirty" />
+        </item>
+        <item id="dance" tag="DANCE" icon="icon_action_music" label="danceButtonTitle" />
+        <item id="cry" tag="CRY" icon="action_cry_icon" label="cryingButtonTitle" />
+
+        <item id="pianoPlay" action="pianoPlay" icon="action_activity_icon" label="#pianoPlay_label" />
+        <item id="furSit" action="furSit" icon="action_furSit_icon" label="furSitButtonTitle" />
+        <item id="fortuneTell" action="fortuneTell" toState="on" icon="action_furSit_icon" label="fortuneTellButtonTitle" />
+        <item id="modelPose" action="modelPose" toState="on" icon="action_pose_icon" label="modelPoseButtonTitle" />
+        <item id="easelPaint" action="easelPaint" toState="on" icon="action_draw_icon" label="easelDrawButtonTitle" />
+        <item id="snowBallKick" action="snowBallKick" icon="action_kick_icon" label="#snowBallKick_label" />
+        
+        <item id="ClearMe" action="ClearMe" icon="action_wash_hands_icon" label="ClearMeButtonTitle" />
+        <item id="ClearMeOn" action="ClearMeOn" toState="on" icon="icon_on" label="#turnOnButtonTitle" />
+        <item id="ClearMeOff" action="ClearMeOff" toState="off" icon="icon_exit" label="#turnOffButtonTitle" />
+
+        <item id="CookMe" action="CookMe" icon="action_cooking_icon" label="CookMeButtonTitle" />
+        <item id="CookMeOn" action="CookMeOn" toState="on" icon="icon_on" label="#turnOnButtonTitle" />
+        <item id="CookMeOff" action="CookMeOff" toState="off" icon="icon_exit" label="#turnOffButtonTitle" />
+
+        <item id="WriteText" action="WriteText" icon="action_writing_icon" label="type_label" />
+        <item id="TurnMeOn" action="TurnMeOn" toState="on" icon="icon_on" label="#turnOnButtonTitle" />
+        <item id="TurnMeOff" action="TurnMeOff" toState="off" icon="icon_exit" label="#turnOffButtonTitle" />
+
+        <item id="CozySit" action="CozySit" icon="action_playchair_icon" label="prkSswRock" />
+
+        <item id="PlayChess" action="PlayChess" icon="action_playchess_icon" label="playTitle" />
+
+        <item id="descstudy" action="study" icon="action_study_icon" label="#descstudy_label" />
+        <item id="descdance" action="tabledance" icon="action_tabledance_icon" label="#danceButtonTitle" />
+        <item id="descsit" action="sit" icon="action_sit_icon" label="#sitButtonTitle" />
+        <item id="draw_wight" action="draw_wight" toState="wight" icon="action_drawboard_w_icon" label="#draw_wight_label" />
+        <item id="draw_yellow" action="draw_yellow" toState="yellow" icon="action_drawboard_y_icon" label="#draw_yellow_label" />
+        <item id="draw_pink" action="draw_pink" toState="pink" icon="action_drawboard_p_icon" label="#draw_yellow_label" />
+        <item id="clear_wight" action="clear_wight" toState="idle" icon="action_cleanboard_icon" label="#clear_wight_label" />
+        <item id="clear_yellow" action="clear_yellow" toState="idle" icon="action_cleanboard_icon" label="#clear_wight_label" />
+        <item id="clear_pink" action="clear_pink" toState="idle" icon="action_cleanboard_icon" label="clear_wight_label" />
+        <item id="descexperiment" action="descexperiment" icon="action_chem_icon" label="#descexperiment_label" />
+        <item id="bookshelf" action="bookshelf" icon="action_search_icon" label="#bookshelf_act_label" />
+        <item id="teachertable" action="teachertable" icon="action_study_icon" label="#teachertable_label" />
+        <item id="schoolPoetry" action="schoolPoetry" icon="action_poetry_icon" label="#schoolPoetry_label" >
+            <condition type="locationChanged" location="schoolAvataria"/>
+        </item>
+        <item id="school" action="school" icon="action_school_icon" label="#schoolAvatariaTitle">
+            <condition type="locationChanged" location="schoolAvataria"/>
+        </item>
+        <item id="schoolGreeting" action="schoolGreeting" icon="action_cheer_icon" label="#schoolGreeting_label"> 
+            <condition type="locationChanged" location="schoolAvataria"/>
+        </item>
+        <item id="bagBump" action="bagBump" icon="action_baghit_icon" label="#bagBump_label">
+            <condition type="locationChanged" location="schoolAvataria"/>
+        </item>
+        <item id="trowPaperPlane" tag="EVENT_ACTION" icon="action_paperplane_icon" label="#trowPaperPlane_label">
+            <condition type="locationChanged" location="schoolAvataria"/>
+        </item>
+
+        <item id="tossCoin" action="tossCoin" icon="action_street_coin_icon" label="#strTossCoin" />
+
+        <item id="sswRock" action="sswRock" toState="on" icon="action_park_playseesaw_icon" label="#prkSswRock" />
+        <item id="sswCare" action="sswCare" icon="action_park_pullseesaw_icon" label="#prkSswCare" />
+        <item id="grdnseesawPlay" action="grdnseesawPlay" icon="action_park_playseesaw_icon" label="#prkSswRock" />
+
+        <item id="OpenPicnic" action="OpenPicnic" toState="on" icon="action_park_openpicnic_icon" label="#prkOpenPicnic" />
+        <item id="ClosePicnic" action="ClosePicnic" toState="off" icon="action_park_openpicnic_icon" label="#prkClosePicnic" />
+        <item id="SitPicnic" action="SitPicnic" icon="action_park_sitpicnic_icon" label="#sitButtonTitle" />
+        <item id="SitPicnic1" action="SitPicnic1" icon="action_furSit_icon" label="#sitButtonTitle" />
+        <item id="SitPicnic2" action="SitPicnic2" icon="action_furSit_icon" label="#sitButtonTitle" />
+        <item id="DuckFeed" action="DuckFeed" icon="action_park_fedduckling_icon" label="#prkDuckFeed" />
+        <item id="WaterFlower1" action="WaterFlower1" toState="on" icon="action_wateringflower_icon" label="#sv2020flower" />
+        <item id="WaterFlower2" action="WaterFlower2" icon="action_wateringflower_icon" label="#WaterFlower2_label" />
+        <item id="CutFlower1" action="CutFlower1" toState="off" icon="action_cutflower_icon" label="#sv2020flower2" />
+
+        <item id="epidWashHome" action="epidWashHome" icon="action_hosp_useantis_icon" label="#useAntiseptic" />
+
+        <item id="Karaoke" action="Karaoke" icon="action_singing_icon" label="#karaokesing" />
+        <item id="FeedFish" action="FeedFish" icon="action_feedfish_icon" label="#action_feedfish_label" />
+        <item id="FitballJump" action="FitballJump" icon="action_fitballjump_icon" label="#action_fitballjump_label" />
+        <item id="YogaPose" action="YogaPose" icon="action_yogastand_icon" label="#action_yogastand_label" />
+        <item id="Speedrun" action="Speedrun" icon="action_speedrun_icon" label="#action_speedrun_label" />
+        <item id="Dj" action="Dj" icon="action_playdj_icon" label="#action_playdj_label" />
+        <item id="TakeShower" action="TakeShower" icon="action_takeshower_icon" label="#action_takeshower_label" />
+        <item id="UpUpstair" action="UpUpstair" icon="action_upandsit_icon" label="#action_upandsit" />
+        <item id="LieUpstair" action="LieUpstair" icon="action_uptobed_icon" label="#action_uptobed" />
+        <item id="Lie" action="Lie" icon="action_gotobed_icon" label="#action_gotobed" />
+        <item id="homePlayGuitar" action="homePlayGuitar" icon="action_playguitar_icon" label="#gr20ActionPlayMusLabel" />
+        <item id="homePlayBass" action="homePlayBass" icon="action_playbass_icon" label="#gr20ActionPlayMusLabel" />
+        <item id="homePlayDrums" action="homePlayDrums" icon="action_menu_gr20_icon" label="#gr20ActionPlayMusLabel" />
+        <item id="homePlayKeys" action="homePlayKeys" icon="action_playsynth_icon" label="#gr20ActionPlayMusLabel" />
+
+        <item id="TlscpWatch" action="TlscpWatch" icon="action_looktelescope_icon" label="#action_looktelescope" />
+
+        <item id="CookSausge" action="CookSausge" icon="action_cooksausages_icon" label="#action_cooksausages" />
+
+        <item id="LieCoach" action="LieCoach" icon="action_lieoncoach_icon" label="#action_lieoncoach" />
+        <item id="FedBirdLB" action="FedBirdLB" icon="action_fedthbird_icon" label="#action_fedthbird" />
+        <item id="SitTP" action="SitTP" icon="action_fullsit_icon" label="#action_fullsit" />
+        <item id="CozyWinSit" action="CozyWinSit" icon="action_cozysitwindow_icon" label="#action_cozysitwindow" />
+        <item id="tothebalcony" action="tothebalcony" icon="action_tothebalcony_icon" label="#action_tothebalcony" />
+        <item id="MakeUp" action="MakeUp" icon="action_makeup_icon" label="#action_makeup" />
+        
+        <item id="TeaDrink" action="TeaDrink" icon="action_drinktea_icon" label="#action_drinktea" />
+        <item id="kotatsuTea" action="kotatsuTea" icon="action_drinktea_icon" label="#action_drinktea" />
+        <item id="SeatAtTree" action="SeatAtTree" icon="action_sitattree_icon" label="#action_sitattree_icon" />
+
+
+        <item id="sitInBath" action="sitInBath" icon="icon_action_swim" label="#sitButtonTitle" />
+        <item id="swimInRing" action="swimInRing" icon="action_pool_rubberring_icon" label="#action_action_pool_rubberring" />
+
+        <item id="AfroDrumPlay" action="AfroDrumPlay" icon="action_drums_afro_play_icon" label="#action_drums_afro_play" />
+
+        <item id="hallLookInWindow" action="hallLookInWindow" icon="action_wndwhi_icon" label="#action_wndwhi" />
+        <item id="hallTipLow" action="hallTipLow" icon="action_tip_low_icon" label="#hallTipLow_label" />
+        <item id="hallTipMedium" action="hallTipMedium" icon="action_tip_mid_icon" label="#hallTipMedium_label" />
+        <item id="hallTipHigh" action="hallTipHigh" icon="action_tip_high_icon" label="#hallTipHigh_label" />
+
+        <item id="furSitRead" action="furSitRead" icon="action_bench_read_icon" label="#action_bench_read" />
+
+        <item id="beachBlow" action="beachBlow" icon="action_hand_wind_icon" label="#action_hand_wind">
+            <condition type="locationChanged" location="publicBeach"/>
+        </item>
+        <item id="vipGossip" action="vipGossip" icon="action_gossip_icon" label="#action_gossip">
+            <condition type="locationChanged" location="vip"/>
+        </item>
+        <item id="vipDance" action="vipDance" icon="action_avatour_vipdance_icon" label="#danceButtonTitle">
+            <condition type="locationChanged" location="vip"/>
+        </item>
+
+        <item id="UseConect" action="UseConect" icon="action_useconect_icon" label="#action_useconect" />
+        <item id="LookFrBook" action="LookFrBook" icon="action_look_forbook_icon" label="#action_look_forbook" />
+        <item id="SitAndRead" action="SitAndRead" icon="action_bench_read_icon" label="#action_readsit" />
+        <item id="BedJump" action="BedJump" icon="action_bedjumping_icon" label="#action_bedjumping" />
+        <item id="LieDown" action="LieDown" icon="action_gotobed_icon" label="#action_liedown" />
+        <item id="BdCakeFireIUp" action="BdCakeFireIUp" icon="action_bdcake_fire_up_icon" label="#action_fircandles" toState="on" />
+        <item id="BdCakeFireIDwn" action="BdCakeFireIDwn" icon="action_bdcake_fire_dwn_icon" label="#action_blowcandles" toState="off" />
+        <item id="DrawSintq" action="DrawSintq" icon="action_drawsintq_icon" label="#action_drawsintq_icon" />
+        <item id="circusSit" action="circusSit" icon="action_furSit_icon" label="#furSitButtonTitle" />
+        <item id="musicboxPlay" action="musicboxPlay" icon="action_play_musbox_icon" label="#pianoPlay_label" />
+        <item id="spiritTalk" action="spiritTalk" icon="action_sipirttalk_icon" label="#sipirttalk_action_label" />
+        <item id="OpenChestHlwn" action="OpenChestHlwn" icon="action_openchesthlwn_icon" label="#openchesthlwn_action_label" />
+        <item id="PlayOrgan" action="PlayOrgan" icon="action_organplay_icon" label="#organplay_action_label" />
+        <item id="LookBottle" action="LookBottle" icon="action_shelf_pot_srch_icon" label="#bookshelf_act_label" />
+        <item id="SrchTbl" action="SrchTbl" icon="action_table_lrng_icon" label="#action_table_lrng" />
+        <item id="winterSeesaw" action="winterSeesaw" icon="action_park_playseesaw_icon" label="#prkSswRock" />
+        <item id="CheckTheLight" action="CheckTheLight" icon="action_checklght_icon" label="#action_checklght_label" />
+        <item id="ChopBush" action="ChopBush" icon="action_chopbush_icon" label="#action_chopbush_label" />
+        <item id="WorkConv" action="WorkConv" icon="action_ny21_conv_icon" label="#ny21ActionWorkConvLabel" />
+        <item id="CheckCookis" action="CheckCookis" icon="action_checkcookis_icon" label="#action_checkcookis_label" />
+        <item id="LookGifts" action="LookGifts" icon="action_lookgifts_icon" label="#action_lookgifts_label" />
+        <item id="DecorCheck" action="DecorCheck" icon="action_decorchk_icon" label="#action_decorchk_label" />
+        <item id="WorkConvHome" action="WorkConvHome" icon="action_conv_icon" label="#ny21ActionWorkConvLabel" />
+        <item id="PhotoPose" action="PhotoPose" icon="action_pose_icon" label="#modelPoseButtonTitle" />
+        <item id="TakeADrink" action="TakeADrink" icon="action_takeadrink_icon" label="#action_takeadrink" />
+        <item id="PlayAcGuitar" action="PlayAcGuitar" icon="action_playgit_sit_icon" label="#action_playgit_sit" />
+
+        <item id="sh_read" action="sh_read" icon="action_shread_icon" label="#action_bench_read" />
+        <item id="sh_text" action="sh_text" icon="action_shwriting_icon" label="type_label" />
+        <item id="sh_detect" action="sh_detect" icon="action_shfindvr_icon" label="#action_findvr" />
+        <item id="sh_clean" action="sh_clean" icon="action_shcleanboard_icon" label="action_wipetoshine" />
+        <item id="sh_pose" action="sh_pose" icon="action_shpose_icon" label="modelPoseButtonTitle" />
+        <item id="sh_sit" action="sh_sit" icon="action_shsit_icon" label="action_readsit" />
+
+        <item id="HugTheRabbit" action="HugTheRabbit" icon="action_hugrabbit_icon" label="action_hugabunny_label" />
+        <item id="SitWithRabbit" action="SitWithRabbit" icon="action_sitrelax_icon" label="action_sitrelax_label" />
+        <item id="RabbitSit" action="RabbitSit" icon="action_fullsit_icon" label="sitButtonTitle" />
+        <item id="MakeToastHome" action="MakeToastHome" icon="action_takeadrink_icon" label="svd21ActionCelebrationLabel" />
+        <item id="dsvLockerHome" action="dsvLockerHome" icon="action_svd21_locker_blue_icon" label="svd21ActionPutLockLabel" />
+
+
+
+      
+        <!-- HELL 2020 -->
+    
+        <item id="hlwnSit" action="hlwnSit" icon="action_ny21_sit_icon" label="furSitButtonTitle" />
+
+        <!-- NY 2020-2021 -->
+
+        <!-- DSV LOVE 2021 -->
+
+        <item id="dsvSeesaw" action="dsvSeesaw" icon="action_svd21seesaw_icon" label="prkSswRock" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvMakeToast" action="dsvMakeToast" icon="action_svd21_toast_icon" label="svd21ActionCelebrationLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvSit" action="dsvSit" icon="action_svd21sit_icon" label="sitButtonTitle" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvDJ" action="dsvDJ" icon="action_svd21_bedj_icon" label="action_playdj_label" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>   
+        <item id="dsvPntStt" action="dsvPntStt" toState="on" icon="action_svd21_paintstat_icon" label="svd21ActionPaintStatueLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>     
+        <item id="dsvClrStt" action="dsvClrStt" toState="off" icon="action_svd21_clearstat_icon" label="svd21ActionCleanStatueLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>                
+        <item id="dsvLocker" action="dsvLocker" icon="action_svd21_locker_icon" label="svd21ActionPutLockLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>                
+        <item id="dsvSoloDnc" action="dsvSoloDnc" icon="action_svd21_passiondance_icon" label="svd21ActionPassSoloLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvDuoDnc" action="dsvDuoDnc" icon="action_svd21_duopasdance_icon" label="svd21ActionPassDanceLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvShrLove" action="dsvShrLove" icon="action_svd21_sharelove_icon" label="svd21ActionShareLvLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+
+        <item id="dsvKiss" action="dsvKiss" icon="action_svd21_lovekiss_icon" label="svd21ActionKissFLoveLabel" privilege="Ny21MistletoeKiss">
+            <condition type="all">
+                <condition type="censure" />
+                <condition type="locationChanged" location="nyCastle"/>
+            </condition>
+        </item>
+        <item id="dsvKiss_nocens" action="dsvKiss" icon="action_svd21_lovekiss_icon" label="svd21ActionKissFLoveLabel" privilege="Ny21MistletoeKiss_nocens">
+            <condition type="all">
+                <condition type="not">
+                    <condition type="censure" />
+                </condition>
+                <condition type="locationChanged" location="nyCastle"/>
+            </condition>
+        </item>
+
+        <item id="dsvBrHrt" action="dsvBrHrt" icon="action_svd21_brokeheart_icon" label="svd21ActionBreakHeartLabel" >
+            <condition type="all">
+                <condition type="censure" />
+                <condition type="locationChanged" location="nyCastle"/>
+            </condition>
+        </item>
+        <item id="dsvBrHrt_nocens" action="dsvBrHrt" icon="action_svd21_brokeheart_icon" label="svd21ActionBreakHeartLabel" >
+            <condition type="all">
+                <condition type="not">
+                    <condition type="censure" />
+                </condition>
+                <condition type="locationChanged" location="nyCastle"/>
+            </condition>
+        </item>
+
+        <item id="dsvCrSnw_H" action="dsvCrSnw_H" toState="H" icon="action_svd21_creasnow_hgh_icon" label="svd21ActionMakeSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvCrSnw_L" action="dsvCrSnw_L" toState="L" icon="action_svd21_creasnow_low_icon" label="svd21ActionMakeSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvCrSnw_M" action="dsvCrSnw_M" toState="M" icon="action_svd21_creasnow_med_icon" label="svd21ActionMakeSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvKick_H" action="dsvKick_H" toState="idle" icon="action_svd21_punchsnow_icon" label="svd21ActionKickSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvKick_L" action="dsvKick_L" toState="idle" icon="action_svd21_punchsnow_icon" label="svd21ActionKickSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+        <item id="dsvKick_M" action="dsvKick_M" toState="idle" icon="action_svd21_punchsnow_icon" label="svd21ActionKickSnowmanLabel" >
+            <condition type="locationChanged" location="nyCastle"/>
+        </item>
+
+        <!-- DSV LOVE 2021 additional -->
+
+        <item id="svd_action" action="svd_action" icon="svd_action" label="event2_tab">
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+
+        <item id="ThinkOfLove" action="ThinkOfLove" icon="action_svd_thinkoflove_icon" label="#sv2020dream" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+
+        <item id="FullloveKiss" action="FullloveKiss" icon="action_svd_lovekiss_icon" label="#svd21ActionKissFLoveLabel" privilege="Ny21MistletoeKiss" >
+            <condition type="all">
+                <condition type="censure" />
+                <condition type="locationChanged" location="nyBallroom"/>
+            </condition>
+        </item>
+        <item id="FullloveKiss_nocens" action="FullloveKiss_nocens" icon="action_svd_lovekiss_icon" label="#svd21ActionKissFLoveLabel" privilege="Ny21MistletoeKiss_nocens" >
+            <condition type="all">
+                <condition type="not">
+                    <condition type="censure" />
+                </condition>
+                <condition type="locationChanged" location="nyBallroom"/>
+            </condition>
+        </item>
+        
+        <item id="BrokeHeart" action="BrokeHeart" icon="action_svd21_brokeheart_icon" label="#svd21ActionBreakHeartLabel" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="GiftLovecard" action="GiftLovecard" icon="action_svd_giftlovecard_icon" label="#sv2020cong" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="svdSit" action="svdSit" icon="action_svd21sit_icon" label="sitButtonTitle" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+
+        <item id="FirepanWishing" action="FirepanWishing" icon="action_svd_makeawish_icon" label="#sv2020wish" />
+        <item id="WaterFlower" action="WaterFlower" toState="on" icon="action_svd_wateringflower_icon" label="#sv2020flower" />
+        <item id="CutFlower" action="CutFlower" toState="off" icon="action_svd_cutflower_icon" label="#sv2020flower2" />
+
+        <item id="AskCupidon" action="AskCupidon" icon="action_svd_askcupid_icon" label="#sv2020ask" />
+
+        <item id="LookMirror" action="LookMirror" icon="action_svd_mirror_low_icon" label="#sv2020future" />
+
+        <!-- DSV LOVE 2021 till here -->
+
+        <item id="sitTogether" action="sitTogether" icon="action_sittogether_icon" label="action_sittogether_label" />
+        <item id="sitUnderTree" action="sitUnderTree" icon="action_sitdrtree_icon" label="action_sitdrtree_label" />
+
+        <item id="playteathr" action="playteathr" icon="action_beaplayer_icon" label="action_beaplayer_label" />
+        <item id="watchteathr" action="watchteathr" icon="action_watcher_icon" label="action_watcher_label" />
+        <item id="playYangqin" action="playYangqin" icon="action_yangqinplay_icon" label="gr20ActionPlayMusLabel" />
+        <item id="playST" action="playST" icon="action_playatmusic_icon" label="gr20ActionPlayMusLabel" />
+        <item id="treeChair" action="treeChair" icon="action_fullsit_icon" label="#sitButtonTitle" />
+        <item id="warmHand" action="warmHand" icon="action_warmhand_icon" label="#action_warmhand_label" />
+        <item id="putSeedFlower" action="putSeedFlower" toState="L" icon="action_flowerput_icon" label="#action_flowerput_label" />
+        <item id="putWaterFlower" action="putWaterFlower" toState="M" icon="action_wateringflower_icon" label="#sv2020flower" />
+        <item id="putWaterFlowerMore" action="putWaterFlowerMore" toState="H" icon="action_wateringflower_icon" label="#sv2020flower" />
+        <item id="removeFlower" action="removeFlower" toState="off" icon="action_floweroff_icon" label="#action_floweroff_label" />
+        <item id="layRelax" action="layRelax" icon="action_sitrelax_icon" label="#action_layatsofa_label" />
+        <item id="makeMagic" action="makeMagic" icon="action_magictd_icon" label="#action_magictd_label" />
+        <item id="playRetro" action="playRetro" icon="action_playatmusic_icon" label="#turnOnButtonTitle" />
+        <item id="bilardThink" action="bilardThink" icon="action_thinkbill_icon" label="action_ponder_move_label" />
+        <item id="motoSitOne" action="motoSitOne" icon="action_furSit_icon" label="#furSitButtonTitle" />
+        <item id="motoSitTwo" action="motoSitTwo" icon="action_furSit_icon" label="#furSitButtonTitle" />
+        <item id="screenOnFirst" action="screenOnFirst" toState="A" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="screenOnSecond" action="screenOnSecond" toState="B" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="screenOnThird" action="screenOnFirst" toState="C" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="screenOnFourth" action="screenOnSecond" toState="D" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="screenOnFifth" action="screenOnFirst" toState="E" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="screenOnSixth" action="screenOnSecond" toState="F" icon="action_put_on_screen_icon" label="#action_put_on_screen_label" />
+        <item id="watchFilm" action="watchFilm" icon="action_watch_film_icon" label="#action_watch_film_label" />
+        <item id="makeSewAct" action="makeSewAct" toState="on" icon="action_makesew_icon" label="#action_makesew_label" /> 
+        <item id="dropSewAct" action="dropSewAct" toState="off" icon="action_dropsew_icon" label="#action_dropsew_label" />
+        <item id="relaxSit" action="relaxSit" icon="action_fullsit_icon" label="#sitButtonTitle" />  
+        <item id="monoSpeech" action="monoSpeech" icon="action_play_mono_icon" label="#action_domonologue_label" />  
+        <item id="dancePa" action="dancePa" icon="action_makeapa_icon" label="#action_train_le_pa_label" /> 
+        <item id="modelPoseBigPodium" action="modelPoseBigPodium" icon="action_pose_icon" label="#action_doinpose_label" />
+        <item id="BRHomeChocolate" action="BRHomeChocolate" icon="action_ball_taste_chk" label="ballroomActionChocoLabel"/>
+        <item id="BRHomeRead" action="BRHomeRead" icon="action_ball_bookread" label="ballroomActionReadLabel"/>
+        <item id="BRHomeMaskL" action="BRHomeMaskL" icon="action_ball_makeup_msk_l_2" label="ballroomActionMasksLabel" />
+        <item id="BRHomeMaskM" action="BRHomeMaskM" icon="action_ball_makeup_msk_m_2" label="ballroomActionMasksLabel" />
+        <item id="BRHomeMaskH" action="BRHomeMaskH" icon="action_ball_makeup_msk_h_2" label="ballroomActionMasksLabel" />
+
+
+        <!-- КИНОСТУДИЯ 2021 -->
+
+        <item id="Hlwn20RDia" action="Hlwn20RDia" icon="action_play_dial_icon" label="#hlwn20ActionRoleDuoLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20RMono" action="Hlwn20RMono" icon="action_play_mono_icon" label="#hlwn20ActionRoleMonoLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20SpookyDnc" action="Hlwn20SpookyDnc" icon="action_fun_elfdance_icon" label="#filmprod_elfdance_label" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20SpookyDncPair" action="Hlwn20SpookyDncPair" icon="action_fun_2elfdance_icon" label="#filmprod_elfdance_label" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20Montage" action="Hlwn20Montage" icon="action_do_montage_icon" label="#hlwn20ActionMontageLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20Kadr" action="Hlwn20Kadr" icon="action_do_kadri_icon" label="#hlwn20ActionKadriLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20PlayRole" action="Hlwn20PlayRole" icon="action_play_envy_l_icon" label="#action_play_envy_label" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20PlayRole1" action="Hlwn20PlayRole1" icon="action_play_lover_m_icon" label="#action_play_lover_label" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20PlayRole2" action="Hlwn20PlayRole2" icon="action_play_cute_h_icon" label="#action_play_cute_label" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20Director" action="Hlwn20Director" icon="action_be_director_icon" label="#hlwn20ActionDirectorLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20Operator" action="Hlwn20Operator" icon="action_be_operat_icon" label="#hlwn20ActionOperatorLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+        <item id="Hlwn20AnounShot" action="Hlwn20AnounShot" icon="action_do_cllshtt_icon" label="#hlwn20ActionMakeShotLabel" >
+             <condition type="locationChanged" location="filmprod"/>
+        </item>
+
+        <item id="MakeUpHlwn" action="MakeUpHlwn" icon="action_makeup_icon" label="#action_makeup" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+
+        <item id="filmprodToast" action="filmprodToast" icon="action_takeadrink_icon" label="svd21ActionCelebrationLabel" >
+            <condition type="locationChanged" location="filmprod"/>
+        </item>
+
+        <!-- БАЛЬНЫЙ ЗАЛ 2021 -->
+
+        <item id="BallroomLights" action="BallroomLights" icon="action_ball_sparkles_icon" label="ballroomActionLighttLabel"> 
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+
+        <item id="BallroomKiss" action="BallroomKiss" icon="action_ball_kiss_icon" label="ballroomActionKissLabel" privilege="Ny21MistletoeKiss"> 
+             <condition type="all">
+                <condition type="censure" />
+                <condition type="locationChanged" location="nyBallroom"/>
+            </condition>
+        </item>
+        <item id="BallroomKiss_nocens" action="BallroomKiss_nocens" icon="action_ball_kiss_icon" label="ballroomActionKissLabel" privilege="Ny21MistletoeKiss_nocens"> 
+            <condition type="all">
+                <condition type="not">
+                    <condition type="censure" />
+                </condition>
+                <condition type="locationChanged" location="nyBallroom"/>
+            </condition>
+        </item>
+
+        <item id="BallroomPrank" action="BallroomPrank" icon="action_ball_throw_dl" label="ballroomActionGlovesLabel"> 
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomDance" action="BallroomDance" icon="action_ball_dance_icon" label="ballroomActionDancetLabel" privilege="Hlwn20SpookyDncPair"> 
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomToast" action="BallroomToast" icon="action_takeadrink_icon" label="ballroomActionToastLabel" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomPiano" action="BallroomPiano" icon="action_ball_piano_icon" label="gr20ActionPlayMusLabel">
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomViolin" action="BallroomViolin" icon="action_ball_violin_icon" label="gr20ActionPlayMusLabel">
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomChocolate" action="BallroomChocolate" icon="action_ball_taste_chk" label="ballroomActionChocoLabel">
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomRead" action="BallroomRead" icon="action_ball_bookread" label="ballroomActionReadLabel">
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomMaskL" action="BallroomMaskL" icon="action_ball_makeup_msk_l" label="ballroomActionMasksLabel" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomMaskM" action="BallroomMaskM" icon="action_ball_makeup_msk_m" label="ballroomActionMasksLabel" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+        <item id="BallroomMaskH" action="BallroomMaskH" icon="action_ball_makeup_msk_h" label="ballroomActionMasksLabel" >
+            <condition type="locationChanged" location="nyBallroom"/>
+        </item>
+
+    </menuItems>
+
+    <!-- ICONS TILL HERE -->
+
+    <menuSets>
+        <set id="avatar" maxRadius="380" >
+            <item id="visit" />
+            <item id="talk" />
+            <item id="exchange" />
+            <item id="make_gift" />
+            <item id="vipGossip" />
+            <item id="actions">
+                <item id="back" />
+                <item id="kick" />
+                <item id="slap" />
+                <item id="fight" />
+                <item id="kiss" />
+                <item id="kiss_nocens" />
+                <item id="kiss_long" />
+                <item id="kiss_long_nocens" />
+                <item id="hug" />
+                <item id="throw_cake" />
+            </item>
+            <item id="relations">
+                <item id="back" />
+                <item id="be_enemies" />
+                <item id="remove_from_enemies" />
+                <item id="be_buddies" />
+                <item id="remove_from_buddies" />
+                <item id="be_friends" />
+                <item id="remove_from_friends" />
+                <item id="be_loved" />
+                <item id="remove_from_loved" />
+                <item id="be_engaged" />
+                <item id="remove_from_engaged" />
+                <item id="be_married" />
+                <item id="remove_from_married" />
+                <item id="be_loved_nocens" />
+                <item id="be_engaged_nocens" />
+                <item id="be_married_nocens" />
+            </item>
+            <item id="treat" />
+            <item id="kick_out" />
+            <item id="passport" />
+            <item id="school">
+                <item id="back" />
+                <item id="bagBump" />
+                <item id="schoolGreeting" />
+                <item id="trowPaperPlane" />
+            </item>
+            <item id="epidBless"/>
+            <item id="pairDance" />
+            <item id="Hlwn20RDia" />
+            <item id="Hlwn20SpookyDncPair" />
+            <item id="BallroomPrank" />
+            <item id="BallroomDance" />
+            <item id="BallroomKiss" />
+            <item id="BallroomKiss_nocens" />
+
+            <!-- <item id="throwSnowball" />-->
+        </set>           
+            
+
+        <set id="myAvatar" >
+            <item id="dance" />
+            <item id="cry" />
+            <item id="rage" />
+            <item id="wash_up" />
+            <item id="passport" />
+            <item id="schoolPoetry" />
+            <item id="epidSniff" />
+            <item id="beachBlow" />
+            <item id="vipDance" />
+            <item id="Hlwn20RMono" />
+            <item id="Hlwn20SpookyDnc" />
+            <item id="BallroomLights" />
+
+        </set>
+        <set id="blackboard_wight">
+            <item id="clear_wight" />
+        </set>
+        <set id="blackboard_yellow">
+            <item id="clear_yellow" />
+        </set>
+        <set id="blackboard_pink">
+            <item id="clear_pink" />
+        </set>
+        <set id="blackboard_idle" minRadius="130" maxRadius="155">
+            <item id="draw_wight"  />
+            <item id="draw_yellow"  />
+            <item id="draw_pink"  />
+        </set>
+        <set id="desctostudy" minRadius="185" maxRadius="210">
+            <item id="descstudy"  />
+            <item id="descdance"  />
+            <item id="descsit"  />
+        </set>
+
+        <set id="chemdesc" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="descexperiment"  />
+            <item id="descsit"  />
+        </set>
+
+        <set id="bookshelf" minRadius="185" maxRadius="210"> 
+            <item id="bookshelf"  />
+        </set>
+
+        <set id="teachertable" minRadius="185" maxRadius="210"> 
+            <item id="teachertable"  />
+            <item id="descsit"  />
+        </set>
+
+        <set id="verpcnc_gril_off"> 
+            <item id="CookSausge"/>
+        </set>
+
+        <set id="astroom_telescope"> 
+            <item id="TlscpWatch"/>
+        </set>
+
+        <set id="astroom_anim_decor_off"> 
+            <item id="TurnMeOn"/>
+        </set>
+
+        <set id="astroom_anim_decor_on"> 
+            <item id="TurnMeOff"/>
+        </set>
+
+        <set id="bdroom_bday_cake_off"> 
+            <item id="BdCakeFireIUp"/>
+        </set>
+
+        <set id="bdroom_bday_cake_on"> 
+            <item id="BdCakeFireIDwn"/>
+        </set>
+
+        <set id="grdtnLB_hlg_flower_off"> 
+            <item id="TurnMeOn"/>
+        </set>
+
+        <set id="grdtnLB_hlg_flower_on"> 
+            <item id="TurnMeOff"/>
+        </set>
+
+        <set id="studroom_double_bed" minRadius="185" maxRadius="210"> 
+            <item id="UpUpstair"  />
+            <item id="LieUpstair"  />
+            <item id="Lie"  />
+        </set>
+
+        <set id="flwrrm_sit_tree"> 
+            <item id="SeatAtTree"/>
+        </set>
+
+        <set id="pinkbath_shower_off" minRadius="125" maxRadius="150"> 
+            <item id="TakeShower"  />
+        </set>
+        <set id="danceroom_djpult_off" minRadius="125" maxRadius="150"> 
+            <item id="Dj"  />
+        </set>
+        <set id="sportroom_yogacarpet" minRadius="125" maxRadius="150"> 
+            <item id="YogaPose"  />
+        </set>
+        <set id="sportroom_speedwalk_off" minRadius="125" maxRadius="150"> 
+            <item id="Speedrun"  />
+        </set>
+        <set id="sportroom_fitball_off" minRadius="125" maxRadius="150"> 
+            <item id="furSit"  />
+            <item id="FitballJump"  />
+        </set>
+        <set id="craftedBLb_fishtank_off" minRadius="125" maxRadius="150"> 
+            <item id="FeedFish"  />
+        </set>
+        <set id="estr_craft_musicegg_off"> 
+            <item id="TurnMeOn"  />
+        </set>
+        <set id="estr_craft_musicegg_on"> 
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="swttroom_window" minRadius="125" maxRadius="150"> 
+            <item id="CozyWinSit"  />
+        </set>
+        <set id="Karaoke_off"> 
+            <item id="TurnMeOn"  />
+        </set>
+        <set id="Karaoke_on"> 
+            <item id="Karaoke"  />
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="july20LB_bench_off" minRadius="125" maxRadius="150">
+            <item id="FedBirdLB"  />
+            <item id="furSit"  />
+        </set>
+        <set id="july20LB_armchair_egg_off"> 
+            <item id="SitTP"  />
+        </set>
+        <set id="strngroom_armchair_egg"> 
+            <item id="SitTP"  />
+        </set>
+        <set id="july20LB_couch"> 
+            <item id="LieCoach"  />
+        </set>
+        <set id="africian_drums_afro_int_off"> 
+            <item id="AfroDrumPlay"  />
+        </set>
+        <set id="hammock_off"> 
+            <item id="LieCoach"  />
+        </set>
+        <set id="july20LB_window"> 
+            <item id="tothebalcony"  />
+        </set>
+        <set id="hospCraft_nursetable"> 
+            <item id="furSit"  />
+        </set>
+        <set id="BoyEstr_npc_off"> 
+            <item id="TalkToRabbit"  />
+        </set>
+        <set id="estr_rabbithole"> 
+            <item id="EggSearchHole"  />
+        </set>
+        <set id="swttroom_inter_table" minRadius="125" maxRadius="150"> 
+            <item id="TeaDrink"  />
+            <item id="furSit"  />
+        </set>
+        <set id="estr_eggbush"> 
+            <item id="EggSearchBush"  />
+        </set>
+        <set id="estr_eggtree_off"> 
+            <item id="TreeShaker"  />
+        </set>
+        <set id="estr_worktable"> 
+            <item id="EggPaintLow"  />
+            <item id="EggPaintMiddle"  />
+            <item id="EggPaintHigh"  />
+        </set>
+        <set id="estr_clumb_off" minRadius="125" maxRadius="150"> 
+            <item id="WaterFlower"  />
+        </set>
+        <set id="estr_clumb_on" minRadius="125" maxRadius="150"> 
+            <item id="CutFlower"  />
+        </set>
+        <set id="strngroom_decor_window"> 
+            <item id="WaterFlower2"  />
+        </set>
+        <set id="estr_surpriseegg_off"> 
+            <item id="EggSurprise"  />
+        </set>
+        <set id="estr_rabbit_off"> 
+            <item id="goodRabbit"  />
+        </set>
+        <set id="grkitchen_sink_off"> 
+            <item id="ClearMeOn"  />
+        </set>
+        <set id="grkitchen_sink_on"> 
+            <item id="ClearMeOff"  />
+            <item id="ClearMe"  />
+        </set>
+        <set id="grkitchen_cooker_off"> 
+            <item id="CookMeOn"  />
+        </set>
+        <set id="grkitchen_cooker_on"> 
+            <item id="CookMeOff"  />
+            <item id="CookMe"  />
+        </set>
+
+        <set id="pjparty_sofa_floor"> 
+            <item id="SitPicnic1"  />
+        </set>
+
+        <set id="mdntrm_carpet"> 
+            <item id="SitPicnic2"  />
+        </set>
+
+        <set id="writerroom_worktable_off"> 
+            <item id="furSit"  />
+            <item id="TurnMeOn"/>
+        </set>
+
+        <set id="writerroom_worktable_on"> 
+            <item id="furSit"  />
+            <item id="WriteText"/>
+            <item id="TurnMeOff"/>
+        </set>
+
+        <set id="writerroom_chess_off"> 
+            <item id="furSit"  />
+            <item id="PlayChess"/>
+        </set>
+
+        <set id="writerroom_rockchair_off"> 
+            <item id="furSit"  />
+            <item id="CozySit"/>
+        </set>
+
+        <set id="piano"> 
+            <item id="furSit"  />
+            <item id="pianoPlay"/>
+        </set>
+
+         <set id="homeGuitar_off" minRadius="125" maxRadius="150"> 
+            <item id="homePlayGuitar"  />
+        </set>
+        <set id="homeBass_off" minRadius="125" maxRadius="150"> 
+            <item id="homePlayBass"  />
+        </set>
+        <set id="homeDrums_off" minRadius="125" maxRadius="150"> 
+            <item id="homePlayDrums"  />
+        </set>
+        <set id="homeKeys_off" minRadius="125" maxRadius="150"> 
+            <item id="homePlayKeys"  />
+        </set>
+
+        <set id="crystalBall_off"> 
+            <item id="fortuneTell"  />
+            <item id="furSit"  />
+        </set>
+        <set id="crystalBall_on"> 
+            <item id="fortuneTell"  />
+            <item id="furSit"  />
+        </set>
+        <set id="wrbe_podium_off"> 
+            <item id="modelPose"  />
+        </set>
+        <set id="easel_off"> 
+            <item id="easelPaint"  />
+        </set>
+        <set id="grkitchen_sink_off"> 
+            <item id="ClearMeOn"  />
+        </set>
+        <set id="grkitchen_sink_on"> 
+            <item id="ClearMeOff"  />
+            <item id="ClearMe"  />
+        </set>
+        <set id="grkitchen_cooker_off"> 
+            <item id="CookMeOn"  />
+        </set>
+        <set id="grkitchen_cooker_on"> 
+            <item id="CookMeOff"  />
+            <item id="CookMe"  />
+        </set>
+        <set id="snowBall_off"> 
+            <item id="snowBallKick"  />
+        </set>
+
+        <set id="ctwdnbth_mirrortable"> 
+            <item id="MakeUp"  />
+        </set>
+        <set id="provence_trumo"> 
+            <item id="MakeUp"  />
+        </set>
+
+        <set id="gardenroom_seesaw_off" minRadius="125" maxRadius="150"> 
+            <item id="grdnseesawPlay"  />
+        </set>
+
+        <set id="gardenroom_vase_table_1_off" minRadius="125" maxRadius="150"> 
+            <item id="WaterFlower1"  />
+        </set>
+        <set id="gardenroom_vase_table_1_on" minRadius="125" maxRadius="150"> 
+            <item id="CutFlower1"  />
+        </set>
+
+        <set id="svd_flwr_off" minRadius="125" maxRadius="150"> 
+            <item id="WaterFlower"  />
+        </set>
+        <set id="svd_flwr_on" minRadius="125" maxRadius="150"> 
+            <item id="CutFlower"  />
+        </set>
+
+        <set id="svd_mirror_off" minRadius="125" maxRadius="150"> 
+            <item id="LookMirror"  />
+        </set>
+        <set id="svd_firepan_off" minRadius="125" maxRadius="150"> 
+            <item id="FirepanWishing"  />
+        </set>
+        <set id="svd_sofa_off" minRadius="125" maxRadius="150"> 
+            <item id="svdSit"  />
+        </set>
+        <set id="svd_cupid_idle" minRadius="125" maxRadius="150"> 
+            <item id="AskCupidon"  />
+        </set>
+        <set id="strFountain" minRadius="155" maxRadius="180"> 
+            <item id="tossCoin"  />
+        </set>
+
+        <set id="prkSeesaw_off" minRadius="90" maxRadius="120"> 
+            <item id="sswRock"  />
+            <item id="sswCare"  />
+        </set>
+        <set id="prkSeesaw_on" minRadius="90" maxRadius="120"> 
+            <item id="sswRock"  />
+            <item id="sswCare"  />
+        </set>
+        <set id="prkPicnic_off" minRadius="155" maxRadius="180"> 
+            <item id="OpenPicnic"  />
+            <item id="SitPicnic"  />
+        </set>
+        <set id="prkPicnic_on" minRadius="155" maxRadius="180"> 
+            <item id="ClosePicnic"  />
+            <item id="SitPicnic"  />
+        </set>
+        <set id="prkDuckling_off" minRadius="155" maxRadius="180"> 
+            <item id="DuckFeed"  />
+        </set>
+        <set id="sanitizer_home" minRadius="125" maxRadius="150"> 
+            <item id="epidWashHome"  />
+        </set>
+        <set id="hell_window_off" minRadius="125" maxRadius="150"> 
+            <item id="hallLookInWindow"  />
+        </set>
+        <set id="hall_cshmchn_idle" minRadius="185" maxRadius="210"> 
+            <item id="hallTipLow"  />
+            <item id="hallTipMedium"  />
+            <item id="hallTipHigh"  />
+        </set>
+        <set id="avatour_bench" minRadius="155" maxRadius="180"> 
+            <item id="furSit"  />
+            <item id="furSitRead"  />
+        </set>
+        <set id="avatour_parkbench" minRadius="155" maxRadius="180"> 
+            <item id="furSit"  />
+            <item id="furSitRead"  />
+        </set>
+
+        <set id="avatour_pool_off" minRadius="155" maxRadius="180"> 
+            <item id="sitInBath"  />
+            <item id="swimInRing"  />
+        </set>
+        <set id="kotatsu"> 
+            <item id="kotatsuTea"  />
+        </set>
+
+        <set id="autumnLB_bed" minRadius="155" maxRadius="180"> 
+            <item id="LieDown"  />
+            <item id="BedJump"  />
+        </set>
+
+        <set id="autumnLB_bookshelf" minRadius="155" maxRadius="180"> 
+            <item id="LookFrBook"  />
+            <item id="SitAndRead"  />
+        </set>
+
+        <set id="autumnLB_communicat_off"> 
+            <item id="UseConect"  />
+        </set>
+
+        <set id="rmfrwrkg_syntq_off"> 
+            <item id="DrawSintq"  />
+        </set>
+
+        <set id="tmnlvgrm_bookcase"> 
+            <item id="LookFrBook"  />
+        </set>
+
+        <set id="grsink_mirror_off" minRadius="125" maxRadius="150"> 
+            <item id="ClearMeOn"  />
+            <item id="MakeUp"  />
+        </set>
+    
+        <set id="grsink_mirror_on" minRadius="155" maxRadius="180"> 
+            <item id="ClearMeOff"  />
+            <item id="ClearMe"  />
+            <item id="MakeUp"  />
+        </set>
+
+        <set id="hlwn_balloon_off" minRadius="125" maxRadius="150"> 
+            <item id="TurnMeOn"  />
+        </set>
+        <set id="hlwn_balloon_on" minRadius="155" maxRadius="180"> 
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="circus_chair" minRadius="155" maxRadius="180"> 
+            <item id="circusSit"  />
+        </set>
+
+        <set id="musicbox_off" minRadius="155" maxRadius="180"> 
+            <item id="musicboxPlay"  />
+        </set>
+
+        <set id="spirit_talk_off" minRadius="155" maxRadius="180"> 
+            <item id="spiritTalk"  />
+            <item id="SitPicnic1"  />
+        </set>
+
+        <set id="gthcsbr_chest_off"> 
+            <item id="OpenChestHlwn"  />
+        </set>
+
+        <set id="gthcsbr_organ_off"> 
+            <item id="PlayOrgan"  />
+        </set>
+
+        <set id="labroom_table_int"> 
+            <item id="SrchTbl"  />
+        </set>
+
+        <set id="labroom_shelf_wall"> 
+            <item id="LookBottle"  />
+        </set>
+
+        <set id="labroom_decor_fm_floor_off"> 
+            <item id="TurnMeOn"  />
+        </set>
+
+        <set id="labroom_decor_fm_floor_on"> 
+            <item id="TurnMeOff"  />
+        </set>
+
+        <set id="dankar_chair"> 
+            <item id="furSit"  />
+        </set>
+
+        <set id="wntgrdrm_seesaw_off" minRadius="90" maxRadius="120"> 
+            <item id="winterSeesaw"  />
+        </set>
+        <set id="wntgrdrm_seesaw_on" minRadius="90" maxRadius="120"> 
+            <item id="winterSeesaw"  />
+        </set>
+
+        <set id="wntgrdrm_lamp_big_on" minRadius="125" maxRadius="150"> 
+            <item id="CheckTheLight"  />
+        </set>
+
+        <set id="wntgrdrm_decor_floor" minRadius="125" maxRadius="150"> 
+            <item id="ChopBush"  />
+        </set>
+
+        <set id="xmastree"> 
+            <item id="LookGifts"  />
+        </set>
+
+        <set id="mdntrm_xmastree" minRadius="125" maxRadius="150"> 
+            <item id="DecorCheck"  />
+        </set>
+
+        <set id="photoarch"> 
+            <item id="PhotoPose"  />
+        </set>
+
+        <set id="table_drink"> 
+            <item id="TakeADrink"  />
+        </set>
+
+        <!-- NEW YEAR 2020-2021 -->
+
+        <set id="ny21_worktable" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Ny21CraftGiftL"  />
+            <item id="Ny21CraftGiftM"  />
+            <item id="Ny21CraftGiftH"  />
+        </set>
+
+        <set id="ny21_sofa" minRadius="155" maxRadius="180"> <!-- default max=285, min=310 -->
+            <item id="Ny21MakeToast"  />
+            <item id="hlwnSit"  />
+        </set>
+
+        <set id="ny21_sleigh"> 
+            <item id="Ny21CheckGift"  />
+        </set>
+
+        <set id="Santa_npc"> 
+            <item id="Ny21SantaTalk"  />
+        </set>
+
+        <set id="ny21_wish_bench" minRadius="155" maxRadius="180"> <!-- default max=285, min=310 --> 
+            <item id="Ny21MakeAWish"  />
+            <item id="hlwnSit"  />
+        </set>
+
+        <set id="ny21_rudolf_off"> 
+            <item id="Ny21Rudolf"  />
+        </set>
+
+        <set id="ny21_fireplace"> 
+            <item id="Ny21TakeFrmSock"  />
+        </set>
+
+        <set id="ny21_conveyor_on"> 
+            <item id="Ny21WorkConv"  />
+        </set>
+
+        <set id="conveyor_on"> 
+            <item id="WorkConvHome"  />
+        </set>
+
+        <set id="xmas_cooker_off"> 
+            <item id="CookMeOn"  />
+        </set>
+        <set id="xmas_cooker_on"> 
+            <item id="CookMeOff"  />
+            <item id="CheckCookis"  />
+            <item id="CookMe"  />
+        </set>
+
+        <set id="AcGuitar_off" minRadius="125" maxRadius="150"> 
+            <item id="PlayAcGuitar"  />
+            <item id="SitPicnic1"  />
+        </set>
+
+        <set id="comics_read"> 
+            <item id="sh_read"  />
+        </set>
+
+        <set id="detective_desk"> 
+            <item id="sh_detect"  />
+        </set>
+
+        <set id="sh_artifact"> 
+            <item id="sh_clean"  />
+        </set>
+
+        <set id="sh_photo"> 
+            <item id="sh_pose"  />
+        </set>
+
+        <set id="sh_worktable_off"> 
+            <item id="sh_sit"  />
+            <item id="TurnMeOn"/>
+        </set>
+
+        <set id="sh_worktable_on"> 
+            <item id="sh_sit"  />
+            <item id="sh_text"/>
+            <item id="TurnMeOff"/>
+        </set>
+
+        <set id="rabbit_party"> 
+            <item id="HugTheRabbit"  />
+            <item id="RabbitSit"/>
+        </set>
+
+        <!-- DSV LOVE 2021 -->
+
+        <set id="dsv21_table" minRadius="130" maxRadius="150">
+            <item id="dsvMakeToast"  />
+            <item id="dsvSit"/>
+        </set>
+
+        <set id="dsv21_bench" minRadius="130" maxRadius="150">
+            <item id="dsvSit"/>
+        </set>
+
+        <set id="dsv21_seesaw_on" minRadius="130" maxRadius="150">
+            <item id="dsvSeesaw"  />
+        </set>
+
+        <set id="dsv21_seesaw_off" minRadius="130" maxRadius="150">
+            <item id="dsvSeesaw"  />
+        </set>
+
+        <set id="dsv21_djpult_off" minRadius="130" maxRadius="150">
+            <item id="dsvDJ"  />
+        </set>
+
+        <set id="dsv21_cupid_off" minRadius="130" maxRadius="150">
+            <item id="dsvPntStt"  />
+        </set>
+
+        <set id="dsv21_cupid_on" minRadius="130" maxRadius="150">
+            <item id="dsvClrStt"  />
+        </set>
+
+        <set id="dsv21_snowman_idle" minRadius="150" maxRadius="165">
+            <item id="dsvCrSnw_H"  />
+            <item id="dsvCrSnw_L"  />
+            <item id="dsvCrSnw_M"  />
+        </set>
+
+        <set id="dsv21_snowman_L" minRadius="130" maxRadius="150">
+            <item id="dsvKick_L"  />
+        </set>
+
+        <set id="dsv21_snowman_H" minRadius="130" maxRadius="150">
+            <item id="dsvKick_H"  />
+        </set>
+
+        <set id="dsv21_snowman_M" minRadius="130" maxRadius="150">
+            <item id="dsvKick_M"  />
+        </set>
+
+        <set id="dsv21_lovetree" minRadius="130" maxRadius="150">
+            <item id="dsvLocker"  />
+        </set>
+
+        <!-- DSV LOVE 2021 additional -->
+
+        <set id="svd_flwr_off" minRadius="125" maxRadius="150"> 
+            <item id="WaterFlower"  />
+        </set>
+        <set id="svd_flwr_on" minRadius="125" maxRadius="150"> 
+            <item id="CutFlower"  />
+        </set>
+
+        <set id="svd_mirror_off" minRadius="125" maxRadius="150"> 
+            <item id="LookMirror"  />
+        </set>
+
+        <set id="svd_firepan_off" minRadius="125" maxRadius="150"> 
+            <item id="FirepanWishing"  />
+        </set>
+
+        <set id="svd_sofa_off" minRadius="125" maxRadius="150"> 
+            <item id="svdSit"  />
+        </set>
+
+        <set id="svd_cupid_idle" minRadius="125" maxRadius="150"> 
+            <item id="AskCupidon"  />
+        </set>
+
+        <!-- DSV LOVE 2021 till here -->
+
+        <set id="love_tree" minRadius="130" maxRadius="150">
+            <item id="sitUnderTree"  />
+        </set>
+
+        <set id="love_pillow" minRadius="130" maxRadius="150">
+            <item id="sitTogether"  />
+        </set>
+
+        <set id="love_beauty_table" minRadius="130" maxRadius="150">
+            <item id="MakeUp"  />
+        </set>
+
+        <set id="love_bookshelf" minRadius="130" maxRadius="160">
+            <item id="LookFrBook"  />
+            <item id="SitAndRead"  />
+        </set>
+
+        <set id="Yangqin_off" minRadius="155" maxRadius="180"> 
+            <item id="playYangqin"  />
+        </set>
+
+        <set id="teathr_off" minRadius="155" maxRadius="180"> 
+            <item id="playteathr"  />
+            <item id="watchteathr"  />
+        </set>
+
+        <set id="svd_sofa_home_off" minRadius="125" maxRadius="150"> 
+            <item id="furSit"  />
+        </set>
+
+        <set id="dsv21_table_home" minRadius="130" maxRadius="150">
+            <item id="MakeToastHome"  />
+            <item id="furSit"/>
+        </set>
+
+        <set id="dsv21_djpult_home_off" minRadius="130" maxRadius="150">
+            <item id="Dj"  />
+        </set>
+        
+        <set id="dsv21_lovetree_home" minRadius="130" maxRadius="150">
+            <item id="dsvLockerHome"  />
+        </set>
+
+        <set id="flower_stand_off" minRadius="150" maxRadius="165">
+            <item id="putSeedFlower"  />
+        </set>
+
+        <set id="flower_stand_L" minRadius="130" maxRadius="150">
+            <item id="putWaterFlower"  />
+            <item id="removeFlower"  />
+        </set>
+
+        <set id="flower_stand_M" minRadius="130" maxRadius="150">
+            <item id="putWaterFlowerMore"  />
+            <item id="removeFlower"  />
+        </set>
+
+        <set id="flower_stand_H" minRadius="130" maxRadius="150">
+            <item id="removeFlower"  />
+        </set>
+
+        <set id="tree_chairs" minRadius="120" maxRadius="140">
+            <item id="treeChair"  />
+        </set>
+
+        <set id="fireplace_int_off" minRadius="120" maxRadius="140">
+            <item id="TurnMeOn"  />
+        </set>
+
+        <set id="fireplace_int_on" minRadius="120" maxRadius="140">
+            <item id="warmHand"  />
+            <item id="TurnMeOff"  />   
+        </set>    
+
+        <set id="sofa_relax" minRadius="120" maxRadius="140">
+            <item id="layRelax"  /> 
+        </set>
+
+        <set id="book_of_magic_on" minRadius="155" maxRadius="180"> 
+            <item id="makeMagic"  />
+        </set>
+
+        <set id="retro_music_off"> 
+            <item id="playRetro"  />
+        </set>
+        <set id="retro_music_on"> 
+            <item id="TurnMeOff"  />
+        </set>
+
+        <set id="bilard"> 
+            <item id="bilardThink"  />
+        </set>
+
+        <set id="moto_sofa"> 
+            <item id="motoSitOne"  />
+            <item id="motoSitTwo"  />
+        </set>
+
+        <set id="cinema_modern_off"> 
+            <item id="screenOnFirst"  />
+            <item id="screenOnSecond"  />
+        </set>
+        <set id="cinema_modern_A"> 
+            <item id="screenOnSecond"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="cinema_modern_B"> 
+            <item id="screenOnFirst"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+
+        <set id="cinema_glamour_off"> 
+            <item id="screenOnThird"  />
+            <item id="screenOnFourth"  />
+        </set>
+        <set id="cinema_glamour_C"> 
+            <item id="screenOnFourth"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="cinema_glamour_D"> 
+            <item id="screenOnThird"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+
+        <set id="cinema_classic_off"> 
+            <item id="screenOnFifth"  />
+            <item id="screenOnSixth"  />
+        </set>
+        <set id="cinema_classic_E"> 
+            <item id="screenOnSixth"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+        <set id="cinema_classic_F"> 
+            <item id="screenOnFifth"  />
+            <item id="watchFilm"  />
+            <item id="TurnMeOff"  />
+        </set>
+
+        <!-- КИНОСТУДИЯ 2021 -->
+        
+        <set id="filmprod_dir_chair_idle" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Hlwn20Director"  />
+            <item id="furSit"  />
+        </set>
+        <set id="filmprod_krest" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Hlwn20PlayRole" />
+            <item id="Hlwn20PlayRole1" />
+            <item id="Hlwn20PlayRole2" />
+        </set>
+        <set id="filmprod_desk" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Hlwn20Kadr"  />
+        </set>
+        <set id="filmprod_montage" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Hlwn20Montage"  />
+            <item id="furSit"  />
+        </set>
+
+        <set id="filmprod_camera_off" minRadius="185" maxRadius="210"> <!-- default max=285, min=310 -->
+            <item id="Hlwn20Operator"  />
+            <item id="Hlwn20AnounShot"  />
+        </set>
+
+        <set id="trumo_hlwn"> 
+            <item id="MakeUpHlwn"  />
+        </set>
+
+        <set id="filmprod_decor_sit" minRadius="130" maxRadius="150">
+            <item id="filmprodToast"  />
+            <item id="furSit"/>
+        </set>
+
+        <!-- БАЛЬНЫЙ ЗАЛ 2021 -->
+
+        <set id="BR_masks_on" minRadius="185" maxRadius="210"> 
+            <item id="BallroomMaskL"  />
+            <item id="BallroomMaskM"  />
+            <item id="BallroomMaskH"  />
+        </set>
+
+        <set id="BR_Chocolate"> 
+            <item id="BallroomChocolate"  />
+        </set>
+
+        <set id="BR_Toast" minRadius="120" maxRadius="140"> 
+            <item id="BallroomToast"  />
+            <item id="furSit"  />
+        </set>
+
+        <set id="BR_read" minRadius="120" maxRadius="140"> 
+            <item id="BallroomRead"  />
+            <item id="furSit"  />
+        </set>
+        
+        <set id="BR_Piano"> 
+            <item id="BallroomPiano"  />
+        </set>
+
+        <set id="BR_Violin_idle" > 
+            <item id="BallroomViolin"  />
+        </set>
+
+        <!-- БАЛЬНЫЙ ЗАЛ 2021 до сюда -->
+
+        <set id="sew_stand_off">
+            <item id="makeSewAct"  />
+        </set>
+
+        <set id="sew_stand_on">
+            <item id="dropSewAct"  />
+        </set>
+
+        <set id="sofa_sit_relax">
+            <item id="relaxSit"  />
+        </set>
+
+        <set id="ballet_stand_off" minRadius="120" maxRadius="140">
+            <item id="TurnMeOn"  />
+        </set>
+
+        <set id="ballet_stand_on" minRadius="120" maxRadius="140">
+            <item id="dancePa"  />
+            <item id="TurnMeOff"  />
+        </set>
+
+        <set id="big_podium" minRadius="120" maxRadius="140">
+            <item id="monoSpeech"  />
+            <item id="modelPoseBigPodium"  />
+        </set>
+
+        <set id="BRHome_masks_on" minRadius="185" maxRadius="210"> 
+            <item id="BRHomeMaskL"  />
+            <item id="BRHomeMaskM"  />
+            <item id="BRHomeMaskH"  />
+        </set>
+
+        <set id="BRHome_Chocolate"> 
+            <item id="BRHomeChocolate"  />
+        </set>
+
+        <set id="BRHome_read" minRadius="120" maxRadius="140"> 
+            <item id="BRHomeRead"  />
+            <item id="furSit"  />
+        </set>
+    </menuSets>
+</config>

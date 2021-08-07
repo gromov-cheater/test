@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<map width="37" length="30">
+  <viewport x="423" y="470" width="1195" height="840"/>
+  <items>
+    <item class="backgroundItem" skin="publicBeach/publicBeach.png" wx="21.3" wy="-8.1"/>
+    <item class="walkingGridItem" cols="37" rows="30">
+
+       <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+        <row values="0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1"/>
+        <row values="0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+      </grid> 
+    </item>
+
+    <!--Стулья у бара -->
+    <item class="sitItem" wz="0" kind="publicBeachChair" wx="27" direction="SW" normalSitPlace="1" wy="10" id="sitItem"/>
+    <item class="sitItem" wz="0" kind="publicBeachChair" wx="27" direction="SW" normalSitPlace="1" wy="12" id="sitItem0"/>
+    <item class="sitItem" wz="0" kind="publicBeachChair" wx="27" direction="SW" normalSitPlace="1" wy="14" id="sitItem1"/>
+    <item class="sitItem" wz="0" kind="publicBeachChair" wx="27" direction="SW" normalSitPlace="1" wy="16" id="sitItem2"/>
+
+    <!--Лежаки со столом и меню-->
+    <item class="lieItem" wz="0" kind="publicBeachBed" wx="13" direction="SE" wy="5" normalSitPlace="1" id="lieItem1"/>
+    <item class="landscapeItem"  wz="0" kind="publicBeachTable"  wx="15" direction="SW" wy="6"  id="landscapeItem"/>
+    <item class="beachMenuItem" wz="2" kind="clubMenu" wx="15" direction="SW" wy="7" id="clubMenuItem2"/>
+    <item class="lieItem" wz="0" kind="publicBeachBed" wx="18" direction="SE" wy="6" normalSitPlace="1" id="lieItem2"/>
+
+    <!--Два лежака -->
+    <item class="lieItem" wz="0" kind="publicBeachBed" wx="14" direction="SE" wy="18" normalSitPlace="1" id="lieItem3"/>
+    <item class="lieItem" wz="0" kind="publicBeachBed" wx="17" direction="SE" wy="19" normalSitPlace="1" id="lieItem4"/>
+
+    <!--Меню на баре-->
+    <item class="beachMenuItem" wz="0" kind="clubMenu" wx="32" direction="SW" wy="13" id="clubMenuItem"/>
+    <item class="beachMenuItem" wz="0" kind="clubMenu" wx="32" direction="SW" wy="11" id="clubMenuItem1"/>
+    
+    <!--Точки спавна игроков-->
+    <item class="dispositionItem" wx="11" wy="12" id="dispositionItem65"/>
+    <item class="dispositionItem" wx="24" wy="13" id="dispositionItem66"/>
+    <item class="dispositionItem" wx="17" wy="16" id="dispositionItem67"/>
+    <item class="dispositionItem" wx="21" wy="22" id="dispositionItem68"/>
+
+    <item class="NPCAvatarCafeWaitress" id="npcAvatar17" x="24" y="10" z="0.001" name="vipWaitressName" plist="avatar/npc/waitressBeach.plist"/> <!-- типа официантка -->
+
+
+</map>

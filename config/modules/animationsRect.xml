@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <animation name="Walk" width="100" height="300"/>
+    <animation name="Stand" width="100" height="300"/>
+    <animation name="GrBass" width="100" height="300"/>
+    <animation name="GrGuitar" width="100" height="300"/>
+    <animation name="GrSynth" width="175" height="300"/>
+    <animation name="SitDown" width="100" height="300" anchor="0 0" />
+    <animation name="Lie" width="300" height="175" anchor="0 0" backAnchor="0 1"/>
+    <animation name="PlayChess" width="100" height="300" anchor="0 0"/>
+    <animation name="WriteText" width="150" height="250" anchor="0 0"/>
+    <animation name="SitOnHorse" width="100" height="300"/>
+    <animation name="SitPicnic" width="100" height="225"/>
+    <animation name="SitInBath" width="125" height="250" anchor="0.5 0.3"/>
+    <animation name="CozySit" width="125" height="275" anchor="0 0"/>
+    <animation name="PlaySeesaw" width="150" height="250" anchor="0 0"/>
+    <animation name="ChemStudy" width="100" height="250" anchor="0 0"/>
+    <animation name="SitStudy" width="100" height="250" anchor="0 0"/>
+    <animation name="PairDance" width="100" height="300"/>
+    <animation name="UpUpstair" width="150" height="250" anchor="0.9 -1"/>
+    <animation name="LieUpstair" width="300" height="175" anchor="0.5 -1.7"/>
+    <animation name="Kotatsutea" width="100" height="225" anchor="-0.2 -0.33"/>
+    <animation name="SipirtTalk" width="125" height="250" anchor="0 0"/>
+    <animation name="SitPillow" width="125" height="250" anchor="0 0"/>
+    <animation name="PlayMB" width="125" height="250" anchor="0 0"/>
+    <animation name="Hlwn20Director" width="125" height="250" anchor="0 0"/>
+    <animation name="Hlwn20Montage" width="125" height="250" anchor="0 0"/>
+    <animation name="NY21MakeAWish1" width="100" height="250" anchor="-0.2 -0.33"/>
+    <animation name="NY21MakeAWish2" width="100" height="250" anchor="-0.2 -0.33"/>
+    <animation name="NY21MakeAWish3" width="100" height="250" anchor="-0.2 -0.33"/>
+    <animation name="MakeToast" width="100" height="250" anchor="-0.2 -0.33"/>
+    <animation name="NY21ElfDance" width="100" height="300"/>
+    <animation name="TakeAGift" width="125" height="250" anchor="0 0"/>
+    <animation name="PlayHmGuit" width="125" height="250" anchor="0 0"/>
+    <animation name="SitTgthr" width="125" height="250" anchor="0 0"/>
+    <animation name="SitRelax" width="125" height="250" anchor="0 0"/>
+    <animation name="PassSolo" width="100" height="300"/>
+    <animation name="MakeToast" width="100" height="250" anchor="-0.2 -0.33"/>
+    <animation name="Dj" width="100" height="300"/>
+    <animation name="SitIdle" width="100" height="250" anchor="-0.2 -0.33"/>
+
+
+
+
+
+</config>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<map width="30" length="32">
+  <viewport x="575" y="590" width="1200" height="800"/>
+  <items>
+    <item class="backgroundItem" wy="-9.484375" wx="27.390625" skin="vip/vip.png"/>
+
+    <item class="vipKalianItem" wz="0" wx="16" wy="7" kind="vipKalian" direction="SW" id="vipKalianItem10"/>
+
+    <item class="landscapeItem" kind="vipsummer_djtable" wx="21.5" wy="3.5" wz="0" id="landscapeItem1"/>
+
+    <item class="sitItem" kind="vipJacuzzi1" wx="28" wy="4.04" wz="0" id="sitItem4" animation="SitInBath" dressCode="jacuzzi"/>
+    <item class="sitItem" kind="vipJacuzzi2" wx="7.26" wy="20.5" wz="0" id="sitItem2" animation="SitInBath" dressCode="jacuzzi"/> <!-- animation="SitInBath" dressCode="jacuzzi" -->
+
+    <item class="vipKalianItem" wz="0" wx="12" wy="15" kind="vipKalian" direction="SE" id="vipKalianItem191"/>
+    <item class="landscapeItem" kind="vipbar_table_w" wx="14" wy="16" wz="0" id="landscapeItem6"/>
+    <item class="vipKalianItem" kind="vipcoco" wx="15" wy="17" wz="1" id="vipKalianItem903"/>
+    <item class="vipKalianItem" kind="vipmojito" wx="14" wy="17" wz="1" id="vipKalianItem904"/>
+
+    <item class="sitItem" wx="15" wy="14" wz="0" kind="vipbar_armchair_r" direction="SW" id="lieItem7"/>
+    <item class="sitItem" wx="15" wy="18" wz="0" kind="vipbar_armchair_r" direction="SW" id="lieItem17"/>
+    <item class="landscapeItem" kind="vipbar_table_w" wx="16" wy="4" wz="0" id="landscapeItem7"/>
+    <item class="vipKalianItem" kind="vipcoco" wx="17" wy="5" wz="1" id="vipKalianItem900"/>
+    <item class="vipKalianItem" kind="vipsunrise" wx="16" wy="5" wz="1" id="vipKalianItem901"/>
+
+    <item class="sitItem" kind="vipbar_armchair_r" wx="13" wy="5" wz="0" direction="SE" id="landscapeItem3"/>
+    <item class="sitItem" kind="vipbar_armchair_r" wx="18" wy="5" wz="0" direction="SE" id="landscapeItem9"/>
+    <item class="sitItem" kind="vipbar_sofa_r" wx="9" wy="12" wz="0" direction="SE" id="landscapeItem4"/>
+    
+    <item class="exitItem" wx="16.5" roomId="v1" wy="-0" locationId="publicBeach" wz="0" kind="clubExit" id="exitItem14"/>
+
+    <item class="dispositionItem" wy="9" wx="21" id="dispositionItem92"/>
+    <item class="dispositionItem" wy="12" wx="22" id="dispositionItem93"/>
+    <item class="dispositionItem" wy="15" wx="24" id="dispositionItem94"/>
+    <item class="dispositionItem" wy="13" wx="25" id="dispositionItem95"/>
+
+    <item class="NPCAvatarVipWaitress" id="npcAvatar17" x="24" y="10" z="0.001" name="vipWaitressName" plist="avatar/npc/waitressVip.plist"/> <!-- типа официантка -->
+
+    <item class="walkingGridItem" cols="35" rows="35">
+      <grid>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,1,0,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+  </items>
+</map>

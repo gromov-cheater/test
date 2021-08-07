@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config id="info_window">
+	<delay>0</delay>
+	<event_id>SV19_first</event_id>
+	<windows>
+
+		<!-- <window id="halloween_onStart" type="choice_url" show="4" showPoint="beforePlay" title="#feedbackLabel" hAlign="left" percentWidth="0.8">
+			<content text="#oldNews" urlTitle="#vkGroupLabel"/>
+		</window> -->
+
+		<window id="vip_gold" type="info" show="0" showPoint="noPoint" title="Info!" hAlign="left" percentWidth="0.65">
+			<content text="Info..." />
+		</window>
+		
+		<window id="SV19_first" type="store_and_support" show="0" showPoint="noPoint" title="#AvatariaNews" hAlign="left" percentWidth="0.70">
+			<content text="Уважаемые игроки!
+				\nПриносим извинения за проблему с отображением ников, пожалуйста, примите компенсацию в 50 золотых для смены имени.\n
+				\nDear players,
+				\nWe apologize for incorrect in-game name display and would like to compensate you with 50 gold to change it to a different one. Thank you for your understanding!"
+			supportUrl="https://vk.com/avatariamobile" supportTitle="VK" 
+			aStoreUrl="itms://itunes.apple.com/ru/app/id982229455?mt=8" gStoreUrl="market://details?id=com.xp101.ava_rus" storeTitle="GP\AppStore"
+			/>
+		</window>
+	</windows>
+</config>

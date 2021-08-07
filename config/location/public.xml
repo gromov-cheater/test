@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>  
+      
+    <location id="cafe" zoneId="street" loadingContent="cafe" defaultRoomId="cf1" order="3">
+        <icon name="CafeLocationIcon@location" title="#cafeLocationTitle" />
+        <rooms>
+           <room id="cf1" tmxmap="cafe/red_cafe" tutorialMap="cafe/red_cafe_tut.tmx" userCount="15" criticalUserCount="30" backgroundSound="Cafe1,Cafe2" dresscode="outside" />
+        </rooms>
+    </location>
+
+    <location id="street" zoneId="street" loadingContent="street,landscape" defaultRoomId="s1" order="4">
+        <icon name="StreetLocationIcon@location" title="#streetLocationTitle" />
+        <rooms>
+           <room id="s1" tmxmap="street/townsquare" userCount="15" criticalUserCount="30" backgroundSound="Outside1,Outside2" dresscode="outside" />
+        </rooms>
+    </location>
+
+    <location id="filmprod" zoneId="street" loadingContent="club,vip" defaultRoomId="filmprod" order="6">
+         <icon name="ClubLocationIcon@location" title="#cinema_location_label" visible="true"/>
+         <rooms>
+            <room id="filmprod" tmxmap="filmprod/filmprod" userCount="15" criticalUserCount="30" backgroundSound="Inspired" dresscode="outside"/>
+         </rooms>
+     </location>
+
+    <location id="park" zoneId="street" loadingContent="park,landscape" defaultRoomId="p1" order="7">
+        <icon name="ParkLocationIcon@location" title="#parkLocationTitle"/>
+        <rooms>
+           <room id="p1" tmxmap="park/pubgarden" userCount="15" criticalUserCount="30" backgroundSound="Outside1,Outside2" dresscode="outside" />
+           <room id="p1e" tmxmap="park/pubgarden" userCount="30" criticalUserCount="45" backgroundSound="Outside1,Outside2" dresscode="outside" />
+        </rooms>
+    </location>
+
+    <location id="nyBallroom" zoneId="street" loadingContent="street,landscape" defaultRoomId="nyb1" order="5">
+        <icon name="ClubLocationIcon@location@location" title="#BallRoomLocationLabel" visible="true"/>
+        <rooms>
+           <room id="nyb1" tmxmap="nyBallroom/ballroom" userCount="15" criticalUserCount="30" backgroundSound="Waltz" dresscode="outside" />
+        </rooms>
+    </location>
+
+    <!-- <location id="yard" zoneId="street" loadingContent="yard,landscape" defaultRoomId="y1" order="6">
+        <icon name="YardLocationIcon@location" title="#yardLocationTitle" />
+        <rooms>
+           <room id="y1" map="yard_1_map" userCount="15" criticalUserCount="30" backgroundSound="Outside1,Outside2" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--School19 -->
+
+    <location id="schoolAvataria" zoneId="street" loadingContent="club,vip" defaultRoomId="ScienceClass" order="8">
+        <icon name="ClubLocationIcon@location" title="#schoolAvatariaTitle" />
+        <rooms>
+           <room id="ScienceClass" tmxmap="school/science_class" userCount="15" criticalUserCount="20" backgroundSound="Outside1,Outside2" dresscode="outside" />
+        </rooms>
+    </location>
+
+    
+    
+     <location id="publicBeach" zoneId="street" loadingContent="publicBeach" defaultRoomId="pb1" order="9">
+        <icon name="PublicBeachLocationIcon@location" title="#publicBeachLocationTitle" visible="true" isNew="1"/>
+        <rooms>
+           <room id="pb1" map="public_beach_1_map" userCount="15" criticalUserCount="20" 
+            backgroundSound="Outside1,Outside2" dresscode="swim" />
+           <!--<room id="pb2" map="public_beach_2_map" userCount="15" criticalUserCount="20" 
+            backgroundSound="outside1,outside2" dresscode="event" />-->
+        </rooms>
+    </location>
+
+    <location id="club" zoneId="street" loadingContent="club,vip" defaultRoomId="cl1" order="10">
+        <icon name="ClubLocationIcon@location" title="#clubLocationTitle" />
+        <rooms>
+           <room id="cl1" map="club_1_map" userCount="15" tutorialMap="club_1_map_tut.xml" criticalUserCount="30"  backgroundSound="Club1,Club2" dresscode="outside" />
+           <room id="v1" map="vip_2_map" vip="1" userCount="15" criticalUserCount="30"  backgroundSound="VIP1,VIP2" dresscode="outside" />
+        </rooms>
+    </location>
+    
+    <location id="salon" zoneId="street" loadingContent="salon" defaultRoomId="sn1" order="11">
+        <icon name="SalonLocationIcon@location" title="#beautyLocationTitle" />
+        <rooms>
+           <room id="sn1" map="salon_1_map" userCount="5" criticalUserCount="10" backgroundSound="VIP1,VIP2" dresscode="outside" />
+        </rooms>
+    </location>    
+   
+
+    <location id="vip" zoneId="street" loadingContent="club,vip" defaultRoomId="v1" order="12">
+        <icon name="ClubLocationIcon@location" title="#vipLocationTitle" visible="true" />
+        <rooms>
+           <room id="v1" map="vip_2_map" userCount="15" vip="1" criticalUserCount="30"  backgroundSound="VIP1,VIP2" dresscode="event" />
+           
+        </rooms>
+    </location>
+
+    <location id="travel" zoneId="street" loadingContent="street" defaultRoomId="s1" order="13">
+        <icon name="StreetLocationIcon@location" title="#travelLocationTitle" visible="false" />
+        <rooms>
+           <room id="trvl1" map="street_1_map" userCount="0" criticalUserCount="1"  backgroundSound="Outside1,Outside2" workInProgress="yes" dresscode="" />
+           
+        </rooms>
+    </location>
+
+    <!-- DSV 14 FEB 2021 -->
+
+   <!-- <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="dsv2021" order="1">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" visible="true"/>
+        <rooms>
+           <room id="dsv2021" tmxmap="nyCastle/dsv2021" userCount="15" criticalUserCount="30" backgroundSound="Inspired" dresscode="outside" />
+        </rooms>
+    </location> 
+
+    <location id="nyBallroom" zoneId="street" loadingContent="street,landscape" defaultRoomId="nyb1" order="2">
+        <icon name="NYBallroomLocationIcon@location" title="#EventLocationLabel2" visible="true"/>
+        <rooms>
+           <room id="nyb1" tmxmap="nyBallroom/cloudville" userCount="15" criticalUserCount="30" backgroundSound="Inspired" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!-- NEW YEAR 2020/2021 -->
+
+    <!--<location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="ny2021" order="1">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" />
+        <rooms>
+           <room id="ny2021" tmxmap="nyCastle/ny2021" userCount="15" criticalUserCount="30" backgroundSound="Christmas" dresscode="outside" />
+        </rooms>
+    </location> -->
+    
+    <!-- Halloween2020 -->
+
+   <!-- <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="hell2020" order="1">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" />
+        <rooms>
+           <room id="hell2020" tmxmap="nyCastle/hell2020" userCount="15" criticalUserCount="30" backgroundSound="HLW" dresscode="outside" />
+        </rooms>
+    </location>-->
+
+    <!-- Graduation2020 -->
+
+   <!--  <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="grad2020" order="0">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" />
+        <rooms>
+           <room id="grad2020" tmxmap="nyCastle/grad2020" userCount="15" criticalUserCount="30" backgroundSound="Actroom" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!-- EGG Easter 2020 -->
+     <!-- <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="eastergrass" order="0">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" />
+        <rooms>
+           <room id="eastergrass" tmxmap="nyCastle/easter2020" userCount="15" criticalUserCount="30" backgroundSound="Easter" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--NEW YEAR 2018 -->
+
+    <!-- <location id="nyCastle2" zoneId="street" loadingContent="street,landscape" accessBy="ny19Ticket" defaultRoomId="NY2018"  order="1">
+        <icon name="ClubLocationIcon@location" title="#NYLocationTitle" visible="false" />
+        <rooms>
+           <room id="NY2018" map="nyFir_1_map" userCount="15" criticalUserCount="30"  backgroundSound="nyCastle1" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--SV19 -->
+
+<!--     <location id="nyCastle" zoneId="street" loadingContent="street,landscape" accessBy="SV19Ticket" defaultRoomId="SV19" order="0">
+        <icon name="ClubLocationIcon@location" title="#SV19Title" />
+        <rooms>
+           <room id="SV19" map="SV19_1_map" userCount="15" criticalUserCount="30" backgroundSound="outside1,outside2" dresscode="outside" />
+        </rooms>
+    </location>
+ -->
+    <!--Spr19 -->
+
+    <!-- <location id="nyCastle" zoneId="street" loadingContent="street,landscape" accessBy="Spr19Ticket" defaultRoomId="Spr19_verande" order="0">
+        <icon name="ClubLocationIcon@location" title="#Spr19CafeTitle" />
+        <rooms>
+           <room id="Spr19_verande" map="cafe_spr19_map" userCount="15" criticalUserCount="30" backgroundSound="Cafe1,Cafe2" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--AprilDance19 -->
+
+<!--     <location id="nyCastle" zoneId="street" loadingContent="club,vip" accessBy="DanceTicket" searchLocation="eventJob" defaultRoomId="DancePartyclub" order="0">
+        <icon name="ClubLocationIcon@location" title="#DancePartyTitle" />
+        <rooms>
+           <room id="DancePartyclub" map="danceparty_1_map" userCount="15" criticalUserCount="30" backgroundSound="Club1,Club2" dresscode="outside" />
+           <room id="DanceParty_club" map="danceparty_1_map" userCount="15" criticalUserCount="30" backgroundSound="Club1,Club2" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--Summer19 -->
+
+    <!-- <location id="nyCastle" zoneId="street" loadingContent="club,vip" accessBy="PoolTicket" searchLocation="nyJob" defaultRoomId="SummerPool" order="0">
+        <icon name="ClubLocationIcon@location" title="#DancePartyTitle" />
+        <rooms>
+           <room id="SummerPool" map="poolparty_1_map" userCount="15" criticalUserCount="30" backgroundSound="Club1,Club2" dresscode="event" />
+        </rooms>
+    </location> -->
+
+    
+
+    <!--Halloween19 
+
+    <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="RedCafe" order="0">
+        <icon name="ClubLocationIcon@location" title="#halloweenLocationTitle" />
+        <rooms>
+           <room id="RedCafe" tmxmap="nyCastle/red_cafe" userCount="15" criticalUserCount="30" backgroundSound="Hlwn" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!-- New Year 2020  -->
+
+  <!--  <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="nyballroom" order="0">
+        <icon name="ClubLocationIcon@location" title="#ny2020LocationTitle" />
+        <rooms>
+           <room id="nyballroom" tmxmap="nyCastle/ny_ballroom" userCount="15" criticalUserCount="30" backgroundSound="nyCastle1" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!-- St Val 2020  -->
+
+   <!--  <location id="nyCastle" zoneId="street" loadingContent="club,vip" defaultRoomId="cloudville" order="0">
+        <icon name="ClubLocationIcon@location" title="#EventLocationLabel" />
+        <rooms>
+           <room id="cloudville" tmxmap="nyCastle/cloudville" userCount="15" criticalUserCount="30" backgroundSound="Job2" dresscode="outside" />
+        </rooms>
+    </location> -->
+    <!--HALLOWEEN 2018 -->
+
+    <!--<location id="nyCastle" zoneId="street" loadingContent="street,landscape" defaultRoomId="HW2018" order="1">
+        <icon name="ClubLocationIcon@location" title="#halloweenLocationTitle" visible="false" />
+        <rooms>
+           <room id="HW2018" map="halloween_1_map" userCount="15" criticalUserCount="30"  backgroundSound="nyCastle1" dresscode="event" />
+        </rooms>
+    </location>
+
+    <location id="nyBallroom" zoneId="street" loadingContent="street,landscape" defaultRoomId="nyb1" >
+        <icon name="NYBallroomLocationIcon@location" title="#halloweenLocationTitle" visible="false"/>
+        <rooms>
+           <room id="nyb1" map="halloween_2_map" userCount="15" criticalUserCount="30" backgroundSound="nyBallroom1" dresscode="event" />
+        </rooms>
+    </location>-->
+
+    <!--Champion 2018 -->
+    <!--<location id="stadium" zoneId="street" loadingContent="street,landscape" accessBy="stadium18Ticket" defaultRoomId="stadftbl1" order="1">
+        <icon name="ClubLocationIcon@location" title="#stadiumTitle" />
+        <rooms>
+           <room id="stadftbl1" map="stadium_1_map" userCount="15" criticalUserCount="30" backgroundSound="outside1,outside2" dresscode="outside" />
+        </rooms>
+    </location>-->
+<!-- 
+    <location id="garden" zoneId="work" loadingContent="garden,landscape" music="job1" >
+        <icon name="GardenWorkIcon" title="#gardenWorkTitle" visible="false" />
+    </location>
+
+    <location id="garbage" zoneId="work" loadingContent="street,yard,landscape" music="job2">
+        <icon name="GarbageWorkIcon" title="#garbageWorkTitle" visible="false" />
+    </location> -->
+
+    <!-- <location id="photoSalon" zoneId="street" loadingContent="photoSalon" defaultRoomId="psn1">
+        <icon name="PhotoSalonLocationIcon@location" title="#photoSalonLocationTitle" visible="1" isNew="1"/>
+        <rooms>
+           <room id="psn1" map="photo_salon_1_map" userCount="5" criticalUserCount="10" backgroundSound="cafe1" dresscode="outside" />
+        </rooms>
+    </location> -->
+        
+<!--     <location id="canyon" zoneId="street" loadingContent="canyon" defaultRoomId="pc1">
+        <icon name="CanyonLocationIcon@location" title="#canyonLocationTitle" visible="0" isNew="1"/>
+        <rooms>
+           <room id="pc1" map="canyon_1_map" userCount="16" criticalUserCount="16" backgroundSound="outside1,outside2" dresscode="outside" />
+        </rooms>
+    </location> -->
+
+    <!--<location id="nyCastle" zoneId="street" loadingContent="publicBeach" defaultRoomId="nyc1" order="1">
+        <icon name="NYCastleLocationIcon@location" title="Ледяной Трон" visible="false" isNew="1"/>
+        <rooms>
+           <room id="nyc1" map="ny_castle_1_map" userCount="15" criticalUserCount="20" 
+            backgroundSound="outside1,outside2" dresscode="event" />
+        </rooms>
+    </location>-->
+
+    
+    
+</config>

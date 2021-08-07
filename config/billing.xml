@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <notifications>
+        <group type="GOLD"   eventText="#3timesMoreGold"   version="gold_18.04.2019"/>
+        <group type="SILVER" eventText="" version="gold_19.03.2019_9"/>
+        <group type="VIP"    eventText=""    version="gold_19.03.2019_9"/>
+        <group type="ENERGY" eventText="" version="gold_19.03.2019_9"/>
+        <group type="FREE"   eventText=""   version="gold_19.03.2019_9"/>
+    </notifications>
+    <!-- payment - reosource to spend -->
+    <!-- purchase - reosource to purchase for spent resources -->
+    <!-- payment and purchase should be only one at the moment per product -->
+    <!-- buy ANYTHING for REAL (Store purchase) - REAL needs no amount (detected from iTunesTore) -->
+    <!-- buy SILVER for GOLD (has contant proportion) - SILVER needs no amount -->
+    <products>
+
+         <!-- AVATOUR COINS -->
+        <product id="AvaCoin1" title="Silver1_ru" image="icon_avacoin_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="1200" amountOld="" endTimestamp="" bonusText="" template="bankModernProductAvacoin">
+            <payment type="GOLD" amount="144"/>
+            <purchase type="AvaCoin" amount="1200"/>
+        </product>
+        <product id="AvaCoin2" title="Silver1_ru" image="icon_avacoin_2.png" platforms="IOS|ANDROID" builds="ANY"
+            description="2500" amountOld="" endTimestamp="" bonusText="" template="bankModernProductAvacoin">
+            <payment type="GOLD" amount="288"/>
+            <purchase type="AvaCoin" amount="2500"/>
+        </product>
+        <product id="AvaCoin3" title="Silver1_ru" image="icon_avacoin_3.png" platforms="IOS|ANDROID" builds="ANY"
+            description="12000" amountOld="" endTimestamp="" bonusText="" template="bankModernProductAvacoin">
+            <payment type="GOLD" amount="1320"/>
+            <purchase type="AvaCoin" amount="12000"/>
+        </product>
+        <product id="AvaCoin4" title="Silver1_ru" image="icon_avacoin_4.png" platforms="IOS|ANDROID" builds="ANY"
+            description="25000" amountOld="" endTimestamp="" bonusText="" template="bankModernProductAvacoin">
+            <payment type="GOLD" amount="2700"/>
+            <purchase type="AvaCoin" amount="25000"/>
+        </product>
+
+         <!-- GAME CHIPS -->
+
+        <product id="GameChips1" title="Silver1_ru" image="buy_chip_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="1" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="1"/>
+            <purchase type="CHIPS" amount="1"/>
+        </product>
+        <product id="GameChips10" title="Silver1_ru" image="buy_chip_10.png" platforms="IOS|ANDROID" builds="ANY"
+            description="10" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="10"/>
+            <purchase type="CHIPS" amount="10"/>
+        </product>
+        <product id="GameChips25" title="Silver1_ru" image="buy_chip_25.png" platforms="IOS|ANDROID" builds="ANY"
+            description="25" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="25"/>
+            <purchase type="CHIPS" amount="25"/>
+        </product>
+        <product id="GameChips100" title="Silver1_ru" image="buy_chip_100.png" platforms="IOS|ANDROID" builds="ANY"
+            description="100" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="100"/>
+            <purchase type="CHIPS" amount="100"/>
+        </product>
+
+        <!-- RU gold vip packs (iOS|ANDROID) -->
+        <product id="gold_vip_5" title="Vip1_ru" image="vip1.png" description="vip5Days" platforms="IOS|ANDROID" builds="RU">
+            <payment type="GOLD" amount="176"/>
+            <purchase type="VIP" amount="5"/>
+        </product>
+        <product id="gold_vip_14" title="Vip2_ru" image="vip2.png" description="vip14Days" platforms="IOS|ANDROID" builds="RU">
+            <payment type="GOLD" amount="425"/>
+            <purchase type="VIP" amount="14"/>
+        </product>
+        <product id="gold_vip_30" title="Vip3_ru" image="vip3.png" description="vip30Days" platforms="IOS|ANDROID" builds="RU">
+            <payment type="GOLD" amount="720"/>
+            <purchase type="VIP" amount="30"/>
+        </product>
+        <product id="gold_vip_365" title="Vip365_ru" image="vip4.png" description="vip365Days" platforms="IOS|ANDROID" builds="RU" bonusText="#labelBenefit">
+            <payment type="GOLD" amount="7500"/>
+            <purchase type="VIP" amount="365"/>
+        </product>
+
+        <!-- LOOTBOXES -->
+
+        <product id="com.101xp.avataria.lootbox1_rus_andr" title="#chestRabbitTitle" image="icon_pinyata3.png" platforms="ANDROID" priceUSD_ANDROID="9.99" description="#chestRabbitTitle" endTimestamp="" template="bankModernProductChest">
+            <payment type="REAL_MONEY"/>
+            <purchase type="CHEST" id="1" />
+        </product>
+        <product id="com.101xp.avataria.lootbox1_rus" title="#chestRabbitTitle" image="icon_pinyata3.png" platforms="IOS" priceUSD_IOS="9.99" description="#chestRabbitTitle" endTimestamp="" template="bankModernProductChest">
+            <payment type="REAL_MONEY"/>
+            <purchase type="CHEST" id="1" />
+        </product>
+
+        <!--
+        <product id="lbox_ww" title="#chestWWTitle" image="icon_pinyata4.png" platforms="IOS|ANDROID" description="#chestWWTitle" template="bankModernProductChest">
+            <payment type="AvaCoin" amount="599"/>
+            <purchase type="CHEST" id="6" />
+        </product> -->
+        
+        <product id="lbox_basic" title="#chestBasicTitle" image="icon_pinyata1.png" platforms="IOS|ANDROID" description="#chestBasicTitle" template="bankModernProductChest">
+            <payment type="GOLD" amount="45"/>
+            <purchase type="CHEST" id="4" />
+        </product>       
+
+        <product id="lbox_freetryout" title="#chestFreeLamaTitle" image="icon_pinyata5.png" platforms="IOS|ANDROID" description="chestFreeLamaTitle" template="bankModernProductChest">
+            <payment type="FREE" />
+            <purchase type="CHEST" id="7" />
+        </product>
+
+        <!-- BUNDLES -->
+
+<!--
+        <product id="com.101xp.avataria.bundle12_rus" title="offer601title" image="icon_bundle_601.png" template="bankModernProductSuiteFurniture" priceUSD_IOS="10.99" platforms="IOS" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="601" bank="1"/> 
+        </product>
+
+        <product id="com.101xp.avataria.bundle12_rus_andr" title="offer601title" image="icon_bundle_601.png" template="bankModernProductSuiteFurniture" priceUSD_ANDROID="10.99" platforms="ANDROID" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="601" bank="1"/> 
+        </product>
+
+        <product id="com.101xp.avataria.bundle7_rus" title="offer603title" image="icon_bundle_603.png" template="bankModernProductSuiteClothes" priceUSD_IOS="6.99" platforms="IOS" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="603" bank="1"/> 
+        </product>
+
+        <product id="com.101xp.avataria.bundle7_rus_andr" title="offer603title" image="icon_bundle_603.png" template="bankModernProductSuiteClothes" priceUSD_ANDROID="6.99" platforms="ANDROID" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="603" bank="1"/> 
+        </product>
+
+        <product id="bundle_602" title="offer602title" image="icon_bundle_602.png" template="bankModernProductSuiteFurniture" platforms="IOS|ANDROID" builds="RU" priceOld="43423">
+            <payment type="AvaCoin" amount="22222"/> 
+            <purchase type="OFFER" amount="602" bank="1"/> 
+        </product>
+
+-->
+
+        <product id="bundle_605" title="lnsroom_label" image="icon_bundle_605.png" template="bankModernProductSuiteFurniture" platforms="IOS|ANDROID" builds="RU" priceOld="22222">
+            <payment type="AvaCoin" amount="11111"/> 
+            <purchase type="OFFER" amount="605" bank="1"/> 
+        </product>
+
+        <product id="bundle_604" title="offer604title" image="icon_bundle_604.png" template="bankModernProductSuiteFurniture" platforms="IOS|ANDROID" builds="RU" priceOld="37777">
+            <payment type="AvaCoin" amount="18888"/> 
+            <purchase type="OFFER" amount="604" bank="1"/> 
+        </product>      
+
+        <!-- RU gold packs (iOS) -->
+         <!-- GUIDE: 
+         description - amount of gold
+         amountOld - old amount of gold
+         priceOld- old price (product id)
+         endTimestamp - end of an event
+         bonusText - text on a ribbon -->
+
+         <product id="pack1" title="Gold1_ru" image="ico_gold_0.png" platforms="IOS|ANDROID" builds="ANY"
+            description="160" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="160" bonus="0"/>
+        </product>
+        <product id="pack2" title="Gold2_ru" image="ico_gold_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="350" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="350" bonus="0"/>
+        </product>
+        <product id="pack3" title="Gold3_ru" image="ico_gold_2.png" platforms="IOS|ANDROID" builds="ANY"
+            description="800" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="800" bonus="0"/>
+        </product>
+        <product id="pack4" title="Gold4_ru" image="ico_gold_3.png" platforms="IOS|ANDROID" builds="ANY"
+            description="2700" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="2700" bonus="0"/>
+        </product>
+
+        <!-- RU gold packs (ANDROID) -->
+
+        <product id="pack1" title="Gold1_ru" image="ico_gold_0.png" platforms="IOS|ANDROID" builds="ANY"
+            description="160" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="160" bonus="0"/>
+        </product>
+        <product id="pack2" title="Gold2_ru" image="ico_gold_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="350" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="350" bonus="0"/>
+        </product>
+        <product id="pack3" title="Gold3_ru" image="ico_gold_2.png" platforms="IOS|ANDROID" builds="ANY"
+            description="800" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="800" bonus="0"/>
+        </product>
+        <product id="pack4" title="Gold4_ru" image="ico_gold_3.png" platforms="IOS|ANDROID" builds="ANY"
+            description="2700" amountOld="" endTimestamp="" bonusText="">
+            <payment type="SILVER" amount="0"/>
+            <purchase type="GOLD" amount="2700" bonus="0"/>
+        </product>
+
+        
+        <!-- silver packs (iOS & Android) -->
+        <product id="silver_01" title="Silver1_ru" image="ico_silver_0.png" platforms="IOS|ANDROID" builds="ANY"
+            description="100" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="1"/>
+            <purchase type="SILVER"/>
+        </product>
+        <product id="silver_02" title="Silver2_ru" image="ico_silver_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="500" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="5"/>
+            <purchase type="SILVER"/>
+        </product>
+        <product id="silver_03" title="Silver3_ru" image="ico_silver_2.png" platforms="IOS|ANDROID" builds="ANY"
+            description="5000" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="50"/>
+            <purchase type="SILVER"/>
+        </product>
+        <product id="silver_04" title="Silver4_ru" image="ico_silver_3.png" platforms="IOS|ANDROID" builds="ANY"
+            description="15000" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="150"/>
+            <purchase type="SILVER"/>
+        </product>
+        <product id="silver_05" title="Silver5_ru" image="ico_silver_4.png" platforms="IOS|ANDROID" builds="ANY"
+            description="37500" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="375"/>
+            <purchase type="SILVER"/>
+        </product>
+        <product id="silver_06" title="Silver6_ru" image="ico_silver_5.png" platforms="IOS|ANDROID" builds="ANY"
+            description="100000" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="1000"/>
+            <purchase type="SILVER"/>
+        </product>
+        
+        <!--energy packs (iOS & Android)-->
+        <product id="energy" title="Energy_ru" image="ico_energy_1.png" platforms="IOS|ANDROID" builds="ANY"
+            description="100" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="3"/>
+            <purchase type="ENERGY" amount="100"/>
+        </product>
+        <product id="energy2" title="Energy_ru" image="ico_energy_2.png" platforms="IOS|ANDROID" builds="ANY"
+            description="480" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="14"/>
+            <purchase type="ENERGY" amount="480"/>
+        </product>
+        <product id="energy3" title="Energy_ru" image="ico_energy_3.png" platforms="IOS|ANDROID" builds="ANY"
+            description="1555" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="45"/>
+            <purchase type="ENERGY" amount="1555"/>
+        </product>
+        <product id="energy4" title="Energy_ru" image="ico_energy_5.png" platforms="IOS|ANDROID" builds="ANY"
+            description="4800" amountOld="" endTimestamp="" bonusText="">
+            <payment type="GOLD" amount="135"/>
+            <purchase type="ENERGY" amount="4800"/>
+        </product>
+        
+        <!-- RU VIP in-app (non-renewing subscription packs for iOS) -->
+       <!-- <product id="com.101xp.avataria.vip01_rus" title="Vip1_ru" image="vip1.png" priceUSD_IOS="1.99" platforms="IOS" builds="RU"
+            description="Vip7daysPrice" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="7"/>
+        </product>
+        <product id="com.101xp.avataria.vip02_rus" title="Vip2_ru" image="vip2.png" priceUSD_IOS="2.99" platforms="IOS" builds="RU"
+            description="vip14Days" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="14"/>
+        </product>
+        <product id="com.101xp.avataria.vip03_rus" title="Vip3_ru" image="vip3.png" priceUSD_IOS="3.99" platforms="IOS" builds="RU"
+            description="Vip21daysPrice" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="21"/> 
+        </product> -->
+
+      <!--  <product id="com.101xp.avataria.vip01_rus_andr" title="Vip1_ru" image="vip1.png" priceUSD_ANDROID="1.99" platforms="ANDROID" builds="RU"
+            description="Vip7daysPrice" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="7"/>
+        </product>
+        <product id="com.101xp.avataria.vip02_rus_andr" title="Vip2_ru" image="vip2.png" priceUSD_ANDROID="2.99" platforms="ANDROID" builds="RU"
+            description="vip14Days" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="14"/>
+        </product>
+        <product id="com.101xp.avataria.vip03_rus_andr" title="Vip3_ru" image="vip3.png" priceUSD_ANDROID="3.99" platforms="ANDROID" builds="RU"
+            description="Vip21daysPrice" amountOld="" endTimestamp="" bonusText="">
+            <payment type="REAL_MONEY"/>
+            <purchase type="VIP" amount="21"/>
+        </product>
+-->
+
+        <!-- ADS -->
+        <!-- title, description, payment and purchase not used -->
+        <product id="1" title="Vip1" image="ico_gold_0.png" description="-" platforms="IOS|ANDROID" builds="ANY" template="bankModernAdProduct">
+            <payment type="FREE"/>
+            <purchase type="FREE" amount="0"/>
+            <purchase type="ADS" amount="0"/>
+        </product>
+        <product id="2" title="Vip2" image="ico_silver_1.png" description="-" platforms="IOS|ANDROID" builds="ANY" template="bankModernAdProduct"> <!-- bonusText="Best Deal!" endTimestamp="1668413875" -->
+            <payment type="FREE"/> 
+            <purchase type="FREE" amount="0"/>
+            <purchase type="ADS" amount="0"/>
+        </product>
+        <product id="3" title="Vip3" image="ico_energy_2.png" description="-" platforms="IOS|ANDROID" builds="ANY" template="bankModernAdProduct">
+            <payment type="FREE"/> 
+            <purchase type="FREE" amount="0"/>
+            <purchase type="ADS" amount="0"/>
+        </product>
+        <!-- FREE -->
+        <product id="promo_code" title="" image="ico_gold_0.png" platforms="IOS|ANDROID" builds="ANY" template="bankModernPromoCode">
+            <payment type="FREE"/>
+            <purchase type="FREE" amount="0"/>
+            <purchase type="PROMO_CODE" amount="0"/>
+        </product>
+        
+        <!-- OFFERS -->
+
+        <!-- Android -->
+        <product id="com.101xp.avataria.starter_pack_rus_andr" title="starterPackTitle" priceUSD_ANDROID="1.99" platforms="ANDROID" builds="RU" priceOld="2.23">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="2" bonus="0"/> 
+        </product>
+            
+        <product id="com.101xp.avataria.offer1_rus_andr" title="offer1Title" priceUSD_ANDROID="2.99" platforms="ANDROID" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> <!-- priceOld="N", where N = price ratio,N=100/(100-55), where 55 - % of sale -->
+            <purchase type="OFFER" amount="3" bonus="0"/> <!-- amount= offer id, same for server -->
+        </product>
+
+        <product id="com.101xp.avataria.offer16_rus_andr" title="offer16Title" priceUSD_ANDROID="4.99" platforms="ANDROID" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="16" bonus="0"/> 
+        </product>
+
+        <product id="com.101xp.avataria.offer17_rus_andr" title="offer17Title" priceUSD_ANDROID="49.99" platforms="ANDROID" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="17" bonus="0"/> 
+        </product>
+
+        <product id="com.101xp.avataria.offer20_rus_andr" title="offer20Title" priceUSD_ANDROID="7.99" platforms="ANDROID" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="20" bonus="0"/> 
+        </product>
+
+        <product id="com.101xp.avataria.offer5_rus_andr" title="offer5Title" priceUSD_ANDROID="0.99" platforms="Android" builds="RU" priceOld="3.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="381" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer4_rus_andr" title="offer4Title" priceUSD_ANDROID="1.99" platforms="ANDROID" builds="RU" priceOld="6">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="487" bonus="0"/> 
+        </product>
+        <product id="com.101xp.avataria.offer12_rus_andr" title="offer12Title" priceUSD_ANDROID="2.99" platforms="ANDROID" builds="RU" priceOld="4.33">
+            <payment type="REAL_MONEY"/> 
+            <purchase type="OFFER" amount="585" bonus="0"/> 
+        </product>
+
+        <!-- Starter Pack Android -->
+
+        <product id="com.101xp.avataria.offer101_rus_andr" title="offer101Title" priceUSD_ANDROID="2.99" platforms="Android" builds="RU" priceOld="3">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="101" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer102_rus_andr" title="offer102Title" priceUSD_ANDROID="1.99" platforms="Android" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="102" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer103_rus_andr" title="offer103Title" priceUSD_ANDROID="1.99" platforms="Android" builds="RU" priceOld="15">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="103" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer104_rus_andr" title="offer104Title" priceUSD_ANDROID="0.99" platforms="Android" builds="RU" priceOld="24">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="104" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer105_rus_andr" title="offer105Title" priceUSD_ANDROID="0.99" platforms="Android" builds="RU" priceOld="33">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="105" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer106_rus_andr" title="offer106Title" priceUSD_ANDROID="3.99" platforms="Android" builds="RU" priceOld="2.86">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="106" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer107_rus_andr" title="offer107Title" priceUSD_ANDROID="2.99" platforms="Android" builds="RU" priceOld="4.44">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="107" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer108_rus_andr" title="offer108Title" priceUSD_ANDROID="2.99" platforms="Android" builds="RU" priceOld="5.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="108" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer109_rus_andr" title="offer109Title" priceUSD_ANDROID="1.99" platforms="Android" builds="RU" priceOld="14">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="109" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer110_rus_andr" title="offer110Title" priceUSD_ANDROID="7.99" platforms="Android" builds="RU" priceOld="2.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="110" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer111_rus_andr" title="offer111Title" priceUSD_ANDROID="4.99" platforms="Android" builds="RU" priceOld="3.75">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="111" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer112_rus_andr" title="offer112Title" priceUSD_ANDROID="3.99" platforms="Android" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="112" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer113_rus_andr" title="offer113Title" priceUSD_ANDROID="2.99" platforms="Android" builds="RU" priceOld="10">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="113" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer114_rus_andr" title="offer114Title" priceUSD_ANDROID="13.99" platforms="Android" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="114" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer115_rus_andr" title="offer115Title" priceUSD_ANDROID="7.99" platforms="Android" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="115" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer116_rus_andr" title="offer116Title" priceUSD_ANDROID="6.99" platforms="Android" builds="RU" priceOld="4">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="116" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer117_rus_andr" title="offer117Title" priceUSD_ANDROID="3.99" platforms="Android" builds="RU" priceOld="8">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="117" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer118_rus_andr" title="offer118Title" priceUSD_ANDROID="19.99" platforms="Android" builds="RU" priceOld="1.81">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="118" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer119_rus_andr" title="offer119Title" priceUSD_ANDROID="14.99" platforms="Android" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="119" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer120_rus_andr" title="offer120Title" priceUSD_ANDROID="9.99" platforms="Android" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="120" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer121_rus_andr" title="offer121Title" priceUSD_ANDROID="4.99" platforms="Android" builds="RU" priceOld="7.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="121" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer122_rus_andr" title="offer122Title" priceUSD_ANDROID="19.99" platforms="Android" builds="RU" priceOld="1.81">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="122" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer123_rus_andr" title="offer123Title" priceUSD_ANDROID="14.99" platforms="Android" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="123" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer124_rus_andr" title="offer124Title" priceUSD_ANDROID="9.99" platforms="Android" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="124" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer125_rus_andr" title="offer125Title" priceUSD_ANDROID="4.99" platforms="Android" builds="RU" priceOld="7.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="125" bonus="0"/>
+        </product>
+
+
+        <!-- iOS -->
+        <product id="com.101xp.avataria.offer2_rus" title="starterPackTitle" priceUSD_IOS="1.99" platforms="IOS" builds="RU" priceOld="2.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="2" bonus="0"/>
+        </product>
+
+        <product id="com.101xp.avataria.offer3_rus" title="offer1Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="3" bonus="0"/>
+        </product>
+
+        <product id="com.101xp.avataria.offer16_rus" title="offer16Title" priceUSD_IOS="4.99" platforms="IOS" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="16" bonus="0"/>
+        </product>
+
+        <product id="com.101xp.avataria.offer17_rus" title="offer17Title" priceUSD_IOS="49.99" platforms="IOS" builds="RU" priceOld="2.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="17" bonus="0"/>
+        </product>
+
+        <product id="com.101xp.avataria.offer20_rus" title="offer20Title" priceUSD_IOS="7.99" platforms="IOS" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="20" bonus="0"/>
+        </product>
+
+        <product id="com.101xp.avataria.offer5_rus" title="offer5Title" priceUSD_IOS="0.99" platforms="IOS" builds="RU" priceOld="3.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="381" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer4_rus" title="offer4Title" priceUSD_IOS="1.99" platforms="IOS" builds="RU" priceOld="6">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="487" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer12_rus" title="offer12Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="4.33">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="585" bonus="0"/>
+        </product>
+
+        <!-- Starter Pack iOS -->
+
+        <product id="com.101xp.avataria.offer101_rus" title="offer101Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="3">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="101" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer102_rus" title="offer102Title" priceUSD_IOS="1.99" platforms="IOS" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="102" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer103_rus" title="offer103Title" priceUSD_IOS="1.99" platforms="IOS" builds="RU" priceOld="15">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="103" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer104_rus" title="offer104Title" priceUSD_IOS="0.99" platforms="IOS" builds="RU" priceOld="24">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="104" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer105_rus" title="offer105Title" priceUSD_IOS="0.99" platforms="IOS" builds="RU" priceOld="33">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="105" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer106_rus" title="offer106Title" priceUSD_IOS="3.99" platforms="IOS" builds="RU" priceOld="2.86">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="106" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer107_rus" title="offer107Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="4.44">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="107" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer108_rus" title="offer108Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="5.5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="108" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer109_rus" title="offer109Title" priceUSD_IOS="1.99" platforms="IOS" builds="RU" priceOld="14">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="109" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer110_rus" title="offer110Title" priceUSD_IOS="7.99" platforms="IOS" builds="RU" priceOld="2.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="110" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer111_rus" title="offer111Title" priceUSD_IOS="4.99" platforms="IOS" builds="RU" priceOld="3.75">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="111" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer112_rus" title="offer112Title" priceUSD_IOS="3.99" platforms="IOS" builds="RU" priceOld="5">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="112" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer113_rus" title="offer113Title" priceUSD_IOS="2.99" platforms="IOS" builds="RU" priceOld="10">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="113" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer114_rus" title="offer114Title" priceUSD_IOS="13.99" platforms="IOS" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="114" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer115_rus" title="offer115Title" priceUSD_IOS="7.99" platforms="IOS" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="115" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer116_rus" title="offer116Title" priceUSD_IOS="6.99" platforms="IOS" builds="RU" priceOld="4">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="116" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer117_rus" title="offer117Title" priceUSD_IOS="3.99" platforms="IOS" builds="RU" priceOld="8">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="117" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer118_rus" title="offer118Title" priceUSD_IOS="19.99" platforms="IOS" builds="RU" priceOld="1.81">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="118" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer119_rus" title="offer119Title" priceUSD_IOS="14.99" platforms="IOS" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="119" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer120_rus" title="offer120Title" priceUSD_IOS="9.99" platforms="IOS" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="120" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer121_rus" title="offer121Title" priceUSD_IOS="4.99" platforms="IOS" builds="RU" priceOld="7.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="121" bonus="0"/>
+        </product>
+
+
+        <product id="com.101xp.avataria.offer122_rus" title="offer122Title" priceUSD_IOS="19.99" platforms="IOS" builds="RU" priceOld="1.81">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="122" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer123_rus" title="offer123Title" priceUSD_IOS="14.99" platforms="IOS" builds="RU" priceOld="2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="123" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer124_rus" title="offer124Title" priceUSD_IOS="9.99" platforms="IOS" builds="RU" priceOld="3.23">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="124" bonus="0"/>
+        </product>
+        <product id="com.101xp.avataria.offer125_rus" title="offer125Title" priceUSD_IOS="4.99" platforms="IOS" builds="RU" priceOld="7.2">
+            <payment type="REAL_MONEY"/>
+            <purchase type="OFFER" amount="125" bonus="0"/>
+        </product>
+
+
+    </products>
+    
+</config>

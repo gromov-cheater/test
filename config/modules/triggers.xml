@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<triggers>
+	<trigger action="RateUs" delay="2">
+		<condition type="sequence">
+			<condition type="levelReached" level="3"/>
+			<condition type="any">
+				<condition type="event" name="ActorAction_StandKiss"/>
+				<condition type="event" name="ActorAction_Dance"/>
+				<condition type="event" name="ActorAction_Hug"/>
+				<condition type="event" name="SocialAction_addToAssociates"/>
+				<condition type="event" name="GIFT_ACCEPTED"/>
+				<condition type="event" name="CAFE_ORDER_ME"/>
+				<condition type="event" name="CAFE_ORDER_OTHER"/>
+				<condition type="event" name="SalonBeauty_SaveAppearance"/>
+				<condition type="event" name="JOKE_USED"/>
+				<condition type="event" name="FIGHT_RESULT_DIALOG_CLOSED"/>
+				<condition type="event" name="EVENT_CREATED"/>
+			</condition>
+		</condition>
+	</trigger>
+	<trigger action="ShowOffer" delay="2" offerId="16">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="16"/> <!-- type="offerAvailable" or "offerNotStarted" -->
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+	<trigger action="ShowOffer" delay="2" offerId="17">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="17"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+	<trigger action="ShowOffer" delay="2" offerId="20">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="20"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+	<!-- MONDAY -->
+	<trigger action="ShowOffer" delay="2" offerId="382">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="382"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+	<!-- WEEKLY -->
+	<trigger action="ShowOffer" delay="2" offerId="488">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="488"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+	<!-- WEEKEND -->
+	<trigger action="ShowOffer" delay="2" offerId="586">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="586"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+
+	<!-- STARTER PACK -->
+
+	<trigger action="ShowOffer" delay="2" offerId="9">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerAvailable" offerId="9"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="101">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerAvailable" offerId="101"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="102">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerAvailable" offerId="102"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="103">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerAvailable" offerId="103"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="104">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerAvailable" offerId="104"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="105">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="105"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="106">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="106"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="107">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="107"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="108">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="108"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="109">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="109"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="110">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="110"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="111">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="111"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="112">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="112"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="113">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="113"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="114">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="114"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="115">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="115"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="116">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="116"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="117">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="117"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="118">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="118"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="119">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="119"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="120">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="120"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="121">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="121"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="122">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="122"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="123">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="123"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="124">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="124"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="125">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="125"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="604">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="604"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="605">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="605"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+	<trigger action="ShowOffer" delay="2" offerId="606">
+		<condition type="sequence">
+			<condition type="remoteResourcesLoaded" />
+			<condition type="offerNotStarted" offerId="606"/>
+			<condition type="dialogsClosed" />
+		</condition>
+	</trigger>
+
+</triggers>

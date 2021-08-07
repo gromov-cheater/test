@@ -1,0 +1,4004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <group key="amusementStuff">        
+        <action name="broke" privilege="broke" relationProgressReason="brokeAmusementStuff">
+            <neededItem typeId="scrdvr" count="1"/>
+        </action>
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+
+    <group key="jacuzzi">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeJacuzzi">
+            <neededItem typeId="jacuzziWorms" count="1"/>
+            <!-- 
+                <price energy="10" />
+                <neededItem typeId="gameChips" count="5" notRemove="1" />
+             -->
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="furnitureSit">
+        <action name="ptbm" privilege="plantPaintBomb">
+            <neededItem typeId="chairBomb" count="1"/>
+        </action>
+    </group>
+    
+    <group key="wall">
+        <action name="drGrfft" privilege="drawGraffiti" relationProgressReason="drawGraffiti">
+            <neededItem typeId="wllgrfft1" count="1"/>
+            <neededItem typeId="wllgrfft2" count="1"/>
+            <neededItem typeId="wllgrfft3" count="1"/>
+            <neededItem typeId="wllgrfft4" count="1"/>
+            <neededItem typeId="wllgrfft5" count="1"/>
+        </action>
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="computerAppliance">
+        
+        <action name="sendMailMessage" privilege="sendMailMessage"/>
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeComputer">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+        
+    </group>
+    
+    <group key="tvAppliance">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeTv">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="horseAmusiment">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeHorseAmusiment">
+            <neededItem typeId="scrdvr" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+        
+        <action name="shrs" privilege="sitHorse">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="musicCenterAppliance">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeMusicCenter">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+
+    <group key="piano">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="pianoPlay">
+            <animation>
+                <self name="Piano" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+                <music name="Piano" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="verpcnc_gril">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="verpcnc_gril_off">
+        <action name="CookSausge" >
+            <animation>
+                <self name="CookSausge"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="ctwdnbth_mirrortable">
+        <action name="MakeUp" >
+            <animation>
+                <self name="MakeUp" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="provence_trumo">
+        <action name="MakeUp" >
+            <animation>
+                <self name="MakeUp" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="sportroom_yogacarpet">
+        <action name="YogaPose" >
+            <animation>
+                <self name="YogaPose"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+          <group key="mdntrm_carpet">
+            <action name="SitPicnic2">
+            <animation>
+                <self name="SitPicnic"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="autumnLB_bed">
+        <action name="BedJump" >
+            <animation>
+                <self name="BedJump" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="LieDown" >
+            <animation>
+                <self name="Lie" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="africian_drums_afro_int">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="africian_drums_afro_int_off">
+        <action name="AfroDrumPlay" >
+            <animation>
+                <self name="AfroDrumPlay"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Bongo"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="astroom_anim_decor">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="astroom_anim_decor_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="astroom_anim_decor_on">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="astroom_telescope">
+        <action name="TlscpWatch" >
+            <animation>
+                <self name="TlscpWatch" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="flwrrm_sit_tree">
+        <action name="SeatAtTree" >
+            <animation>
+                <self name="SeatAtTree1" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="SeatAtTree2" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="studroom_double_bed">
+        <action name="UpUpstair" >
+            <animation>
+                <self name="UpUpstair" looped="1"/>
+                <target standHolder="standAction" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+        <action name="LieUpstair" >
+            <animation>
+                <self name="LieUpstair" looped="1"/>
+                <target standHolder="standAction" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+        <action name="Lie" >
+            <animation>
+                <self name="Lie" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="grdtnLB_hlg_flower">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="grdtnLB_hlg_flower_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="Produce" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <sound name="BonusDrop" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="grdtnLB_hlg_flower_on">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="Produce" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="bdroom_bday_cake">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="bdroom_bday_cake_off">
+        <action name="BdCakeFireIUp" >
+            <animation>
+                <self name="BdCakeFireIUp" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="bdroom_bday_cake_on">
+        <action name="BdCakeFireIDwn" >
+            <animation>
+                <self name="BdCakeFireIDwn" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+        
+    <group key="pinkbath_shower">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="pinkbath_shower_off">
+        <action name="TakeShower" >
+            <animation>
+                <self name="TakeShower"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="danceroom_djpult">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="danceroom_djpult_off">
+        <action name="Dj" >
+            <animation>
+                <self name="Dj"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Club2,Club1" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="sportroom_speedwalk">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sportroom_speedwalk_off">
+        <action name="Speedrun" >
+            <animation>
+                <self name="Speedrun"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="sportroom_fitball">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sportroom_fitball_off">
+        <action name="FitballJump" >
+            <animation>
+                <self name="FitballJump"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="gthcsbr_chest">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="gthcsbr_chest_off">
+        <action name="OpenChestHlwn" >
+            <animation>
+                <self name="OpenChestHlwn" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="craftedBLb_fishtank">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="craftedBLb_fishtank_off">
+        <action name="FeedFish" >
+            <animation>
+                <self name="FeedFish" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="rmfrwrkg_syntq">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="rmfrwrkg_syntq_off">
+        <action name="DrawSintq" >
+            <animation>
+                <self name="DrawSintq" tools="sint_pen" looped="1" />
+                <target name="action1" looped="1" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="DrawSintq" tools="sint_pen" looped="1" />
+                <target name="action2" looped="1" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="autumnLB_communicat">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="autumnLB_communicat_off">
+        <action name="UseConect" >
+            <animation>
+                <self name="UseConect" looped="0" cancelOnFinish="1"/>
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+            <animation>
+                <self name="UseConect" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+            <animation>
+                <self name="UseConect" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="july20LB_bench">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="july20LB_bench_off">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="FedBirdLB">
+            <animation>
+                <self name="FedBirdLB" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="july20LB_armchair_egg">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="july20LB_armchair_egg_off">
+        <action name="SitTP">
+            <animation>
+                <self name="SitTP" looped="0"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="strngroom_armchair_egg">
+        <action name="SitTP">
+            <animation>
+                <self name="SitTP" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="labroom_shelf_wall">
+        <action name="LookBottle">
+            <animation>
+                <self name="LookBottle" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="labroom_table_int">
+        <action name="SrchTbl">
+            <animation>
+                <self name="SrchTbl" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="labroom_decor_fm_floor">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+         <group key="labroom_decor_fm_floor_off">
+        <action name="TurnMeOn">
+            <animation>
+                <self name="Repair" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="labroom_decor_fm_floor_on">
+        <action name="TurnMeOff">
+            <animation>
+                <self name="Repair" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="strngroom_decor_window">
+        <action name="WaterFlower2">
+            <animation>
+                <self name="WaterFlower" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="swttroom_window">
+        <action name="CozyWinSit">
+            <animation>
+                <self name="CozyWinSit" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="swttroom_inter_table">
+        <action name="TeaDrink">
+            <animation>
+                <self name="TeaDrink" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="tmnlvgrm_bookcase">
+        <action name="LookFrBook">
+            <animation>
+                <self name="Sweep" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+        
+        <group key="autumnLB_bookshelf">
+        <action name="LookFrBook">
+            <animation>
+                <self name="Sweep" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="search" />
+            </animation>
+        </action>
+        <action name="SitAndRead">
+            <animation>
+                <self name="AvaTourReadBook" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="july20LB_couch">
+        <action name="LieCoach">
+            <animation>
+                <self name="LieCoach" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="july20LB_window">
+        <action name="tothebalcony">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="hospCraft_nursetable">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="Karaoke">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="Karaoke_on">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="Karaoke">
+            <animation>
+                <self name="SingKaraoke"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="Karaoke_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="standPlace" stateMusic="Club1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="gardenroom_vase_table_1">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="gardenroom_vase_table_1_on">
+        <action name="CutFlower1">
+            <animation>
+                <self name="CutFlower" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+    <group key="gardenroom_vase_table_1_off">
+        <action name="WaterFlower1">
+            <animation>
+                <self name="WaterFlower" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="pjparty_sofa_floor">
+            <action name="SitPicnic1">
+            <animation>
+                <self name="SitPicnic" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="writerroom_chess">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="writerroom_chess_off">
+        <action name="PlayChess">
+            <animation>
+                <self name="PlayChess"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            </action>
+            <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+        <group key="writerroom_worktable">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="writerroom_worktable_off">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="writerroom_worktable_on">
+        <action name="WriteText">
+            <animation>
+                <self name="WriteText"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="writerroom_rockchair">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="writerroom_rockchair_off">
+        <action name="CozySit">
+            <animation>
+                <self name="CozySit" looped="0"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            </action>
+            <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        </group>
+
+    <group key="gardenroom_seesaw">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        </group>
+        
+    <group key="gardenroom_seesaw_off">
+        <action name="grdnseesawPlay">
+            <animation>
+                <self name="PlaySeesaw"/>
+                <target name="on" standHolder="standPlace1" interactHolder="sitPlace1"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="woodenbath_lamp_wall">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+    
+    <group key="grkitchen_sink">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="grkitchen_sink_off">
+        <action name="ClearMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+    <group key="grkitchen_sink_on">
+        <action name="ClearMe">
+            <animation>
+                <self name="WashingHand"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="ClearMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="grkitchen_cooker">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="grkitchen_cooker_off">
+        <action name="CookMeOn">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="grkitchen_cooker_on">
+        <action name="CookMe">
+            <animation>
+                <self name="Cook"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="CookMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>     
+    </group>
+
+    <group key="wrbe_podium">
+        <action name="off">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="wrbe_podium_off">
+        <action name="modelPose">
+            <animation>
+                <self name="PodiumPose"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <group key="easel">
+        <action name="off">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="easel_off">
+        <action name="easelPaint">
+            <animation>
+                <self name="DoPaint"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="snowBall">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="snowBall_off">
+        <action name="snowBallKick">
+            <animation>
+                <self name="AssKick" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="crystalBall">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="crystalBall_off">
+        <action name="fortuneTell">
+            <animation>
+                <self name="TellFortune"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+    <group key="crystalBall_on">
+        <action name="fortuneTell">
+            <animation>
+                <self name="TellFortune"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+
+<!-- Список действий при клике НА ДРУГА -->
+
+    <group key="avatar">
+        <action name="schoolGreeting" privilege="schoolGreeting">
+            <price energy="5" />
+            <animation>
+                <self name="SchoolHi" looped="0"/>
+                <target name="SchoolHi" looped="0"/>
+            </animation>
+        </action>
+        <action name="bagBump">
+            <price energy="5" />
+            <animation front="0">
+                <self name="BagBump" looped="0" cancelOnFinish="1"/>
+                <target name="BagBumped" looped="0"/>
+            </animation>
+        </action>
+        <action name="vipGossip">
+            <price energy="12" />
+            <animation>
+                <self name="AvaTourGossip" looped="0" cancelOnFinish="1"/>
+                <target name="AvaTourGossip" looped="0"/>
+            </animation>
+        </action>        
+
+       <action name="Hlwn20RDia" privilege="Hlwn20RDia"> <!-- HELL 2020 -->
+            <price energy="7" />
+            <animation>
+                <self name="Hlwn20RDiaGhost" looped="0" cancelOnFinish="1"/>
+                <target name="Hlwn20RDiaHero" looped="0" cancelOnFinish="1"/>
+            </animation>
+            <animation>
+                <self name="Hlwn20RDiaVamp" looped="0" cancelOnFinish="1"/>
+                <target name="Hlwn20RDiaMan" looped="0" cancelOnFinish="1"/>
+            </animation>
+            </action>
+        <action name="Hlwn20SpookyDncPair" privilege="Hlwn20SpookyDncPair">
+            <price energy="7" />
+            <animation>
+                <self name="NY21ElfDance" looped="1"/>
+                <target name="NY21ElfDance" looped="1"/>
+            </animation>
+        </action>
+        <action name="BallroomKiss" privilege="Ny21MistletoeKiss">
+            <price energy="8" />
+            <animation>
+                <self name="AllKiss" tools="BallSprkKiss" looped="0" cancelOnFinish="1"/>
+                <target name="StandLongKiss" looped="0"/>
+            </animation>
+        </action>
+        <action name="BallroomKiss_nocens" privilege="Ny21MistletoeKiss_nocens">
+            <price energy="8" />
+            <animation>
+                <self name="AllKiss" tools="BallSprkKiss" looped="0" cancelOnFinish="1"/>
+                <target name="StandLongKiss" looped="0"/>
+            </animation>
+            <animation censure="1">
+                <self name="Hug" looped="0"/>
+                <target name="Hug" looped="0"/>
+            </animation>
+        </action>
+        <action name="BallroomDance" privilege="Hlwn20SpookyDncPair">
+            <price energy="11" />
+            <animation>
+                <self name="BallroomDance"/>
+                <target name="BallroomDance"/>
+            </animation>
+        </action>
+        <action name="BallroomPrank">
+            <price energy="8" />
+            <animation>
+                <self name="BallThrowGlv_in" looped="0" tools="WhiteGloveAn" cancelOnFinish="1"/>
+                <target name="BallThrowGlv_vict" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+<!-- Список действий при клике НА СЕБЯ -->
+
+    <group key="myAvatar">
+        <action name="schoolPoetry">
+            <price energy="7" />
+            <animation>
+                <self name="Poetry" />
+            </animation>
+        </action>
+        <action name="beachBlow">
+            <price energy="12" />
+            <animation>
+                <self name="AvaTourHandWind" />
+            </animation>
+        </action>
+        <action name="vipDance">
+            <price energy="8" />
+            <animation>
+                <self name="GrDance1" />
+            </animation>
+        </action>    
+        <action name="Hlwn20RMono"> <!-- HELL 2020 -->
+            <price energy="4" />
+            <animation>
+                <self name="Hlwn20RMono" />
+            </animation>
+        </action>
+        <action name="Hlwn20SpookyDnc">
+            <price energy="4" />
+            <animation>
+                <self name="NY21ElfDance" />
+            </animation>
+        </action>  
+        <action name="BallroomLights">
+            <price energy="5" />
+            <animation>
+                <self name="BurnSparkles" />
+            </animation>
+        </action> 
+    </group>
+    
+    <group key="refrigerator">
+        <action name="use" privilege="useRefrigerator">
+            <reward energy="50" />
+        </action>
+        <action name="trdFrnd">
+            <reward energy="50" />
+        </action>
+        <action name="useTheir">
+            <reward energy="50" />
+        </action>
+    </group>
+  
+
+<!-- СТОЛ УЧИТЕЛЯ - список действий -->
+
+    <group key="teachertable">
+        <action name="teachertable">
+            <price energy="7" />
+            <animation>
+                <self name="Teacher" />
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ПУСТАЯ ПАРТА - список действий -->
+
+    <group key="desctostudy">
+        <action name="study">
+            <price energy="12" />
+            <animation>
+                <self name="SitStudy"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="tabledance">
+            <price energy="5" />
+            <animation>
+                <self name="PairDance"/>
+                <target standHolder="standDance" interactHolder="actionPlace" />
+            </animation>
+        </action>
+        <action name="sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ШКАФ -->
+
+    <group key="bookshelf">
+        <action name="bookshelf">
+            <price energy="15" />
+            <animation>
+                <self name="Sweep" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="standPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ПАРТА ДЛЯ ЭКСПЕРИМЕНТОВ -->
+
+    <group key="chemdesc">
+        <action name="descexperiment">
+            <price energy="12" />
+            <animation>
+                <self name="ChemStudy"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА В КЛАССЕ - список возможных состояний. Нужен, чтобы правильно отрисовать доску при входе игрока на локу -->
+
+    <group key="blackboard">
+        <action name="idle">
+            <animation>
+                <target name="idle" looped="0"/>
+            </animation>
+        </action>
+        <action name="wight">
+            <animation>
+                <target name="action1stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="yellow">
+            <animation>
+                <target name="action2stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="pink">
+            <animation>
+                <target name="action3stop" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА В КЛАССЕ - список действий с пустой доской -->
+
+    <group key="blackboard_idle">
+        <action name="draw_wight">
+            <price silver="350" />
+            <animation>
+                <self name="DrawOnBoard" looped="0" tools="ChalkW" cancelOnFinish="1" />
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="draw_yellow">
+            <price gold="3" />
+            <animation>
+                <self name="DrawOnBoard" looped="0" tools="ChalkY" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="draw_pink">
+            <price gold="1" />
+            <animation>
+                <self name="DrawOnBoard" looped="0" tools="ChalkP" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА В КЛАССЕ - список действий с доской с чертежом -->
+
+    <group key="blackboard_wight">
+        <action name="clear_wight">
+            <price energy="5" />
+            <animation>
+                <self name="CleanBoard" looped="0" cancelOnFinish="1"/>
+                <target name="clean1" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА В КЛАССЕ - список действий с доской с котиком -->
+
+    <group key="blackboard_yellow">
+        <action name="clear_yellow">
+            <price energy="5" />
+            <animation>
+                <self name="CleanBoard" looped="0" cancelOnFinish="1"/>
+                <target name="clean2" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА В КЛАССЕ - список действий с доской с розовым лого -->
+
+    <group key="blackboard_pink">
+        <action name="clear_pink">
+            <price energy="5" />
+            <animation>
+                <self name="CleanBoard" looped="0" cancelOnFinish="1"/>
+                <target name="clean3" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ТАНЕЦ В КЛУБЕ -->
+
+    <group key="PairDance">
+        <action name="PairDance">
+            <price energy="15" />
+            <animation>
+                <self name="PairDance" looped="0"/>
+                <target name="PairDance" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+<!-- СТОЛ В КАФЕ - список действий -->
+
+    <group key="hellcafe_table">
+        <action name="hallCelebrate">
+            <price energy="6" />
+            <animation>
+                <self name="HallCelebrate"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- СТОЛ С НАСТОЛКАМИ - список действий -->
+
+    <group key="hellcafe_games">
+        <action name="hallPlayGames">
+            <price energy="15" />
+            <animation>
+                <self name="HallPlayGames"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ОКНО С МОНСТРОМ - список действий -->
+
+    <group key="hell_window">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="hell_window_off">
+        <action name="hallLookInWindow">
+            <price energy="8" />
+            <animation>
+                <self name="HallLookInWindow" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="lookNE" interactHolder="lookNE" />
+            </animation>
+        </action>
+    </group>
+
+<!-- КАССА В КАФЕ - список действий -->
+
+    <group key="hall_cshmchn">
+        <action name="idle">
+            <animation>
+                <target name="idle" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="hall_cshmchn_idle">
+        <action name="hallTipLow">
+            <price silver="250" />
+            <animation>
+                <self name="HallTip" looped="0" cancelOnFinish="1" />
+                <target name="action1" looped="0" standHolder="dropTipsNW" interactHolder="dropTipsNW" />
+            </animation>
+        </action>
+        <action name="hallTipMedium">
+            <price gold="1" />
+            <animation>
+                <self name="HallTip" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="dropTipsNW" interactHolder="dropTipsNW" />
+            </animation>
+        </action>
+        <action name="hallTipHigh">
+            <price gold="3" />
+            <animation>
+                <self name="HallTip" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="dropTipsNW" interactHolder="dropTipsNW" />
+            </animation>
+        </action>
+    </group>
+
+<!-- МУЗЫКАЛЬНЫЙ АВТОМАТ - список действий -->
+
+    <group key="hall_jukebox">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="hall_jukebox_off">
+        <action name="hallPlayMusic">
+            <price energy="15" />
+            <animation>
+                <self name="HallPlayMusic" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="lookNE" interactHolder="lookNE" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="strFountain">
+        <action name="tossCoin">
+            <price energy="5" />
+            <animation>
+                <self name="HallTip" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkSeesaw">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkSeesaw_off">
+        <action name="sswRock">
+            <animation>
+                <self name="PlaySeesaw"/>
+                <target name="on" standHolder="standPlace1" interactHolder="sitPlace1"/>
+            </animation>
+        </action>
+        <action name="sswCare">
+            <price energy="7" />
+            <animation>
+                <self name="HelpSeesaw" looped="0" cancelOnFinish="1"/>
+                <target name="push" looped="0" standHolder="standPlace2" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkSeesaw_on">
+        <action name="sswRock">
+            <animation>
+                <self name="PlaySeesaw"/>
+                <target name="on" standHolder="standPlace1" interactHolder="sitPlace1"/>
+            </animation>
+        </action>
+        <action name="sswCare">
+            <price energy="7" />
+            <animation>
+                <self name="HelpSeesaw" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace2" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkPicnic">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkPicnic_off">
+        <action name="OpenPicnic">
+            <price energy="5" />
+            <animation>
+                <self name="OpenPicnic" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="actionPlace" looped="0" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+        <action name="SitPicnic">
+            <animation>
+                <self name="SitPicnic"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkPicnic_on">
+        <action name="ClosePicnic">
+            <price energy="5" />
+            <animation>
+                <self name="OpenPicnic" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="actionPlace" looped="0" interactHolder="actionPlace"/>
+            </animation>
+        </action>
+        <action name="SitPicnic">
+            <animation>
+                <self name="SitPicnic"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkDuckling">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="prkDuckling_off">
+        <action name="DuckFeed">
+            <price energy="7" />
+            <animation>
+                <self name="FedDuckling" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+     <group key="sanitizer_home">
+        <action name="epidWashHome">
+            <animation>
+                <self name="WashingHand" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="estr_craft_musicegg">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"  looped="0" stateMusic="MusicEgg"/> 
+            </animation>
+        </action>
+    </group>
+
+    <group key="estr_craft_musicegg_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0"  standHolder="standPlace" interactHolder="standPlace" stateMusic="MusicEgg"/>
+                <sound name="BonusDrop" />
+            </animation>
+        </action>
+        </group>
+        <group key="estr_craft_musicegg_on">
+        <action name="TurnMeOff">   
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="standPlace"/>
+                <sound name="BonusDrop" />
+            </animation>
+        </action>
+        </group>
+ 
+    <group key="homeGuitar">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="homeGuitar_off">
+        <action name="homePlayGuitar">
+            <animation>
+                <self name="GrGuitar"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="1"/>
+                <sound name="Guitar" set="homeConcert" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="homeBass">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="homeBass_off">
+        <action name="homePlayBass">
+            <animation>
+                <self name="GrBass"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="1"/>
+                <sound name="Bass" set="homeConcert" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="gthcsbr_organ">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="gthcsbr_organ_off">
+        <action name="PlayOrgan">
+            <animation>
+                <self name="PlayOrgan" looped="1"/>
+                <target name="on" looped="1" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Org"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="homeKeys">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="homeKeys_off">
+        <action name="homePlayKeys">
+            <animation>
+                <self name="GrSynth"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="1"/>
+                <sound name="Piano" set="homeConcert" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="homeDrums">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="homeDrums_off">
+        <action name="homePlayDrums">
+            <animation>
+                <self name="GrDrum"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="1"/>
+                <sound name="Drum" set="homeConcert" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="avatour_bench">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSitRead">
+            <price energy="6" />
+            <animation>
+                <self name="AvaTourReadBook"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="avatour_parkbench">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSitRead">
+            <price energy="6" />
+            <animation>
+                <self name="AvaTourReadBook"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="hammock">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+
+    <group key="hammock_off">
+        <action name="LieCoach">
+            <animation>
+                <self name="Lie" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="avatour_pool">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group> 
+    <group key="avatour_pool_off">
+        <action name="sitInBath">
+            <animation>
+                <self name="SitInBath" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="swimInRing">
+            <animation>
+                <self name="PoolRubbering" looped="1"/>
+                <target  name="on" standHolder="standPlace" interactHolder="rubbering" />
+            </animation>
+        </action>
+    </group> 
+    <group key="kotatsu">
+        <action name="kotatsuTea">
+            <animation>
+                <self name="Kotatsutea"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group> 
+
+    <group key="grsink_mirror">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+    <group key="grsink_mirror_off">
+        <action name="ClearMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="MakeUp" >
+            <animation>
+                <self name="MakeUp" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+    <group key="grsink_mirror_on">
+        <action name="ClearMe">
+            <animation>
+                <self name="WashingHand"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="ClearMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="MakeUp" >
+            <animation>
+                <self name="MakeUp" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+
+    <group key="hlwn_balloon">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+    <group key="hlwn_balloon_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+    <group key="hlwn_balloon_on">
+        <action name="TurnMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="circus_chair">
+        <action name="circusSit">
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    
+    <group key="spirit_talk">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="spirit_talk_off">
+        <action name="spiritTalk">
+            <animation>
+                <self name="SipirtTalk" />
+                <target name="on" standHolder="standPlace1" interactHolder="ActionPlace1" />
+            </animation>
+        </action>
+        <action name="SitPicnic1">
+            <animation>
+                <self name="SitPillow"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            </action>
+    </group>
+
+   
+    <group key="musicbox">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="musicbox_off">
+        <action name="musicboxPlay">
+            <animation>
+                <self name="PlayMB" looped="1" cancelOnFinish="1"/>
+                <target name="on" looped="1" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Sharm" />
+                </animation>
+        </action>
+        </group>
+
+    <group key="dankar_chair">
+        <action name="furSit" >
+            <animation>
+                <self name="SitCollab"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>   
+
+    <group key="wntgrdrm_seesaw">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="wntgrdrm_seesaw_off">
+        <action name="winterSeesaw">
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="wntgrdrm_seesaw_on">
+        <action name="winterSeesaw">
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>  
+
+    <group key="wntgrdrm_lamp_big">
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="wntgrdrm_lamp_big_on">
+        <action name="CheckTheLight">
+            <price energy="11" />
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="action" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="wntgrdrm_decor_floor">
+        <action name="ChopBush">
+            <animation>
+                <self name="CutFlower" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="conveyor">
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="conveyor_on">
+        <action name="WorkConvHome">
+            <animation>
+                <self name="NY21WorkConv" looped="1" />
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    
+        <group key="xmastree">
+        <action name="LookGifts" >
+            <animation>
+                <self name="TakeAGift" tools="xmasgift1" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="TakeAGift" tools="xmasgift2" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="TakeAGift" tools="xmasgift3" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+        <group key="xmas_cooker">
+            <action name="off">
+                <animation>
+                    <target name="off"/>
+                </animation>
+            </action>
+            <action name="on">
+                <animation>
+                    <target name="on"/>
+                </animation>
+            </action>
+            <action name="action">
+                <animation>
+                    <target name="action" looped="0"/>
+                </animation>
+            </action>
+        </group>
+
+    <group key="xmas_cooker_off">
+        <action name="CookMeOn">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="xmas_cooker_on">
+        <action name="CheckCookis">
+            <animation>
+                <self name="UseScrewdriver" looped="0" cancelOnFinish="1"/>
+                <target name="action" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="CookMe">
+            <animation>
+                <self name="Cook"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="CookMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>     
+    </group>
+
+    <group key="mdntrm_xmastree">
+        <action name="DecorCheck">
+            <animation>
+                <self name="Hlwn20Kadr" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="photoarch">
+        <action name="PhotoPose">
+            <animation>
+                <self name="PhotoPose1" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose2" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose3" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose4" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose5" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose6" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose7" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose8" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose9" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose10" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="table_drink">
+        <action name="TakeADrink">
+            <animation>
+                <self name="TakeDrink" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="AcGuitar">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group> 
+
+    <group key="AcGuitar_off">
+        <action name="PlayAcGuitar">
+            <animation>
+                <self name="PlayHmGuit" looped="1"/>
+                <target name="on" looped="1" standHolder="standPlace" interactHolder="sitPlace2"/>
+                <music name="Guit"/>
+            </animation>
+        </action>
+        <action name="SitPicnic1">
+            <animation>
+                <self name="SitPicnic"/>
+                <target standHolder="standPlace" interactHolder="sitPlace1" />
+            </animation>
+        </action>
+    </group>
+
+
+    <!-- NEW YEAR 2021 -->
+
+    <group key="ny21_worktable">
+        <action name="Ny21CraftGiftL">
+            <price silver="350" />
+            <animation>
+                <self name="NY21CraftGifts_low" looped="0" cancelOnFinish="1" />
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="Ny21CraftGiftM">
+            <price gold="1" />
+            <animation>
+                <self name="NY21CraftGifts_m" looped="0" cancelOnFinish="1"/>
+                <target looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="Ny21CraftGiftH">
+            <price gold="3" />
+            <animation>
+                <self name="NY21CraftGifts_h" looped="0" cancelOnFinish="1"/>
+                <target looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_sofa">
+        <action name="Ny21MakeToast">
+            <price energy="9" />
+            <animation>
+                <self name="MakeToast"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+        <action name="hlwnSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_sleigh">
+        <action name="Ny21CheckGift">
+            <price energy="8" />
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"  />
+                <target standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+    </group>
+
+    <group key="Santa_npc">
+        <action name="Ny21SantaTalk">
+            <price energy="10" />
+            <animation>
+                <self name="Teacher" tools="NYBubble1" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            <animation>
+                <self name="Teacher" tools="NYBubble2" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            <animation>
+                <self name="Teacher" tools="NYBubble3" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_wish_bench">
+        <action name="Ny21MakeAWish">
+            <price energy="12" />
+            <animation>
+                <self name="NY21MakeAWish1" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            <animation>
+                <self name="NY21MakeAWish2" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            <animation>
+                <self name="NY21MakeAWish3" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>-->
+        <action name="hlwnSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_rudolf">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_rudolf_off">
+        <action name="Ny21Rudolf">
+            <animation>
+                <self name="SitOnHorse"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+        <group key="ny21_fireplace">
+        <action name="Ny21TakeFrmSock">
+            <price energy="9" />
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"  />
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_conveyor">
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="ny21_conveyor_on">
+        <action name="Ny21WorkConv">
+            <price energy="11" />
+            <animation>
+                <self name="NY21WorkConv" looped="1" />
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="sh_worktable">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sh_worktable_off">
+        <action name="sh_sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sh_worktable_on">
+        <action name="sh_text">
+            <animation>
+                <self name="WriteText"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="sh_sit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sh_artifact">
+        <action name="sh_clean">
+            <animation>
+                <self name="CleanBoard" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="detective_desk">
+        <action name="sh_detect">
+            <animation>
+                <self name="Hlwn20Kadr" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="comics_read">
+        <action name="sh_read">
+            <animation>
+                <self name="WindowRead" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="sh_photo">
+        <action name="sh_pose">
+            <animation>
+                <self name="PhotoPose1" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose2" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose3" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose4" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose5" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose6" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose7" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose8" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose9" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="PhotoPose10" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="rabbit_party">
+        <action name="HugTheRabbit">
+            <animation>
+                <self name="HugRabbit" looped="0" />
+                <target standHolder="standPlace1" interactHolder="sitPlace1"/>
+            </animation>
+        </action> 
+        <action name="RabbitSit">
+            <animation>
+                <self name="SeatAtTree2"/>
+                <target standHolder="standPlace" interactHolder="sitPlace2"/>
+            </animation>
+            <animation>
+                <self name="SeatAtTree1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace3"/>
+            </animation>
+            <animation>
+                <self name="SitPicnic"/>
+                <target standHolder="standPlace" interactHolder="sitPlace4"/>
+            </animation>
+        </action> 
+    </group>
+
+    <!-- DSV LOVE 2021 -->
+
+    <!-- DINNER TABLE DSV LOVE 2021 -->
+
+    <group key="dsv21_table">
+        <action name="dsvMakeToast">
+            <price energy="7" />
+            <animation>
+                <self name="MakeToast" tools="svd21HotDrnk" looped="1" />
+                <target standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+        <action name="dsvSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <!-- BENCH DSV LOVE 2021 -->
+
+    <group key="dsv21_bench">
+        <action name="dsvSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <!-- SEESAW DSV LOVE 2021 -->
+
+    <group key="dsv21_seesaw">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_seesaw_off">
+        <action name="dsvSeesaw">
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_seesaw_on">
+        <action name="dsvSeesaw">
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <!-- DJ DSV LOVE 2021 -->
+
+    <group key="dsv21_djpult">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_djpult_off">
+        <action name="dsvDJ" >
+            <price energy="12" />
+            <animation>
+                <self name="Dj"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <!-- CUPID STT DSV LOVE 2021 -->
+
+    <group key="dsv21_cupid">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+
+    <group key="dsv21_cupid_off">
+        <action name="dsvPntStt">
+            <price energy="10" />
+            <animation>
+                <self name="PaintSt"  tools="svd21PaintBln" looped="0" cancelOnFinish="1"/>
+                <target name="action" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_cupid_on">
+        <action name="dsvClrStt">
+            <price energy="10" />
+            <animation>
+                <self name="CleanBoard" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <!-- SNOWMAN DSV LOVE 2021 -->
+
+    <group key="dsv21_snowman">
+        <action name="idle">
+            <animation>
+                <target name="idle" looped="0"/>
+            </animation>
+        </action>
+        <action name="L">
+            <animation>
+                <target name="action1stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="M">
+            <animation>
+                <target name="action2stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="H">
+            <animation>
+                <target name="action3stop" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_snowman_idle">
+        <action name="dsvCrSnw_L">
+            <price silver="350" />
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1" />
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="dsvCrSnw_M">
+            <price gold="1" />
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="dsvCrSnw_H">
+            <price gold="3" />
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_snowman_L">
+        <action name="dsvKick_L">
+            <price energy="7" />
+            <animation>
+                <self name="AssKick" looped="0" cancelOnFinish="1"/>
+                <target name="broke1" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_snowman_M">
+        <action name="dsvKick_M">
+            <price energy="7" />
+            <animation>
+                <self name="AssKick" looped="0" cancelOnFinish="1"/>
+                <target name="broke2" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_snowman_H">
+        <action name="dsvKick_H">
+            <price energy="7" />
+            <animation>
+                <self name="AssKick" looped="0" cancelOnFinish="1"/>
+                <target name="broke3" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+     <!-- LOVETREE DSV LOVE 2021 -->
+
+    <group key="dsv21_lovetree">
+        <action name="dsvLocker">
+            <price energy="8" />
+            <animation>
+                <self name="Cook" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <!-- DSV 2021 additional -->
+
+    <group key="svd_flwr">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_flwr_off">
+        <action name="WaterFlower">
+            <price energy="5" />
+            <animation>
+                <self name="WaterFlower" looped="0" cancelOnFinish="1"/>
+                <target name="on" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_flwr_on">
+        <action name="CutFlower">
+            <price energy="12" />
+            <animation>
+                <self name="CutFlower" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_mirror">
+        <action name="off">
+            <animation>
+                <target name="idle" looped="1"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="idle" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_mirror_off">
+        <action name="LookMirror">
+            <price silver="500" />
+            <animation>
+                <self name="LookMirror" looped="0" cancelOnFinish="1"/>
+                <target name="forever_alone" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="LookMirror" looped="0" cancelOnFinish="1"/>
+                <target name="in_love" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="LookMirror" looped="0" cancelOnFinish="1"/>
+                <target name="happy_end" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_sofa">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_sofa_off">
+        <action name="svdSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_cupid">
+        <action name="idle">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_cupid_idle">
+        <action name="AskCupidon">
+            <price energy="7" />
+            <animation>
+                <self name="AskCupidon" looped="0" cancelOnFinish="1"/>
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="AskCupidon" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_firepan">
+        <action name="off">
+            <animation>
+                <target name="lovefire_1" looped="1"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="lovefire_1" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_firepan_off">
+        <action name="FirepanWishing">
+            <price energy="5" />
+            <animation>
+                <self name="FirepanWishing" looped="0" cancelOnFinish="1"/>
+                <target name="lovefire_2" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="FirepanWishing" looped="0" cancelOnFinish="1"/>
+                <target name="lovefire_3" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <!-- DSV LOVE 2021 till here-->
+
+    <group key="love_tree">
+        <action name="sitUnderTree">
+            <animation>
+                <self name="SitRelax"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="love_pillow">
+        <action name="sitTogether">
+            <animation>
+                <self name="SitTgthr"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="love_beauty_table">
+        <action name="MakeUp">
+            <animation>
+                <self name="MkMkup"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="love_bookshelf">
+        <action name="LookFrBook">
+            <animation>
+                <self name="PaintSt" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace1" interactHolder="sitPlace1" />
+            </animation>
+        </action>
+        <action name="SitAndRead">
+            <animation>
+                <self name="AvaTourReadBook" looped="1"/>
+                <target standHolder="standPlace2" interactHolder="sitPlace2" />
+            </animation>
+        </action>
+    </group>
+
+     <group key="teathr">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="teathr_off">
+        <action name="playteathr">
+            <animation>
+                <self name="BePerformer" looped="1"/>
+                <target name="action" standHolder="standAction" interactHolder="ActionPlace" />
+            </animation>
+        </action>
+        <action name="watchteathr">
+            <animation>
+                <self name="SitPillow"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+            </action>
+    </group>
+
+   
+    <group key="Yangqin">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="Yangqin_off">
+        <action name="playYangqin">
+            <animation>
+                <self name="PlayYangqin" looped="1" cancelOnFinish="1"/>
+                <target name="on" looped="1" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Asian" />
+                </animation>
+        </action>
+    </group>
+
+    <group key="svd_sofa_home">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="svd_sofa_home_off">
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_table_home">
+        <action name="MakeToastHome">
+            <animation>
+                <self name="MakeToast" tools="svd21HotDrnk" looped="1" />
+                <target standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_djpult_home">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_djpult_home_off">
+        <action name="Dj" >
+            <animation>
+                <self name="Dj"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="Inspired" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="dsv21_lovetree_home">
+        <action name="dsvLockerHome">
+            <animation>
+                <self name="Cook" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>               
+            </animation>
+        </action> 
+    </group>
+
+    <group key="flower_stand">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="L">
+            <animation>
+                <target name="action1stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="M">
+            <animation>
+                <target name="action2stop" looped="0"/>
+            </animation>
+        </action>
+        <action name="H">
+            <animation>
+                <target name="action3stop" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="flower_stand_off">
+        <action name="putSeedFlower">
+            <animation>
+                <self name="Planting" looped="0" cancelOnFinish="1" />
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace1" />
+            </animation>
+        </action>
+    </group>
+    
+    <group key="flower_stand_L">    
+        <action name="putWaterFlower">
+            <animation>
+                <self name="WaterFlower" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace2" />
+            </animation>
+        </action>
+        <action name="removeFlower">
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace3"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="flower_stand_M">
+        <action name="putWaterFlowerMore">
+            <animation>
+                <self name="WaterFlower" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace2"/>
+            </animation>
+        </action>
+        <action name="removeFlower">
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace3"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="flower_stand_H">
+        <action name="removeFlower">
+            <animation>
+                <self name="OpenGifts" looped="0" cancelOnFinish="1"/>
+                <target name="off" looped="0" standHolder="standPlace" interactHolder="sitPlace3"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="tree_chairs">
+        <action name="treeChair" >
+            <animation>
+                <self name="SitIdle" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="fireplace_int">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="fireplace_int_off">
+        <action name="TurnMeOn" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="fireplace_int_on">
+        <action name="warmHand" >
+            <animation>
+                <self name="Warming" looped="1" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sofa_relax">
+        <action name="layRelax">
+            <animation>
+                <self name="SitRelax" />
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="book_of_magic">
+        <action name="on">
+            <animation>
+                <target name="on" looped="1"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="book_of_magic_on">
+        <action name="makeMagic">
+            <animation>
+                <self name="MagicCraft" looped="1" />
+                <target name="action" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+
+    <group key="retro_music">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="retro_music_off">
+        <action name="playRetro" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace" stateMusic="Retromusic"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="retro_music_on">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+    
+     <group key="bilard">
+        <action name="bilardThink" >
+            <animation>
+                <self name="SrchTbl" looped="1" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+     <group key="moto_sofa">
+        <action name="motoSitOne">
+            <animation>
+                <self name="SitOnHorse" looped="0"/>
+                <target standHolder="standPlace1" interactHolder="sitPlace1" />
+            </animation>
+        </action>
+        <action name="motoSitTwo">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace1" interactHolder="sitPlace2" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_modern">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="A">
+            <animation>
+                <target name="mrchtv1"/>
+            </animation>
+        </action>
+        <action name="B">
+            <animation>
+                <target name="mrchtv2"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_modern_off">
+        <action name="screenOnFirst" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv1" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv2" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_modern_A">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv2" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="cinema_modern_B">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnFirst">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv1" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="cinema_glamour">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="C">
+            <animation>
+                <target name="mrchtv3"/>
+            </animation>
+        </action>
+        <action name="D">
+            <animation>
+                <target name="mrchtv4"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_glamour_off">
+        <action name="screenOnFirst" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv3" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv4" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_glamour_C">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv4" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="cinema_glamour_D">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnFirst">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv3" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="cinema_classic">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="E">
+            <animation>
+                <target name="mrchtv5"/>
+            </animation>
+        </action>
+        <action name="F">
+            <animation>
+                <target name="mrchtv6"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_classic_off">
+        <action name="screenOnFirst" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv5" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv6" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="cinema_classic_E">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnSecond">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv6" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <group key="cinema_classic_F">
+        <action name="TurnMeOff" >
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="screenOnFirst">
+            <animation>
+                <self name="SteamPunkShoot" looped="0" cancelOnFinish="1"/>
+                <target name="mrchtv5" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+        <action name="watchFilm">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action> 
+    </group>
+
+    <!-- КИНОСТУДИЯ 2021 -->
+
+    <!-- СТУЛ РЕЖИССЁРА HELL2020 -->
+    
+<group key="filmprod_dir_chair">
+        <action name="idle">
+            <animation>
+                <target name="idle" looped="0"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="filmprod_dir_chair_idle">
+        <action name="Hlwn20Director">
+            <price energy="10" />
+            <animation>
+                <self name="Hlwn20Director"/>
+                <target name="action" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- КАМЕРА HELL2020 -->
+<group key="filmprod_camera">
+        <action name="off">
+            <animation>
+                <target name="off" looped="0"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+<group key="filmprod_camera_off">
+        <action name="Hlwn20Operator">
+            <price energy="10" />
+            <animation>
+                <self name="Hlwn20Operator"/>
+                <target name="on" standHolder="standPlace1" interactHolder="sitPlace1" />
+            </animation>
+        </action>
+        <action name="Hlwn20AnounShot">
+            <price energy="8" />
+            <animation>
+                <self name="Hlwn20AnounShot" looped="0" cancelOnFinish="1" />
+                <target standHolder="standPlace2" interactHolder="sitPlace2" />
+            </animation>
+            </action>
+    </group>
+
+
+    <!-- МОНТАЖ HELL2020 -->
+
+<group key="filmprod_montage">
+        <action name="Hlwn20Montage">
+            <price energy="12" />
+            <animation>
+                <self name="Hlwn20Montage"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ДОСКА С КАДРАМИ HELL2020 -->
+
+<group key="filmprod_desk">
+        <action name="Hlwn20Kadr">
+            <price energy="8" />
+            <animation>
+                <self name="Hlwn20Kadr" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+<!-- ГРИМЁРНЫЙ СТОЛ HELL2020 -->
+
+<group key="trumo_hlwn">
+        <action name="MakeUpHlwn" >
+            <price energy="6" />
+            <animation>
+                <self name="MakeUp" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+        </group>
+
+    <!-- ИГРАТЬ РОЛЬ HELL2020 -->
+
+
+    <group key="filmprod_krest">
+        <action name="Hlwn20PlayRole">
+            <price silver="350" />
+            <animation>
+                <self name="PlayEnvy" tools="BubbleEmAngry" looped="0" cancelOnFinish="1" />
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="Hlwn20PlayRole1">
+            <price gold="1" />
+            <animation>
+                <self name="PlayLover" tools="BubbleEmLove" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="Hlwn20PlayRole2">
+            <price gold="3" />
+            <animation>
+                <self name="PlayCute" tools="BubbleEmCute" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="filmprod_decor_sit">
+        <action name="filmprodToast">
+            <animation>
+                <self name="MakeToast" tools="MakeToastGlass" looped="1" />
+                <target standHolder="standPlace" interactHolder="sitPlace"  />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="sew_stand">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sew_stand_off">
+        <action name="makeSewAct" >
+            <animation>
+                <self name="DrawSintq" tools="needle" looped="1" />
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="DrawSintq" tools="needle" looped="1" />
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+            <animation>
+                <self name="DrawSintq" tools="needle" looped="1" />
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sew_stand_on">
+        <action name="dropSewAct" >
+            <animation>
+                <self name="WriteText" looped="0" cancelOnFinish="1"/>
+                <target name="off" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="sofa_sit_relax">
+        <action name="relaxSit" >
+            <animation>
+                <self name="CozySit" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+    </group>   
+
+    <!-- Бальный зал 2021 -->
+<!-- Музыкальные инструменты -->
+
+    <group key="BR_Violin">
+        <action name="idle">
+            <animation>
+                <target name="idle" looped="0"/>
+            </animation>
+        </action>
+        <action name="action">
+            <animation>
+                <target name="action" looped="0"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="BR_Violin_idle">
+        <action name="BallroomViolin">
+            <price energy="10" />
+            <animation>
+                <self name="PlayViolin" looped="1"/>
+                <target name="action" looped="0" standHolder="standPlace" interactHolder="sitPlace"/>
+                <music name="1"/>
+                <sound name="playViolin" set="homeConcert" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="BR_Piano">
+        <action name="BallroomPiano">
+            <price energy="10" />
+            <animation>
+                <self name="Piano"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+                <music name="1"/>
+                <sound name="playPiano" set="homeConcert" />
+            </animation>
+        </action>
+    </group>
+
+<!-- Маски -->  
+
+    <group key="BR_masks">
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        <action name="L">
+            <animation>
+                <target name="action1"/>
+            </animation>
+        </action>
+        <action name="M">
+            <animation>
+                <target name="action2" />
+            </animation>
+        </action>
+        <action name="H">
+            <animation>
+                <target name="action3" />
+            </animation>
+        </action>
+    </group> -->  
+
+    <group key="BR_masks_on">
+        <action name="BallroomMaskL">
+            <price silver="350" />
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask1L,balroom_mask1R" looped="0" cancelOnFinish="1"/>
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="BallroomMaskM">
+            <price gold="1" />
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask2L,balroom_mask2R" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="BallroomMaskH">
+            <price gold="3" />
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask3L,balroom_mask3R" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>  
+
+    <!-- уголок для чтения --> 
+
+    <group key="BR_read">
+        <action name="BallroomRead">
+            <price energy="7" />
+            <animation>
+                <self name="BallReadBook"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <!-- шоколадный фонтан -->
+
+    <group key="BR_Chocolate">
+        <action name="BallroomChocolate">
+            <price energy="9" />
+            <animation>
+                <self name="TasteChoco" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+   <!-- диваны для празднования -->
+
+    <group key="BR_Toast">
+        <action name="BallroomToast">
+            <price energy="9" />
+            <animation>
+                <self name="MakeToast" tools="MakeToastGlass" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="big_podium">
+        <action name="monoSpeech">
+        <animation>
+                <self name="Hlwn20RMono" looped="1"/>
+                <target standHolder="standPlace" interactHolder="actionPlace1" />
+            </animation>
+        </action>
+        <action name="modelPoseBigPodium">
+            <animation>
+                <self name="PodiumPose" looped="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="ballet_stand">
+        <action name="off">
+            <animation>
+                <target name="off"/>
+            </animation>
+        </action>
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="ballet_stand_off">
+        <action name="TurnMeOn">
+            <animation>
+                <self name="SteamPunkShoot" looped="0"/>
+                <target name="on" standHolder="standPlace" interactHolder="standPlace" stateMusic="nyCastle1"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="ballet_stand_on">
+        <action name="dancePa">
+            <animation>
+                <self name="MakeAPa" looped="1"/>
+                <target name="on" standHolder="standPlace" interactHolder="sitPlace"/>
+            </animation>
+        </action>
+         <action name="TurnMeOff">
+            <animation>
+                <self name="SteamPunkShoot" looped="0"/>
+                <target name="off" standHolder="standPlace" interactHolder="standPlace"/>
+            </animation>
+        </action>
+    </group>
+
+    <group key="BRHome_masks">
+        <action name="on">
+            <animation>
+                <target name="on"/>
+            </animation>
+        </action>
+        <action name="L">
+            <animation>
+                <target name="action1"/>
+            </animation>
+        </action>
+        <action name="M">
+            <animation>
+                <target name="action2" />
+            </animation>
+        </action>
+        <action name="H">
+            <animation>
+                <target name="action3" />
+            </animation>
+        </action>
+    </group> -->  
+
+    <group key="BRHome_masks_on">
+        <action name="BRHomeMaskL">
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask1L,balroom_mask1R" looped="0" cancelOnFinish="1"/>
+                <target name="action1" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="BRHomeMaskM">
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask2L,balroom_mask2R" looped="0" cancelOnFinish="1"/>
+                <target name="action2" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="BRHomeMaskH">
+            <animation>
+                <self name="MakeupMask" tools="balroom_mask3L,balroom_mask3R" looped="0" cancelOnFinish="1"/>
+                <target name="action3" looped="0" standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>  
+
+    <group key="BRHome_read">
+        <action name="BRHomeRead">
+            <animation>
+                <self name="BallReadBook"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+        <action name="furSit">
+            <animation>
+                <self name="SitDown" looped="0"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+    <group key="BRHome_Chocolate">
+        <action name="BRHomeChocolate">
+            <animation>
+                <self name="TasteChoco" looped="0" cancelOnFinish="1"/>
+                <target standHolder="standPlace" interactHolder="sitPlace" />
+            </animation>
+        </action>
+    </group>
+
+</config>

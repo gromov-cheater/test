@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<config>
+<!-- 2020 July craft -->
+
+    <craftedItem itemId="autumnLB_" tab="event" title="autumnLB_label" views="chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,communicat_ble,rabbit,rabbit,bed,bed,bed,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,plant_table_1,sofa,sofa,sofa,sofa,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,communicat_y,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,paint_wall_1,TV,TV,coffe_table_r,coffe_table_r,coffe_table_r,coffe_table_r,coffe_table_r,coffe_table_r,coffe_table_r,coffe_table_r,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,clock_wall,wardrobe,wardrobe,wardrobe,wardrobe,wardrobe,wardrobe,wardrobe,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,plant_table_2,communicat_r,fireplace,fireplace,fireplace,window,window,window,window,window,window,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_floor,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,wall,wall,wall,wall,wall,wall,floor,floor,floor,floor,floor,armchair,armchair,armchair,armchair,armchair,armchair,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,carpet_1,bookshelf,bookshelf,bookshelf,door,door,door,door,door,door,door,door,door,coffe_table_gr,coffe_table_gr,coffe_table_gr,coffe_table_gr,coffe_table_gr,coffe_table_gr,coffe_table_gr,coffe_table_gr,table,table,table,table,table,table,table,table,chair,chair,chair,chair,chair,chair,chair,chair,chair,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,paint_wall_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2,carpet_2">
+        <component itemId="CleverIdea" count="480"/>
+        <component itemId="CleverApple" count="120"/>
+        <component itemId="CleverFlask" count="60"/>
+        <component itemId="CleverPencils" count="26"/>
+    </craftedItem>  
+    <craftedItem itemId="schoolivt_paint_wall" tab="event">
+        <component itemId="CleverIdea" count="399" />
+        <component itemId="CleverCupcake" count="99" />
+        <component itemId="CleverFlask" count="44" />
+        <component itemId="CleverCalc" count="44" />
+    </craftedItem>
+    <craftedItem itemId="schoolivt_lamp_table" tab="event">
+        <component itemId="CleverIdea" count="777" />
+        <component itemId="CleverApple" count="160" />
+        <component itemId="CleverPin" count="160" />
+        <component itemId="CleverPencils" count="44" />
+    </craftedItem>
+    <craftedItem itemId="schoolivt_hlgrmm" views="_d,_c" tab="event">
+        <component itemId="CleverIdea" count="2700" />
+        <component itemId="CleverPin" count="399" />
+        <component itemId="CleverFlask" count="199" />
+        <component itemId="CleverCalc" count="199" />
+    </craftedItem>
+    <craftedItem itemId="schoolivt_fireplace" tab="event">
+        <component itemId="CleverIdea" count="3333" />
+        <component itemId="CleverApple" count="666" />
+        <component itemId="CleverCupcake" count="666" />
+        <component itemId="CleverPencils" count="180" />
+    </craftedItem>
+    <craftedItem itemId="schoolivt_plant_table" views="_1,_2" tab="event">
+        <component itemId="CleverIdea" count="1200" />
+        <component itemId="CleverCupcake" count="199" />
+        <component itemId="CleverCalc" count="99" />
+        <component itemId="CleverPencils" count="66" />
+    </craftedItem>
+
+    <craftedItem itemId="july20LB_" tab="default" title="DualityGacha_label" views="chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,chest,red_panda,red_panda,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,shelf_bk_wall,bench_dw,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,paint_ballerina,bed,bed,bed,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,vase3,window,window,window,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,vase1,armchair_egg,armchair_egg,armchair_egg,dinner_table,dinner_table,dinner_table,dinner_table,dinner_table,dinner_table,dinner_table,chair,chair,chair,chair,chair,chair,chair,chair,chair,chair,chair,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,vase2,wall,wall,wall,wall,floor,floor,floor,floor,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,vase4,bench_lw,sofa,sofa,sofa,sofa,couch,couch,couch,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,paint_cats,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,shelf_w_wall,armchair,armchair,armchair,armchair,armchair,bench_rw,wardrobe,wardrobe,wardrobe,wardrobe,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,decor_cat_ble,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,lamp_wall,decor_table,decor_table,decor_table,decor_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,lamp_table,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,decor_cat_r,table,table,table,table,table,table,table,table,bookshelf,bookshelf,bookshelf,bookshelf,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,decor_cat_y,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,paint_plants,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,bedside_table,door,door,door,door,door,door,door,door">
+        <component itemId="jul20Prank" count="1999"/>
+        <component itemId="jul20Disco" count="100"/>
+        <component itemId="jul20Duck" count="200"/>
+        <component itemId="jul20Clover" count="200"/>
+    </craftedItem>          
+    <craftedItem itemId="moneyBox" tab="default">
+        <component itemId="clay" count="8" />
+        <component itemId="generosity" count="5"  />
+        <component itemId="jarOfPaint" count="5" social="1" />
+        <component itemId="likeCoin" count="1" />
+    </craftedItem>
+    <craftedItem itemId="teddyBear" priority="4" tab="default">
+        <component itemId="feather" count="15" />
+        <component itemId="love" count="10" />
+        <component itemId="cloth" count="5" social="1" />
+        <component itemId="bow" count="1" />
+    </craftedItem>
+    <craftedItem itemId="tableVase" views="Orange,Pink,Yellow" priority="7" tab="default">
+        <component itemId="flowerBud" count="7" />
+        <component itemId="love" count="5" />
+        <component itemId="glass" count="5" social="1" />
+        <component itemId="wrappingPaper" count="1" />
+    </craftedItem>
+    <craftedItem itemId="floorVase" views="Blue,Red" priority="8" tab="default">
+        <component itemId="flowerBud" count="10" />
+        <component itemId="love" count="7" />
+        <component itemId="jarOfPaint" count="5" social="1" />
+        <component itemId="bigPhial" count="1" />
+    </craftedItem>
+    <craftedItem itemId="photoFrame1" views="Blue" priority="9" tab="default">
+        <component itemId="peaceOfWood" count="7" />
+        <component itemId="happiness" count="5" />
+        <component itemId="jarOfPaint" count="3" social="1" />
+        <component itemId="photograph" count="1" />
+    </craftedItem>
+    <craftedItem itemId="saber" priority="10" tab="default">
+        <component itemId="peaceOfIron" count="5" />
+        <component itemId="generosity" count="10" />
+        <component itemId="grindstone" count="3" social="1" />
+        <component itemId="swordHilt" count="1" />
+    </craftedItem>
+    <craftedItem itemId="lilyFlowers" priority="11" tab="default">
+        <component itemId="flowerBud" count="15" />
+        <component itemId="love" count="10" />
+        <component itemId="pollen" count="7" social="1" />
+        <component itemId="bigPhial" count="1" />
+    </craftedItem>
+    <craftedItem itemId="candel" priority="12" tab="default">
+        <component itemId="peaceOfIron" count="3" />
+        <component itemId="love" count="5" />
+        <component itemId="peaceOfWax" count="5" social="1" />
+        <component itemId="wick" count="1" />
+    </craftedItem> 
+    <craftedItem itemId="photoFrame2" views="Red" priority="13" tab="default">
+        <component itemId="peaceOfWood" count="7" />
+        <component itemId="happiness" count="5" />
+        <component itemId="jarOfPaint" count="3" social="1" />
+        <component itemId="photograph" count="1" />
+    </craftedItem>
+    <craftedItem itemId="fireplace1" priority="89" tab="default">
+        <component itemId="peaceOfIron" count="30" />
+        <component itemId="generosity" count="15" />
+        <component itemId="grindstone" count="10" social="1" />
+        <component itemId="wick" count="5" />
+    </craftedItem>
+    <craftedItem itemId="applianceTv3" priority="88" tab="default">
+        <component itemId="peaceOfIron" count="50" />
+        <component itemId="happiness" count="25" />
+        <component itemId="glass" count="20" social="1" />
+        <component itemId="bow" count="5" />
+    </craftedItem>
+    <craftedItem itemId="applianceMusicCenter1" priority="87" tab="default">
+        <component itemId="peaceOfIron" count="15" />
+        <component itemId="love" count="5" />
+        <component itemId="glass" count="7" social="1" />
+        <component itemId="wrappingPaper" count="2" />
+    </craftedItem>
+    <craftedItem itemId="chairBomb" priority="87" tab="default">
+        <component itemId="peaceOfIron" count="5" />
+        <component itemId="hatred" count="3" />
+        <component itemId="wick" count="1" />
+    </craftedItem>
+
+    <!-- <craftedItem itemId="craftedGreenTea" tab="energetic">
+        <component itemId="love" count="7" />
+        <component itemId="phial" count="6" />
+        <component itemId="wrappingPaper" count="6" />
+        <component itemId="flowerBud" count="14" />
+    </craftedItem>
+    <craftedItem itemId="craftedApplePie" tab="energetic">
+        <component itemId="happiness" count="18" />
+        <component itemId="bow" count="5" />
+        <component itemId="clay" count="18" />
+        <component itemId="water" count="18" />
+    </craftedItem> -->
+    <craftedItem itemId="craftedWater" priority="1" tab="energetic">
+        <component itemId="CleverApple" count="120" />
+        <component itemId="CleverPin" count="120"  />
+        <component itemId="CleverIdea" count="240"/>
+    </craftedItem>
+    <craftedItem itemId="craftedSandwich" priority="2" tab="energetic">
+        <component itemId="CleverCupcake" count="144" />
+        <component itemId="CleverPencils" count="28"  />
+        <component itemId="CleverIdea" count="425"/>
+    </craftedItem>
+    <craftedItem itemId="craftedBento" tab="energetic">
+        <component itemId="CleverFlask" count="140" />
+        <component itemId="CleverPin" count="280"  />
+        <component itemId="CleverIdea" count="690"/>
+    </craftedItem>
+    <craftedItem itemId="craftedCoffee" priority="1" tab="energetic">
+        <component itemId="water" count="5" />
+        <component itemId="happiness" count="3" />
+        <component itemId="coffeBean" count="5" social="1" />
+        <component itemId="phial" count="1" />
+    </craftedItem>
+    <craftedItem itemId="craftedEnergyDrink" priority="2" tab="energetic">
+        <component itemId="water" count="12" />
+        <component itemId="happiness" count="5"  />
+        <component itemId="mintLeaf" count="10" social="1" />
+        <component itemId="bigPhial" count="1" />
+    </craftedItem>
+
+    <!-- School 2019 craft -->
+
+    <!-- <craftedItem itemId="craftedBLb" tab="event" title="baseLB_label" views="_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_chest_p,_baserabbit,_baserabbit,_fishtank_v,_pottedtree,_pottedtree,_pottedtree,_pottedtree,_pottedtree,_pottedtree,_pottedtree,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_cup_bk,_bed,_bed,_bed,_fishtank_y,_fishtank_r,_wall,_wall,_wall,_wall,_wall,_floor,_floor,_floor,_floor,_floor,_fireplace,_fireplace,_fireplace,_rockingchair,_rockingchair,_rockingchair,_rockingchair,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_window,_window,_window,_window,_window,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_cup_w,_monoblock_PC,_monoblock_PC,_monoblock_PC,_writ_table,_writ_table,_writ_table,_writ_table,_writ_table,_writ_table,_writ_table,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_1,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_2,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_plant_wall_3,_dinner_table,_dinner_table,_dinner_table,_dinner_table,_dinner_table,_dinner_table,_dinner_table,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_lamp_b_wall,_dinner_chair,_dinner_chair,_dinner_chair,_dinner_chair,_dinner_chair,_dinner_chair,_dinner_chair,_dinner_chair,_shelf_wall,_shelf_wall,_shelf_wall,_shelf_wall,_shelf_wall,_shelf_wall,_shelf_wall,_shelf_wall,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_r,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_carpet_v,_bedside_table,_bedside_table,_bedside_table,_bedside_table,_bedside_table,_bedside_table,_bedside_table,_bedside_table,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_A,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_M,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_poster_B,_coffee_table,_coffee_table,_coffee_table,_coffee_table,_coffee_table,_coffee_table,_coffee_table,_coffee_table,_door,_door,_door,_door,_door,_door,_door">
+        <component itemId="CleverCupcake" count="120" />
+        <component itemId="CleverCalc" count="60" />
+        <component itemId="CleverIdea" count="480" />
+        <component itemId="CleverPencils" count="26" />
+    </craftedItem> -->
+    <craftedItem itemId="school_craft_remboard" tab="event">
+        <component itemId="CleverCalc" count="111" />
+        <component itemId="CleverPin" count="222"  />
+        <component itemId="CleverPencils" count="99"  />
+        <component itemId="CleverIdea" count="777"/>
+    </craftedItem>
+    <craftedItem itemId="school_craft_starmap" tab="event">
+        <component itemId="CleverApple" count="444" />
+        <component itemId="CleverPin" count="444"  />
+        <component itemId="CleverFlask" count="222"  />
+        <component itemId="CleverIdea" count="888"/>
+    </craftedItem>
+    <craftedItem itemId="school_craft_mendelcarpet" tab="event">
+        <component itemId="CleverApple" count="199" />
+        <component itemId="CleverCupcake" count="199"  />
+        <component itemId="CleverFlask" count="111"  />
+        <component itemId="CleverIdea" count="333"/>
+    </craftedItem>
+    <craftedItem itemId="schoolCraftFlwhead" title="#schoolCraftFlwheadFlw_label" views="Flw,G,Y" tab="event">
+        <component itemId="CleverCupcake" count="666" />
+        <component itemId="CleverPin" count="666"  />
+        <component itemId="CleverCalc" count="333"  />
+        <component itemId="CleverIdea" count="1600"/>
+    </craftedItem>
+    <craftedItem itemId="school_craft_flask" tab="event">
+        <component itemId="CleverApple" count="480" />
+        <component itemId="CleverCupcake" count="480"  />
+        <component itemId="CleverFlask" count="240"  />
+        <component itemId="CleverIdea" count="1250"/>
+    </craftedItem>
+    <craftedItem itemId="school_craft_telescope" tab="event">
+        <component itemId="CleverCalc" count="300" />
+        <component itemId="CleverPin" count="600"  />
+        <component itemId="CleverPencils" count="108"  />
+        <component itemId="CleverIdea" count="1330"/>
+    </craftedItem>
+    <craftedItem itemId="clever_bunny" tab="event">
+        <component itemId="CleverApple" count="899" />
+        <component itemId="CleverCupcake" count="899"  />
+        <component itemId="CleverPencils" count="380"  />
+        <component itemId="CleverIdea" count="4790"/>
+    </craftedItem>
+    <craftedItem itemId="bunny_chair" title="#bunny_chair_craft_label" views="_w,_p,_bk,_ble" tab="event">
+        <component itemId="CleverPin" count="39"  />
+        <component itemId="CleverCalc" count="39"  />
+        <component itemId="CleverPencils" count="44" />
+        <component itemId="CleverIdea" count="88"/>
+    </craftedItem>
+    <craftedItem itemId="cat_nghtlmp" tab="event">
+        <component itemId="CleverApple" count="266" />
+        <component itemId="CleverCupcake" count="166"  />
+        <component itemId="CleverPencils" count="66"  />
+        <component itemId="CleverIdea" count="280"/>
+    </craftedItem>
+
+    <craftedItem itemId="stdnt_rm_floor" tab="event">
+        <component itemId="CleverApple" count="78" />
+        <component itemId="CleverPin" count="78" />
+        <component itemId="CleverCalc" count="39" />
+        <component itemId="CleverIdea" count="222" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_wall" tab="event">
+        <component itemId="CleverCupcake" count="176" />
+        <component itemId="CleverFlask" count="88" />
+        <component itemId="CleverCalc" count="88" />
+        <component itemId="CleverPencils" count="44" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_window" tab="event">
+        <component itemId="CleverApple" count="72" />
+        <component itemId="CleverPin" count="72" />
+        <component itemId="CleverFlask" count="36" />
+        <component itemId="CleverIdea" count="264" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_door" tab="event">
+        <component itemId="CleverCupcake" count="160" />
+        <component itemId="CleverPin" count="160" />
+        <component itemId="CleverCalc" count="80" />
+        <component itemId="CleverPencils" count="28" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_bed" tab="event">
+        <component itemId="CleverApple" count="220" />
+        <component itemId="CleverCupcake" count="220" />
+        <component itemId="CleverFlask" count="110" />
+        <component itemId="CleverPencils" count="34" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_comodo" tab="event">
+        <component itemId="CleverApple" count="176" />
+        <component itemId="CleverPin" count="176" />
+        <component itemId="CleverCalc" count="88" />
+        <component itemId="CleverIdea" count="640" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_table" tab="event">
+        <component itemId="CleverApple" count="144" />
+        <component itemId="CleverCupcake" count="144" />
+        <component itemId="CleverFlask" count="72" />
+        <component itemId="CleverPencils" count="44" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_chair" tab="event">
+        <component itemId="CleverPin" count="133" />
+        <component itemId="CleverCalc" count="66" />
+        <component itemId="CleverPencils" count="22" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_moon" tab="event">
+        <component itemId="CleverApple" count="64" />
+        <component itemId="CleverPin" count="64" />
+        <component itemId="CleverCalc" count="32" />
+        <component itemId="CleverIdea" count="128" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_saturn" tab="event">
+        <component itemId="CleverApple" count="64" />
+        <component itemId="CleverCupcake" count="64" />
+        <component itemId="CleverCalc" count="32" />
+        <component itemId="CleverIdea" count="128" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_pluto" tab="event">
+        <component itemId="CleverApple" count="64" />
+        <component itemId="CleverPin" count="64" />
+        <component itemId="CleverFlask" count="32" />
+        <component itemId="CleverIdea" count="128" />
+    </craftedItem>
+    <craftedItem itemId="stdnt_rm_bkshlf" tab="event">
+        <component itemId="CleverApple" count="126" />
+        <component itemId="CleverCupcake" count="126" />
+        <component itemId="CleverCalc" count="63" />
+        <component itemId="CleverPencils" count="21" />
+    </craftedItem>
+
+    <craftedItem itemId="AvatourLB" tab="avatour" title="AvatourLB_label" views="_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_pool,_pool,_pool,_red_panda,_red_panda,_hammock_w_v,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_decor_floor_bl,_hammock_br_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_chair_g,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_lamp_floor_v,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_decor_floor_w,_hammock_bk_r,_beach_wall,_beach_wall,_beach_wall,_beach_wall,_floor,_floor,_floor,_floor,_music_center,_music_center,_music_center,_music_center,_music_center,_music_center,_wall,_wall,_wall,_wall,_deck_chair,_deck_chair,_deck_chair,_deck_chair,_deck_chair,_deck_chair,_deck_chair,_sofa_r,_sofa_r,_sofa_r,_sofa_r,_sofa_r,_sofa_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_lamp_floor_r,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_decor_floor_v,_sofa_ble,_sofa_ble,_sofa_ble,_sofa_ble,_sofa_ble,_sofa_ble,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_wall_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_lamp_floor_g,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_decor_floor_y,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_sofa_bk,_sofa_bk,_sofa_bk,_sofa_bk,_sofa_bk,_sofa_bk,_door,_door,_door,_door,_door,_door,_door,_door,_door,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_lamp_wall_r,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_bk,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble,_lamp_wall_ble">
+        <component itemId="Postcard_3" count="222" />
+        <component itemId="Postcard_4" count="111" />
+        <component itemId="Meeting" count="56" />
+        <component itemId="Guidebook" count="25" />
+    </craftedItem>
+
+    <craftedItem itemId="Hawaii_wall" tab="avatour">
+        <component itemId="Postcard_2" count="888" />
+        <component itemId="Postcard_3" count="888" />
+        <component itemId="Relax" count="222" />
+        <component itemId="Guidebook" count="88" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_floor" tab="avatour">
+        <component itemId="Postcard_1" count="360" />
+        <component itemId="Postcard_4" count="270" />
+        <component itemId="Relax" count="222" />
+        <component itemId="Guidebook" count="72" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_Sofa" tab="avatour">
+        <component itemId="Postcard_4" count="199" />
+        <component itemId="Meeting" count="199" />
+        <component itemId="Relax" count="199" />
+        <component itemId="Guidebook" count="45" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_Table" tab="avatour">
+        <component itemId="Postcard_3" count="270" />
+        <component itemId="Postcard_4" count="120" />
+        <component itemId="Meeting" count="99" />
+        <component itemId="Guidebook" count="24" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_Armchair" tab="avatour">
+        <component itemId="Postcard_1" count="180" />
+        <component itemId="Postcard_2" count="360" />
+        <component itemId="Relax" count="160" />
+        <component itemId="Guidebook" count="44" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_commode" tab="avatour">
+        <component itemId="Postcard_3" count="180" />
+        <component itemId="Postcard_4" count="90" />
+        <component itemId="Meeting" count="72" />
+        <component itemId="Guidebook" count="20" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_lamp_floor" tab="avatour">
+        <component itemId="Postcard_2" count="280" />
+        <component itemId="Postcard_3" count="280" />
+        <component itemId="Meeting" count="60" />
+        <component itemId="Guidebook" count="24" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_lamp_desk" tab="avatour">
+        <component itemId="Postcard_1" count="80" />
+        <component itemId="Postcard_4" count="80" />
+        <component itemId="Meeting" count="29" />
+        <component itemId="Relax" count="29" />
+    </craftedItem>
+    <craftedItem itemId="Hawaii_decor_wheel" tab="avatour">
+        <component itemId="Postcard_4" count="190" />
+        <component itemId="Meeting" count="120" />
+        <component itemId="Relax" count="120" />
+        <component itemId="Guidebook" count="36" />
+    </craftedItem>
+
+    <!-- Avatour craft -->
+
+    <craftedItem itemId="BoyShirts_mnchrmlk_w">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_mnchrmlk_t">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_mnchrmlk_r">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_mnchrmlk_w">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_mnchrmlk_t">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_mnchrmlk_r">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_mnchrmlk_w">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_mnchrmlk_t">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_mnchrmlk_r">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+
+    <craftedItem itemId="BoyJacket_lkwthptcs_bk_r">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="BoyJacket_lkwthptcs_w_ble">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="BoyJacket_lkwthptcs_br_y">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_lkwthptcs_w">
+        <component itemId="AvaCoin" count="1265" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_lkwthptcs_bk">
+        <component itemId="AvaCoin" count="1265" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_lkwthptcs_ble">
+        <component itemId="AvaCoin" count="1265" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_lkwthptcs_ble">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_lkwthptcs_bk">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_lkwthptcs_gr">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_lkwthptcs_bk">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_lkwthptcs_w">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_lkwthptcs_br">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+
+    <craftedItem itemId="GirlDress_rbbnct_w_r">
+        <component itemId="AvaCoin" count="2498" />
+    </craftedItem>
+    <craftedItem itemId="GirlDress_rbbnct_w_ble">
+        <component itemId="AvaCoin" count="2498" />
+    </craftedItem>
+    <craftedItem itemId="GirlDress_rbbnct_t_ble">
+        <component itemId="AvaCoin" count="2498" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_rbbnct_w">
+        <component itemId="AvaCoin" count="1066" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_rbbnct_bk">
+        <component itemId="AvaCoin" count="1066" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_rbbnct_t">
+        <component itemId="AvaCoin" count="1066" />
+    </craftedItem>
+    <craftedItem itemId="GirlPantyhose_rbbnct_r">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+    <craftedItem itemId="GirlPantyhose_rbbnct_gr">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+    <craftedItem itemId="GirlPantyhose_rbbnct_ble">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_rbbnct_w_r">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_rbbnct_w_ble">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_rbbnct_t_ble">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_wlknbch_w_ble">
+        <component itemId="AvaCoin" count="2165" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_wlknbch_r_v">
+        <component itemId="AvaCoin" count="2165" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_wlknbch_y_g">
+        <component itemId="AvaCoin" count="2165" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_wlknbch_ble">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_wlknbch_gr">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_wlknbch_bk">
+        <component itemId="AvaCoin" count="1499" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_wlknbch_bk">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_wlknbch_r">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_wlknbch_beq">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlHat_wlknbch_bk_w_y">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="GirlHat_wlknbch_w_v_r">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="GirlHat_wlknbch_w_br_g">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+
+    <craftedItem itemId="GirlDress_catface_w_ble">
+        <component itemId="AvaCoin" count="2764" />
+    </craftedItem>
+    <craftedItem itemId="GirlDress_catface_w_v">
+        <component itemId="AvaCoin" count="2764" />
+    </craftedItem>
+    <craftedItem itemId="GirlDress_catface_w_bk">
+        <component itemId="AvaCoin" count="2764" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_catface_w_ble">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_catface_w_v">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_catface_w_bk">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="GirlBracelets_catface_ble">
+        <component itemId="AvaCoin" count="167" />
+    </craftedItem>
+    <craftedItem itemId="GirlBracelets_catface_v_r">
+        <component itemId="AvaCoin" count="167" />
+    </craftedItem>
+    <craftedItem itemId="GirlBracelets_catface_rnb">
+        <component itemId="AvaCoin" count="167" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_catface_w">
+        <component itemId="AvaCoin" count="440" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_catface_bk">
+        <component itemId="AvaCoin" count="440" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_catface_gr">
+        <component itemId="AvaCoin" count="440" />
+    </craftedItem>
+    <craftedItem itemId="GirlWigs_catface">
+        <component itemId="AvaCoin" count="4995" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_snpmpkn_bk_y">
+        <component itemId="AvaCoin" count="2298" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_snpmpkn_w_v">
+        <component itemId="AvaCoin" count="2298" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_snpmpkn_t_g">
+        <component itemId="AvaCoin" count="2298" />
+    </craftedItem>
+    <craftedItem itemId="GirlPants_snpmpkn_bk_y">
+        <component itemId="AvaCoin" count="1898" />
+    </craftedItem>
+    <craftedItem itemId="GirlPants_snpmpkn_w_v">
+        <component itemId="AvaCoin" count="1898" />
+    </craftedItem>
+    <craftedItem itemId="GirlPants_snpmpkn_t_g">
+        <component itemId="AvaCoin" count="1898" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_snpmpkn_w_y">
+        <component itemId="AvaCoin" count="966" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_snpmpkn_bk_v">
+        <component itemId="AvaCoin" count="966" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_snpmpkn_w_t">
+        <component itemId="AvaCoin" count="966" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_snpmpkn_y">
+        <component itemId="AvaCoin" count="500" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_snpmpkn_p">
+        <component itemId="AvaCoin" count="500" />
+    </craftedItem>
+    <craftedItem itemId="GirlEarrings_snpmpkn_s">
+        <component itemId="AvaCoin" count="500" />
+    </craftedItem>
+
+    <craftedItem itemId="BoyShirts_strtrdby_w_bk">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_strtrdby_ble_w">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_strtrdby_bk_w_r">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_strtrdby_w_bk">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_strtrdby_w_y">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_strtrdby_w_r">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_strtrdby_w_bk">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_strtrdby_w_y">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_strtrdby_w_bk_r">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="BoyBag_strtrdby_w_bk">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+    <craftedItem itemId="BoyBag_strtrdby_w_ble">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+    <craftedItem itemId="BoyBag_strtrdby_w_r">
+        <component itemId="AvaCoin" count="932" />
+    </craftedItem>
+
+    <craftedItem itemId="BoyJacket_monocolor_w">
+        <component itemId="AvaCoin" count="2731" />
+    </craftedItem>
+    <craftedItem itemId="BoyJacket_monocolor_bk">
+        <component itemId="AvaCoin" count="2731" />
+    </craftedItem>
+    <craftedItem itemId="BoyJacket_monocolor_ble">
+        <component itemId="AvaCoin" count="2731" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_monocolor_w">
+        <component itemId="AvaCoin" count="1112" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_monocolor_bk">
+        <component itemId="AvaCoin" count="1112" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_monocolor_ble">
+        <component itemId="AvaCoin" count="1112" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_monocolor_ble">
+        <component itemId="AvaCoin" count="1965" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_monocolor_gr">
+        <component itemId="AvaCoin" count="1965" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_monocolor_bk">
+        <component itemId="AvaCoin" count="1965" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_monocolor_w">
+        <component itemId="AvaCoin" count="1166" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_monocolor_bk">
+        <component itemId="AvaCoin" count="1166" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_monocolor_ble">
+        <component itemId="AvaCoin" count="1166" />
+    </craftedItem>
+    <craftedItem itemId="BoyWigs_monocolor">
+        <component itemId="AvaCoin" count="4995" />
+    </craftedItem>
+
+    <craftedItem itemId="GirlSwimsuit_mix_bikini_yble">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="GirlSwimsuit_mix_bikini_wp">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="GirlSwimsuit_mix_bikini_rbl">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="GirlSwimsuit_sexy_shorts_bl">
+        <component itemId="AvaCoin" count="3000" />
+    </craftedItem>
+    <craftedItem itemId="GirlSwimsuit_sexy_shorts_ble">
+        <component itemId="AvaCoin" count="3000" />
+    </craftedItem>
+    <craftedItem itemId="GirlSwimsuit_sexy_shorts_r">
+        <component itemId="AvaCoin" count="3000" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuitsuspenderbl">
+        <component itemId="AvaCoin" count="2400" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuitsuspenderr">
+        <component itemId="AvaCoin" count="2400" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuitsuspenderble">
+        <component itemId="AvaCoin" count="2400" />
+    </craftedItem>
+
+    <craftedItem itemId="girlSwimsuit_smmrvctn_y_w">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuit_smmrvctn_v_r">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuit_smmrvctn_bk">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuit_smmrvctn_bk_w">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="girlSwimsuit_smmrvctn_v_w">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_smmrvctn_y">
+        <component itemId="AvaCoin" count="533" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_smmrvctn_r">
+        <component itemId="AvaCoin" count="533" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_smmrvctn_w">
+        <component itemId="AvaCoin" count="533" />
+    </craftedItem>
+    <craftedItem itemId="girlHairpins_smmrvctn_y">
+        <component itemId="AvaCoin" count="366" />
+    </craftedItem>
+    <craftedItem itemId="girlHairpins_smmrvctn_r">
+        <component itemId="AvaCoin" count="366" />
+    </craftedItem>
+    <craftedItem itemId="girlHairpins_smmrvctn_ble">
+        <component itemId="AvaCoin" count="366" />
+    </craftedItem>
+    <craftedItem itemId="girlBag_smmrvctn_l_beq">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="girlBag_smmrvctn_beq">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="girlBag_smmrvctn_br">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="girlDress_mchmrctns_t_w">
+        <component itemId="AvaCoin" count="2464" />
+    </craftedItem>
+    <craftedItem itemId="girlDress_mchmrctns_ble_y">
+        <component itemId="AvaCoin" count="2464" />
+    </craftedItem>
+    <craftedItem itemId="girlDress_mchmrctns_v_r">
+        <component itemId="AvaCoin" count="2464" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_mchmrctns_t">
+        <component itemId="AvaCoin" count="833" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_mchmrctns_ble">
+        <component itemId="AvaCoin" count="833" />
+    </craftedItem>
+    <craftedItem itemId="girlShoes_mchmrctns_v">
+        <component itemId="AvaCoin" count="833" />
+    </craftedItem>
+    <craftedItem itemId="girlEarrings_mchmrctns_t">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="girlEarrings_mchmrctns_bl">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="girlEarrings_mchmrctns_v">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="girlTiara_mchmrctns_t">
+        <component itemId="AvaCoin" count="1082" />
+    </craftedItem>
+    <craftedItem itemId="girlTiara_mchmrctns_ble">
+        <component itemId="AvaCoin" count="1082" />
+    </craftedItem>
+    <craftedItem itemId="girlTiara_mchmrctns_v">
+        <component itemId="AvaCoin" count="1082" />
+    </craftedItem>
+
+    <craftedItem itemId="boySwimsuitshortsstrips">
+        <component itemId="AvaCoin" count="1400" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuitshortshearts">
+        <component itemId="AvaCoin" count="1400" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuitshortsleaves">
+        <component itemId="AvaCoin" count="1400" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuitshortstripscolored">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuitshortstripsble">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuitshortstripsr">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="boySwimwearshortscutbl">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="boySwimwearshortscutble">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+    <craftedItem itemId="boySwimwearshortscutv">
+        <component itemId="AvaCoin" count="1200" />
+    </craftedItem>
+
+    <craftedItem itemId="boyShirts_smmrvctn_bk">
+        <component itemId="AvaCoin" count="1732" />
+    </craftedItem>
+    <craftedItem itemId="boyShirts_smmrvctn_w">
+        <component itemId="AvaCoin" count="1732" />
+    </craftedItem>
+    <craftedItem itemId="boyShirts_smmrvctn_y">
+        <component itemId="AvaCoin" count="1732" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuit_smmrvctn_beq">
+        <component itemId="AvaCoin" count="1532" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuit_smmrvctn_ble">
+        <component itemId="AvaCoin" count="1532" />
+    </craftedItem>
+    <craftedItem itemId="boySwimsuit_smmrvctn_g">
+        <component itemId="AvaCoin" count="1532" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_smmrvctn_bk">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_smmrvctn_ble">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_smmrvctn_g">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="boyHat_smmrvctn_v">
+        <component itemId="AvaCoin" count="999" />
+    </craftedItem>
+    <craftedItem itemId="boyHat_smmrvctn_y">
+        <component itemId="AvaCoin" count="999" />
+    </craftedItem>
+    <craftedItem itemId="boyHat_smmrvctn_bk">
+        <component itemId="AvaCoin" count="999" />
+    </craftedItem>
+    <craftedItem itemId="boyJacket_ntnctll_bk">
+        <component itemId="AvaCoin" count="2564" />
+    </craftedItem>
+    <craftedItem itemId="boyJacket_ntnctll_v">
+        <component itemId="AvaCoin" count="2564" />
+    </craftedItem>
+    <craftedItem itemId="boyJacket_ntnctll_w">
+        <component itemId="AvaCoin" count="2564" />
+    </craftedItem>
+    <craftedItem itemId="boyShirts_ntnctll_w_bk">
+        <component itemId="AvaCoin" count="1765" />
+    </craftedItem>
+    <craftedItem itemId="boyShirts_ntnctll_ble_br">
+        <component itemId="AvaCoin" count="1765" />
+    </craftedItem>
+    <craftedItem itemId="boyShirts_ntnctll_bk_br">
+        <component itemId="AvaCoin" count="1765" />
+    </craftedItem>
+    <craftedItem itemId="boyPants_ntnctll_bk">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="boyPants_ntnctll_v">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="boyPants_ntnctll_w">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_ntnctll_bk">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_ntnctll_v">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="boyShoes_ntnctll_w">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+
+    <craftedItem itemId="boyJacket_lklkpzz_o_w">
+    <component itemId="AvaCoin" count="2364" />
+</craftedItem>
+<craftedItem itemId="boyJacket_lklkpzz_g_y">
+    <component itemId="AvaCoin" count="2364" />
+</craftedItem>
+<craftedItem itemId="boyJacket_lklkpzz_v_ble">
+    <component itemId="AvaCoin" count="2364" />
+</craftedItem>
+<craftedItem itemId="boyShirts_lklkpzz_gr">
+    <component itemId="AvaCoin" count="1698" />
+</craftedItem>
+<craftedItem itemId="boyShirts_lklkpzz_g">
+    <component itemId="AvaCoin" count="1698" />
+</craftedItem>
+<craftedItem itemId="boyShirts_lklkpzz_w">
+    <component itemId="AvaCoin" count="1698" />
+</craftedItem>
+<craftedItem itemId="boyPants_lklkpzz_ble">
+    <component itemId="AvaCoin" count="1565" />
+</craftedItem>
+<craftedItem itemId="boyPants_lklkpzz_g">
+    <component itemId="AvaCoin" count="1565" />
+</craftedItem>
+<craftedItem itemId="boyPants_lklkpzz_v">
+    <component itemId="AvaCoin" count="1565" />
+</craftedItem>
+<craftedItem itemId="boyShoes_lklkpzz_bk_g">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyShoes_lklkpzz_w_o">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyShoes_lklkpzz_v_ble">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyJacket_crlbyhpp_ble_g">
+    <component itemId="AvaCoin" count="2464" />
+</craftedItem>
+<craftedItem itemId="boyJacket_crlbyhpp_gr_o">
+    <component itemId="AvaCoin" count="2464" />
+</craftedItem>
+<craftedItem itemId="boyJacket_crlbyhpp_bk_r">
+    <component itemId="AvaCoin" count="2464" />
+</craftedItem>
+<craftedItem itemId="boyShirts_crlbyhpp_r">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyShirts_crlbyhpp_g">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyShirts_crlbyhpp_y">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="boyPants_crlbyhpp_bk">
+    <component itemId="AvaCoin" count="1898" />
+</craftedItem>
+<craftedItem itemId="boyPants_crlbyhpp_ble">
+    <component itemId="AvaCoin" count="1898" />
+</craftedItem>
+<craftedItem itemId="boyPants_crlbyhpp_v">
+    <component itemId="AvaCoin" count="1898" />
+</craftedItem>
+<craftedItem itemId="boyShoes_crlbyhpp_v">
+    <component itemId="AvaCoin" count="999" />
+</craftedItem>
+<craftedItem itemId="boyShoes_crlbyhpp_o">
+    <component itemId="AvaCoin" count="999" />
+</craftedItem>
+<craftedItem itemId="boyShoes_crlbyhpp_g">
+    <component itemId="AvaCoin" count="999" />
+</craftedItem>
+
+<craftedItem itemId="girlShirts_prttldntmn_cn">
+    <component itemId="AvaCoin" count="1798" />
+</craftedItem>
+<craftedItem itemId="girlShirts_prttldntmn_v">
+    <component itemId="AvaCoin" count="1798" />
+</craftedItem>
+<craftedItem itemId="girlShirts_prttldntmn_r">
+    <component itemId="AvaCoin" count="1798" />
+</craftedItem>
+<craftedItem itemId="girlPants_prttldntmn_br">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlPants_prttldntmn_ble">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlPants_prttldntmn_lble">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlShoes_prttldntmn_t">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="girlShoes_prttldntmn_v">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="girlShoes_prttldntmn_r">
+    <component itemId="AvaCoin" count="1132" />
+</craftedItem>
+<craftedItem itemId="girlGlasses_prttldntmn_cn_v">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+<craftedItem itemId="girlGlasses_prttldntmn_r_y">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+<craftedItem itemId="girlGlasses_prttldntmn_bk">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+<craftedItem itemId="girlJacket_tmnsdnss_gr">
+    <component itemId="AvaCoin" count="2264" />
+</craftedItem>
+<craftedItem itemId="girlJacket_tmnsdnss_r">
+    <component itemId="AvaCoin" count="2264" />
+</craftedItem>
+<craftedItem itemId="girlJacket_tmnsdnss_br">
+    <component itemId="AvaCoin" count="2264" />
+</craftedItem>
+<craftedItem itemId="girlShirts_tmnsdnss_w">
+    <component itemId="AvaCoin" count="1532" />
+</craftedItem>
+<craftedItem itemId="girlShirts_tmnsdnss_y">
+    <component itemId="AvaCoin" count="1532" />
+</craftedItem>
+<craftedItem itemId="girlShirts_tmnsdnss_g">
+    <component itemId="AvaCoin" count="1532" />
+</craftedItem>
+<craftedItem itemId="girlNecklace_tmnsdnss_g">
+    <component itemId="AvaCoin" count="733" />
+</craftedItem>
+<craftedItem itemId="girlNecklace_tmnsdnss_p">
+    <component itemId="AvaCoin" count="733" />
+</craftedItem>
+<craftedItem itemId="girlNecklace_tmnsdnss_ble">
+    <component itemId="AvaCoin" count="733" />
+</craftedItem>
+<craftedItem itemId="girlSkirts_tmnsdnss_bk">
+    <component itemId="AvaCoin" count="1598" />
+</craftedItem>
+<craftedItem itemId="girlSkirts_tmnsdnss_ble">
+    <component itemId="AvaCoin" count="1598" />
+</craftedItem>
+<craftedItem itemId="girlSkirts_tmnsdnss_v">
+    <component itemId="AvaCoin" count="1598" />
+</craftedItem>
+<craftedItem itemId="girlShoes_tmnsdnss_bk_y">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+<craftedItem itemId="girlShoes_tmnsdnss_ble_w">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+<craftedItem itemId="girlShoes_tmnsdnss_v_r">
+    <component itemId="AvaCoin" count="1199" />
+</craftedItem>
+
+<craftedItem itemId="boyShirts_pnkbysrl_w_bk">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="boyShirts_pnkbysrl_bk_r">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="boyShirts_pnkbysrl_g_ble">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="boyPants_pnkbysrl_r">
+    <component itemId="AvaCoin" count="1772" />
+</craftedItem>
+<craftedItem itemId="boyPants_pnkbysrl_gr">
+    <component itemId="AvaCoin" count="1772" />
+</craftedItem>
+<craftedItem itemId="boyPants_pnkbysrl_w">
+    <component itemId="AvaCoin" count="1772" />
+</craftedItem>
+<craftedItem itemId="boyShoes_pnkbysrl_bk">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="boyShoes_pnkbysrl_r">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="boyShoes_pnkbysrl_ble">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="boyNecklace_pnkbysrl">
+    <component itemId="AvaCoin" count="733" />
+</craftedItem>
+<craftedItem itemId="boyOther_pnkbysrl">
+    <component itemId="AvaCoin" count="1465" />
+</craftedItem>
+<craftedItem itemId="boyJacket_dtkrtkby_bk_w">
+    <component itemId="AvaCoin" count="2597" />
+</craftedItem>
+<craftedItem itemId="boyJacket_dtkrtkby_w_v">
+    <component itemId="AvaCoin" count="2597" />
+</craftedItem>
+<craftedItem itemId="boyJacket_dtkrtkby_beq_bk">
+    <component itemId="AvaCoin" count="2597" />
+</craftedItem>
+<craftedItem itemId="boyShirts_dtkrtkby_beq">
+    <component itemId="AvaCoin" count="1665" />
+</craftedItem>
+<craftedItem itemId="boyShirts_dtkrtkby_gr">
+    <component itemId="AvaCoin" count="1665" />
+</craftedItem>
+<craftedItem itemId="boyShirts_dtkrtkby_bk">
+    <component itemId="AvaCoin" count="1665" />
+</craftedItem>
+<craftedItem itemId="boyPants_dtkrtkby_bk_o">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="boyPants_dtkrtkby_w_ble">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="boyPants_dtkrtkby_beq_r">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="boyShoes_dtkrtkby_w_bk">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="boyShoes_dtkrtkby_v_w">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="boyShoes_dtkrtkby_bk_beq">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="boyHats_dtkrtkby_w">
+    <component itemId="AvaCoin" count="1166" />
+</craftedItem>
+<craftedItem itemId="boyHats_dtkrtkby_v">
+    <component itemId="AvaCoin" count="1166" />
+</craftedItem>
+<craftedItem itemId="boyHats_dtkrtkby_gr">
+    <component itemId="AvaCoin" count="1166" />
+</craftedItem>
+
+<craftedItem itemId="girlShirts_gnlsbkpk_bk">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="girlShirts_gnlsbkpk_r">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="girlShirts_gnlsbkpk_w">
+    <component itemId="AvaCoin" count="1499" />
+</craftedItem>
+<craftedItem itemId="girsPants_gnlsbkpk_bk">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlPants_gnlsbkpk_r">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlPants_gnlsbkpk_w">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlShoes_gnlsbkpk_bk">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlShoes_gnlsbkpk_r">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlShoes_gnlsbkpk_w">
+    <component itemId="AvaCoin" count="1399" />
+</craftedItem>
+<craftedItem itemId="girlHats_gnlsbkpk_bk">
+    <component itemId="AvaCoin" count="1232" />
+</craftedItem>
+<craftedItem itemId="girlHats_gnlsbkpk_r">
+    <component itemId="AvaCoin" count="1232" />
+</craftedItem>
+<craftedItem itemId="girlHats_gnlsbkpk_w">
+    <component itemId="AvaCoin" count="1232" />
+</craftedItem>
+<craftedItem itemId="girlJacket_mlshknstl_o">
+    <component itemId="AvaCoin" count="2797" />
+</craftedItem>
+<craftedItem itemId="girlJacket_mlshknstl_v">
+    <component itemId="AvaCoin" count="2797" />
+</craftedItem>
+<craftedItem itemId="girlJacket_mlshknstl_t">
+    <component itemId="AvaCoin" count="2797" />
+</craftedItem>
+<craftedItem itemId="girlShirts_mlshknstl_y">
+    <component itemId="AvaCoin" count="1332" />
+</craftedItem>
+<craftedItem itemId="girlShirts_mlshknstl_ble">
+    <component itemId="AvaCoin" count="1332" />
+</craftedItem>
+<craftedItem itemId="girlShirts_mlshknstl_r">
+    <component itemId="AvaCoin" count="1332" />
+</craftedItem>
+<craftedItem itemId="girlSkirt_mlshknstl_w">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlSkirt_mlshknstl_gr">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlSkirt_mlshknstl_g">
+    <component itemId="AvaCoin" count="1632" />
+</craftedItem>
+<craftedItem itemId="girlHats_mlshknstl_ble">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="girlHats_mlshknstl_w">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="girlHats_mlshknstl_beq">
+    <component itemId="AvaCoin" count="1066" />
+</craftedItem>
+<craftedItem itemId="girlBag_mlshknstl_ble">
+    <component itemId="AvaCoin" count="799" />
+</craftedItem>
+<craftedItem itemId="girlBag_mlshknstl_w">
+    <component itemId="AvaCoin" count="799" />
+</craftedItem>
+<craftedItem itemId="girlBag_mlshknstl_beq">
+    <component itemId="AvaCoin" count="799" />
+</craftedItem>
+
+    <craftedItem itemId="japanstl_wall">
+        <component itemId="AvaCoin" count="2331" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_window">
+        <component itemId="AvaCoin" count="1832" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_door">
+        <component itemId="AvaCoin" count="1565" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_floor">
+        <component itemId="AvaCoin" count="1898" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_bed">
+        <component itemId="AvaCoin" count="3064" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_sit_table">
+        <component itemId="AvaCoin" count="5994" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_lamp_floor">
+        <component itemId="AvaCoin" count="200" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_lamp_wall_sun">
+        <component itemId="AvaCoin" count="899" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_lamp_wall_skr">
+        <component itemId="AvaCoin" count="899" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_decor_wall">
+        <component itemId="AvaCoin" count="466" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_decor_floor">
+        <component itemId="AvaCoin" count="1332" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_screen_decor">
+        <component itemId="AvaCoin" count="1732" />
+    </craftedItem>
+    <craftedItem itemId="japanstl_sakura_int">
+        <component itemId="AvaCoin" count="4496" />
+    </craftedItem>
+
+    <craftedItem itemId="provence_wall">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="provence_floor">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="provence_door">
+        <component itemId="AvaCoin" count="1465" />
+    </craftedItem>
+    <craftedItem itemId="provence_window">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="provence_bed">
+        <component itemId="AvaCoin" count="3330" />
+    </craftedItem>
+    <craftedItem itemId="provence_comodo">
+        <component itemId="AvaCoin" count="1732" />
+    </craftedItem>
+    <craftedItem itemId="provence_armchair">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="provence_lamp_table">
+        <component itemId="AvaCoin" count="799" />
+    </craftedItem>
+    <craftedItem itemId="provence_clock_decor">
+        <component itemId="AvaCoin" count="666" />
+    </craftedItem>
+    <craftedItem itemId="provence_chest_table">
+        <component itemId="AvaCoin" count="1132" />
+    </craftedItem>
+    <craftedItem itemId="provence_trumo">
+        <component itemId="AvaCoin" count="4995" />
+    </craftedItem>
+    <craftedItem itemId="provence_paint_wall">
+        <component itemId="AvaCoin" count="966" />
+    </craftedItem>
+
+    <craftedItem itemId="tmnlvgrm_wall">
+        <component itemId="AvaCoin" count="2333" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_floor">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_door">
+        <component itemId="AvaCoin" count="1465" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_window">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_table">
+        <component itemId="AvaCoin" count="2331" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_pc">
+        <component itemId="AvaCoin" count="2664" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_lamp_table">
+        <component itemId="AvaCoin" count="866" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_shelf_wall_1">
+        <component itemId="AvaCoin" count="1265" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_shelf_wall_2">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_sofa">
+        <component itemId="AvaCoin" count="3130" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_armchair">
+        <component itemId="AvaCoin" count="1665" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_bookcase">
+        <component itemId="AvaCoin" count="3663" />
+    </craftedItem>
+    <craftedItem itemId="tmnlvgrm_lamp_wall">
+        <component itemId="AvaCoin" count="500" />
+    </craftedItem>
+
+    <craftedItem itemId="flwrrm_wall">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_floor">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_door">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_window">
+        <component itemId="AvaCoin" count="2298" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_table">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_chair">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_table_cnsl">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_fountain_floor">
+        <component itemId="AvaCoin" count="3996" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_vase_table_w">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_vase_table_p">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_art_wall">
+        <component itemId="AvaCoin" count="1465" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_lamp_floor">
+        <component itemId="AvaCoin" count="1332" />
+    </craftedItem>
+    <craftedItem itemId="flwrrm_sit_tree">
+        <component itemId="AvaCoin" count="13320" />
+    </craftedItem>
+
+    <craftedItem itemId="rmfrwrkg_wall">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_floor">
+        <component itemId="AvaCoin" count="1632" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_door">
+        <component itemId="AvaCoin" count="2131" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_window">
+        <component itemId="AvaCoin" count="1798" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_table">
+        <component itemId="AvaCoin" count="1998" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_chair">
+        <component itemId="AvaCoin" count="1332" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_chair_wth">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_shelf">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_syntq">
+        <component itemId="AvaCoin" count="6660" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_sofa">
+        <component itemId="AvaCoin" count="2065" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_clock_wall">
+        <component itemId="AvaCoin" count="1332" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_lamp_floor">
+        <component itemId="AvaCoin" count="666" />
+    </craftedItem>
+    <craftedItem itemId="rmfrwrkg_vase_table">
+        <component itemId="AvaCoin" count="1066" />
+    </craftedItem>
+
+    <craftedItem itemId="edgroom_wall">
+        <component itemId="AvaCoin" count="3330" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_floor">
+        <component itemId="AvaCoin" count="1931" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_door">
+        <component itemId="AvaCoin" count="1598" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_window">
+        <component itemId="AvaCoin" count="1532" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_cofee_table">
+        <component itemId="AvaCoin" count="1432" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_shelf_floor">
+        <component itemId="AvaCoin" count="2231" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_lamp_table">
+        <component itemId="AvaCoin" count="1099" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_sofa">
+        <component itemId="AvaCoin" count="2797" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_armchair">
+        <component itemId="AvaCoin" count="1865" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_table">
+        <component itemId="AvaCoin" count="1565" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_decor_table">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="edgroom_lamp_floor">
+        <component itemId="AvaCoin" count="1299" />
+    </craftedItem>
+
+    <craftedItem itemId="tnksroom_wall">
+        <component itemId="AvaCoin" count="2499" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_floor">
+        <component itemId="AvaCoin" count="2799" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_door">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_window">
+        <component itemId="AvaCoin" count="1799" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_table">
+        <component itemId="AvaCoin" count="1555" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_chair">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_food_chk_table">
+        <component itemId="AvaCoin" count="1199" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_food_bsk_table">
+        <component itemId="AvaCoin" count="966" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_food_ck_table">
+        <component itemId="AvaCoin" count="533" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_decor_floor">
+        <component itemId="AvaCoin" count="2199" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_lamp_floor">
+        <component itemId="AvaCoin" count="1399" />
+    </craftedItem>
+    <craftedItem itemId="tnksroom_decor_wall">
+        <component itemId="AvaCoin" count="999" />
+    </craftedItem>
+
+    <craftedItem itemId="Victorian_sofa">
+        <component itemId="AvaCoin" count="1111" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_armchair">
+        <component itemId="AvaCoin" count="799" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_table_low">
+        <component itemId="AvaCoin" count="499" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_comode">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_vase_floor">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_picture">
+        <component itemId="AvaCoin" count="699" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_window">
+        <component itemId="AvaCoin" count="899" />
+    </craftedItem>
+    <craftedItem itemId="Victorian_door">
+        <component itemId="AvaCoin" count="499" />
+    </craftedItem>
+    <craftedItem itemId="avataria_wall_ny2018">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="avataria_floor_ny2018">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+
+    <craftedItem itemId="GirlShirts_Midtown_bl">
+        <component itemId="AvaCoin" count="866" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_Midtown_r">
+        <component itemId="AvaCoin" count="866" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirts_Midtown_w">
+        <component itemId="AvaCoin" count="866" />
+    </craftedItem>
+    <craftedItem itemId="GirlSkirts_Midtown_w">
+        <component itemId="AvaCoin" count="1292" />
+    </craftedItem>
+    <craftedItem itemId="GirlSkirts_Midtown_bl">
+        <component itemId="AvaCoin" count="1292" />
+    </craftedItem>
+    <craftedItem itemId="GirlSkirts_Midtown_r">
+        <component itemId="AvaCoin" count="1292" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Midtown_bl">
+        <component itemId="AvaCoin" count="300" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Midtown_r">
+        <component itemId="AvaCoin" count="300" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Midtown_w">
+        <component itemId="AvaCoin" count="300" />
+    </craftedItem>
+
+    <craftedItem itemId="GirlShirt_Harlem_be">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirt_Harlem_r">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="GirlShirt_Harlem_lbe">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_Harlem_be">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_Harlem_r">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="GirlShorts_Harlem_lbe">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Harlem_be">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Harlem_r">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="GirlShoes_Harlem_lbe">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+
+    <craftedItem itemId="BoyShirts_Gott_bl">
+        <component itemId="AvaCoin" count="1222" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_Gott_dbe">
+        <component itemId="AvaCoin" count="999" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_Gott_dr">
+        <component itemId="AvaCoin" count="1222" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_Gott_bl">
+        <component itemId="AvaCoin" count="1333" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_Gott_dbe">
+        <component itemId="AvaCoin" count="1111" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_Gott_dr">
+        <component itemId="AvaCoin" count="1333" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_Gott_bl">
+        <component itemId="AvaCoin" count="699" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_Gott_dbe">
+        <component itemId="AvaCoin" count="599" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_Gott_dr">
+        <component itemId="AvaCoin" count="699" />
+    </craftedItem>
+
+    <craftedItem itemId="BoyShirts_jeans_look_lble">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_jeans_look_dble">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="BoyShirts_jeans_look_gr">
+        <component itemId="AvaCoin" count="555" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_jeans_look_lble">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_jeans_look_dble">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="BoyPants_jeans_look_bl">
+        <component itemId="AvaCoin" count="777" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_jeans_look_bl">
+        <component itemId="AvaCoin" count="444" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_jeans_look_dbr">
+        <component itemId="AvaCoin" count="444" />
+    </craftedItem>
+    <craftedItem itemId="BoyShoes_jeans_look_ble">
+        <component itemId="AvaCoin" count="444" />
+    </craftedItem>
+
+    <!-- Craft KinoReturn -->
+    <craftedItem itemId="march21LB1" tab="filmprod" title="march21LB1_label" views="_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_rabbit,_rabbit,_aquarium,_aquarium,_aquarium,_aquarium,_window,_window,_window,_window,_window,_window,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_decor_plant_1,_tv_classic,_decor_cart,_decor_cart,_decor_cart,_decor_cart,_sofa,_sofa,_sofa,_sofa,_sofa,_sofa,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_bilard,_sofa_mp,_sofa_mp,_sofa_mp,_sofa_mp,_floor,_floor,_floor,_floor,_floor,_floor,_floor,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_sweet_dec_1,_musicaut,_table,_table,_table,_table,_table,_decor_shelf,_decor_shelf,_decor_shelf,_decor_shelf,_decor_shelf,_decor_shelf,_decor_shelf,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_lamp_table,_tv_glamour,_bartable,_bartable,_bartable,_bartable,_bartable,_bartable,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_chair_r,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_decor_plant_3,_tv_modern,_door,_door,_door,_door,_door,_door,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_clock_wall,_chair_ble,_chair_ble,_chair_ble,_chair_ble,_chair_ble,_chair_ble,_chair_ble,_chair_ble,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_decor_plant_2,_wall,_wall,_wall,_wall,_wall,_wall,_wall,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_sweet_dec_2,_cns_table,_cns_table,_cns_table,_cns_table,_cns_table,_cns_table,_cns_table,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_chair_w,_chair_w,_chair_w,_chair_w,_chair_w,_chair_w,_chair_w,_chair_w,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4,_decor_plant_4">
+        <component itemId="hlwn20_Loot_Epsd" count="170" />
+        <component itemId="hlwn20_Loot_Popcorn" count="170" />
+        <component itemId="hlwn20_Loot_Script" count="65" />
+        <component itemId="hlwn20_Loot_Emotion" count="66" />
+    </craftedItem>
+    <craftedItem itemId="hlwn20_craft_carpet" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="250" />
+        <component itemId="hlwn20_Loot_Script" count="20" />
+        <component itemId="hlwn20_Loot_Emotion" count="20" />
+        <component itemId="hlwn20_Loot_Award" count="6" />
+    </craftedItem>
+    <craftedItem itemId="BoyGlasses_hlwn20_craft" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="499" />
+        <component itemId="hlwn20_Loot_Popcorn" count="200" />
+        <component itemId="hlwn20_Loot_3Dglass" count="200" />
+        <component itemId="hlwn20_Loot_Script" count="85" />
+    </craftedItem>
+    <craftedItem itemId="GirlGlasses_hlwn20_craft" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="499" />
+        <component itemId="hlwn20_Loot_Popcorn" count="200" />
+        <component itemId="hlwn20_Loot_Epsd" count="200" />
+        <component itemId="hlwn20_Loot_Script" count="85" />
+    </craftedItem>
+    <craftedItem itemId="hlwn20_craft_award" views="_s,_b,_g" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="850" />
+        <component itemId="hlwn20_Loot_Epsd" count="250" />
+        <component itemId="hlwn20_Loot_Popcorn" count="250" />
+        <component itemId="hlwn20_Loot_Award" count="20" />
+    </craftedItem>
+    <craftedItem itemId="hlwn20LB_filmprod_makeup" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="4159" />
+        <component itemId="hlwn20_Loot_Epsd" count="1555" />
+        <component itemId="hlwn20_Loot_3Dglass" count="1555" />
+        <component itemId="hlwn20_Loot_Award" count="116" />
+    </craftedItem>
+    <craftedItem itemId="craftedPopCorn" tab="filmprod">
+        <component itemId="hlwn20_Loot_Cadr" count="399" />
+        <component itemId="hlwn20_Loot_3Dglass" count="144" />
+        <component itemId="hlwn20_Loot_Award" count="12" />
+    </craftedItem>
+ <!-- Craft BallroomReturn -->
+    <craftedItem itemId="march21LB2" tab="nyBallroom" title="" views="_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_chest,_red_panda,_red_panda,_bed,_bed,_bed,_wardrobe,_wardrobe,_wardrobe,_wardrobe,_wardrobe,_wardrobe,_wardrobe,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_vase_floor,_runwayscene_1,_door,_door,_door,_door,_door,_door,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_table,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_carpet_1,_epic_ballet,_sink,_sink,_sink,_floor,_floor,_floor,_floor,_floor,_floor,_floor,_floor,_floor,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_vase_table_1,_runwayscene_2,_fireplace,_fireplace,_fireplace,_fireplace,_fireplace,_fireplace,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_screen,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_paint_wall_1,_runwayscene_3,_bath,_bath,_bath,_wall,_wall,_wall,_wall,_wall,_wall,_wall,_wall,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_decor_table,_sofa,_sofa,_sofa,_sofa,_sofa,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_paint_wall_2,_mirror_wall,_mirror_wall,_mirror_wall,_mirror_wall,_mirror_wall,_mirror_wall,_mirror_wall,_mirror_wall,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_lamp_floor,_window,_window,_window,_window,_window,_window,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_vase_table_2,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_chair,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2,_carpet_2">
+        <component itemId="balroom_Loot_Glove" count="199"/>
+        <component itemId="balroom_Loot_Pair" count="199"/>
+        <component itemId="balroom_Loot_Card" count="62"/>
+        <component itemId="balroom_Loot_Glasses" count="61"/>
+    </craftedItem>
+    <craftedItem itemId="energyBalCanape" tab="nyBallroom">
+        <component itemId="balroom_Loot_Mask" count="122"/>
+        <component itemId="balroom_Loot_Rosekep" count="66"/>
+        <component itemId="balroom_Loot_Slippers" count="6"/>
+    </craftedItem>
+    <craftedItem itemId="balroom_fountain" tab="nyBallroom">
+        <component itemId="balroom_Loot_Mask" count="6033"/>
+        <component itemId="balroom_Loot_Glove" count="902"/>
+        <component itemId="balroom_Loot_Rosekep" count="904"/>
+        <component itemId="balroom_Loot_Slippers" count="70"/>
+    </craftedItem>
+    <craftedItem itemId="balroom_mask_collct" tab="nyBallroom">
+        <component itemId="balroom_Loot_Mask" count="8866"/>
+        <component itemId="balroom_Loot_Card" count="435"/>
+        <component itemId="balroom_Loot_Glasses" count="435"/>
+        <component itemId="balroom_Loot_Slippers" count="116"/>
+    </craftedItem>
+    <craftedItem itemId="balroom_reading_pt" tab="nyBallroom">
+        <component itemId="balroom_Loot_Mask" count="7966"/>
+        <component itemId="balroom_Loot_Pair" count="1299"/>
+        <component itemId="balroom_Loot_Card" count="356"/>
+        <component itemId="balroom_Loot_Glasses" count="355"/>
+    </craftedItem>
+</config>

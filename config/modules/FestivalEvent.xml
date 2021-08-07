@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config> 
+	<!-- <eventCurrency id="svd21_Loot_Coin"/> -->
+	<news>
+		<!--<news name="iconBank" timestamp="1617026400" eventType="bank" placement="page_view"/>-->
+		<news name="offers" eventType="offer" placement="page_view"/>
+		<news name="iconLlamas" timestamp="1547737200" eventType="chests" placement="page_view"/>
+		<!--<news name="iconGeneral" timestamp="0" eventType="general" placement="right_scroll"/> -->
+		<!--<news name="iconSaleFurniture" timestamp="1614952800" eventType="saleFurnuture" placement="page_view"/> --> 
+		<!--<news name="iconSaleClothes" timestamp="1616767200" eventType="saleClothes" placement="page_view"/>-->
+		<news name="iconFest" timestamp="1617026400" eventType="seasonal" placement="left_scroll"/>
+		<news name="iconItem" timestamp="1547737200" eventType="saleOfTheDay" placement="page_view"/>
+		<!--<news name="iconBundle605" timestamp="1617199200" eventType="bundles" placement="page_view"/>-->
+		<!--<news name="iconBundle606" timestamp="1617804000" eventType="bundles" placement="page_view"/>-->
+		<!--<news name="iconFest" timestamp="1582725600" eventType="vip"/> -->
+	</news>
+	<!-- <promoList> 
+		<promo link="" offer="8" icon="promo.png" placement="right_scroll" /> 
+	</promoList> -->
+	<Sales>
+        <FurSaleTime>
+            <saleTime/>
+        </FurSaleTime>
+        <BoyClothSaleTime>
+            <boySaleTimeClothes/>
+        </BoyClothSaleTime>
+        <GirlClothSaleTime>
+            <girlSaleTimeClothes/>
+        </GirlClothSaleTime>
+    </Sales> 
+</config>

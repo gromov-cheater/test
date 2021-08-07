@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <rule index="1">
+         <gift silver="500" />
+    </rule>
+    <rule index="2">
+         <gift typeId="craftedSandwich" count="1" />
+    </rule>
+    <rule index="3">
+         <gift gold="5" />
+    </rule>
+    <rule index="4">
+         <gift typeId="craftedWater" count="2" />
+    </rule>
+    <rule index="5">
+         <gift gold="10" />
+    </rule>
+    <rule index="6">
+         <gift silver="3000" />
+    </rule>
+    <rule index="7">
+         <gift gold="10" />
+    </rule>
+    <rule index="8">
+         <gift typeId="craftedCoffee" count="4" />
+    </rule>
+    <rule index="9">
+         <gift typeId="applianceBat" count="1" />
+    </rule>
+    <rule index="10">
+         <gift gold="10" />
+    </rule>
+    <rule index="11">
+         <gift silver="3500" />
+    </rule>
+    <rule index="12">
+         <gift typeId="chairBomb" count="1" />
+    </rule>
+    <rule index="13">
+         <gift silver="4000" />
+    </rule>
+    <rule index="14">
+         <gift typeId="craftedSandwich" count="3" />
+    </rule>
+    <rule index="15">
+         <gift gold="20" />
+    </rule>
+    <rule index="16">
+         <gift typeId="craftedEnergyDrink" count="3" />
+    </rule>
+    <rule index="17">
+         <gift silver="5000" />
+    </rule>
+    <rule index="18">
+         <gift typeId="wllgrfft3" count="3" />
+    </rule>
+    <rule index="19">
+         <gift typeId="scrdvr" count="3" />
+    </rule>
+    <rule index="20">
+         <gift gold="20" />
+    </rule>
+    <rule index="21">
+         <gift silver="5000" />
+    </rule>
+    <rule index="22">
+         <gift typeId="craftedBento" count="3" />
+    </rule>
+    <rule index="23">
+         <gift silver="10000" />
+    </rule>
+    <rule index="24">
+         <gift typeId="chairBomb" count="2" />
+    </rule>
+    <rule index="25">
+         <gift gold="20" />
+    </rule>
+    <rule index="26">
+         <gift typeId="wllgrfft1" count="2" />
+    </rule>
+    <rule index="27">
+         <gift silver="15000" />
+    </rule>
+    <rule index="28">
+         <gift typeId="craftedSandwich" count="8" />
+    </rule>
+    <rule index="29">
+         <gift typeId="applianceBat" count="2" />
+    </rule>
+    <rule index="30">
+         <gift gold="25" />
+         <goto index="21" />
+    </rule>
+</config>

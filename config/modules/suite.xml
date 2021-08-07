@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+	<!-- BANK BUNDLES -->
+
+	<offer id="601" type="furniture" title="offer601title" bg="bg_bundle" icon="art_offer_601"/>
+	<offer id="602" type="furniture" title="offer602title" bg="bg_bundle" icon="art_offer_602"/>
+	<offer id="603" type="clothes" title="offer603title" bg="bg_bundle" icon="bg_bundle_clothes" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="604" type="furniture" title="offer604title" bg="bg_bundle" icon="art_offer_604"/>
+	<offer id="605" type="furniture" title="lnsroom_label" bg="bg_bundle" icon="art_offer_605"/>
+	<offer id="606" type="furniture" title="proGamer_label" bg="bg_bundle" icon="art_offer_606"/>
+
+	<!-- SETKA -->
+
+	<offer id="101" type="clothes" title="offer101Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="102" type="furniture" title="offer102Title" bg="bg_bundle" icon="promoart_furniture_nochar_3"/>
+	<offer id="103" type="clothes" title="offer103Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="104" type="furniture" title="offer104Title" bg="bg_bundle" icon="promoart_furniture_nochar_5"/>
+	<offer id="105" type="clothes" title="offer105Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+	<offer id="106" type="furniture" title="offer106Title" bg="bg_bundle" icon="promoart_furniture_nochar_3"/>
+	<offer id="107" type="clothes" title="offer107Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="108" type="furniture" title="offer108Title" bg="bg_bundle" icon="promoart_furniture_nochar_2"/>
+	<offer id="109" type="clothes" title="offer109Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+	<offer id="110" type="clothes" title="offer110Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="111" type="furniture" title="offer111Title" bg="bg_bundle" icon="promoart_furniture_nochar_2"/>
+	<offer id="112" type="clothes" title="offer112Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="113" type="furniture" title="offer113Title" bg="bg_bundle" icon="promoart_furniture_nochar_1"/>
+
+	<offer id="114" type="furniture" title="offer114Title" bg="bg_bundle" icon="promoart_furniture_nochar_2"/>
+	<offer id="115" type="clothes" title="offer115Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="116" type="furniture" title="offer116Title" bg="bg_bundle" icon="promoart_furniture_nochar_1"/>
+	<offer id="117" type="furniture" title="offer117Title" bg="bg_bundle" icon="promoart_furniture_nochar_4"/>
+
+	<offer id="118" type="clothes" title="offer118Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="119" type="furniture" title="offer119Title" bg="bg_bundle" icon="promoart_furniture_nochar_1"/>
+	<offer id="120" type="furniture" title="offer120Title" bg="bg_bundle" icon="promoart_furniture_nochar_4"/>
+	<offer id="121" type="clothes" title="offer121Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+	<offer id="122" type="furniture" title="offer118Title" bg="bg_bundle" icon="art_offer_curr" align="right"/>
+	<offer id="123" type="furniture" title="offer119Title" bg="bg_bundle" icon="art_offer_curr" align="right"/>
+	<offer id="124" type="furniture" title="offer120Title" bg="bg_bundle" icon="art_offer_curr" align="right"/>
+	<offer id="125" type="furniture" title="offer121Title" bg="bg_bundle" icon="art_offer_curr" align="right"/>
+
+	<!-- WEEKLY OFFERS -->
+
+	<offer id="382" type="clothes" title="offer5Title" bg="bg_bundle" icon="bg_bundle_clothes" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="488" type="clothes" title="offer4Title" bg="bg_bundle" icon="bg_bundle_clothes" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="586" type="clothes" title="offer12Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+	<!-- OTHER OFFERS -->
+
+	<offer id="20" type="clothes" title="offer20Title" bg="bg_bundle" icon="bg_bundle_clothes" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+	<offer id="17" type="clothes" title="offer17Title" bg="bg_bundle" icon="bg_bundle_clothes_1" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+	<offer id="9" type="clothes" title="trickyOfferHeader" bg="bg_fo4" icon="promo_art_fo4" clothes="boyShirt_marafon1,boyPants_marafon1,boyShoes_marafon1,girlShirt_marafon1,girlSkirt_marafon1,girlShoes_marafon1"/>
+
+
+</config>

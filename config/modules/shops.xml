@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	
+    <item label="newClothesLabel" shop="new" posX="0" posY="0" icon="igui/shops/Buy_new_btn.png" />
+    <item label="salesDialogTitle" shop="sale" posX="0" posY="1" icon="igui/shops/Buy_sale_btn.png" />
+    <item label="clothesShopTitle" shop="clothesOnly" posX="1" posY="0" icon="igui/shops/Buy_clothes8_btn.png" />
+    <item label="furnitureShopTitle" shop="furnitureOnly" posX="2" posY="0" icon="igui/shops/Buy_decor8_btn.png" />
+    <item label="weddingShopTitle" shop="wedding" posX="3" posY="0" icon="igui/shops/Buy_marriage_btn.png" />
+    <item label="notEnougthGoldLabel" shop="bank" posX="4" posY="0" icon="igui/shops/Buy_bank_btn.png" />
+    <item label="AvatourShopLabel" shop="avatour" posX="3" posY="1" icon="igui/shops/Buy_avatourSjop_btn.png" />
+    <item label="giftsAndJokesCategory" shop="giftsAndJokes" posX="4" posY="1" icon="igui/shops/Buy_other_btn_all.png" />
+
+    <!-- <item label="clothesShopTitle" shop="clothes" posX="0" posY="0" icon="igui/shops/Buy_clothes7_btn.png" />
+    <item label="furnitureShopTitle" shop="furniture" posX="0" posY="1" icon="igui/shops/Buy_decor7_btn.png" />
+    <item label="EventShopLabel" shop="event" posX="1" posY="0" icon="igui/shops/Event_shop_btn.png" />
+    <item label="weddingShopTitle" shop="wedding" posX="2" posY="0" icon="igui/shops/Buy_marriage_btn.png" />
+    <item label="newClothesLabel" shop="new" posX="3" posY="0" icon="igui/shops/Buy_new_btn.png" />
+    <item label="AvatourShopLabel" shop="avatour" posX="2" posY="1" icon="igui/shops/Buy_avatourSjop_btn.png" />
+    <item label="giftsAndJokesCategory" shop="giftsAndJokes" posX="3" posY="1" icon="igui/shops/Buy_other_btn_all.png" />-->   
+
+<!--<item label="clothesShopTitle" shop="clothes" posX="0" posY="0" icon="igui/shops/Buy_clothes7_btn.png" />
+    <item label="furnitureShopTitle" shop="furniture" posX="0" posY="1" icon="igui/shops/Buy_decor7_btn.png" />
+    <item label="EventShopLabel" shop="event" posX="1" posY="0" icon="igui/shops/Event_shop_btn.png" />
+    <item label="weddingShopTitle" shop="wedding" posX="2" posY="0" icon="igui/shops/Buy_marriage_btn.png" />
+    <item label="notEnougthGoldLabel" shop="bank" posX="3" posY="0" icon="igui/shops/Buy_bank_btn.png" />
+    <item label="AvatourShopLabel" shop="avatour" posX="2" posY="1" icon="igui/shops/Buy_avatourSjop_btn.png" />
+    <item label="giftsAndJokesCategory" shop="giftsAndJokes" posX="3" posY="1" icon="igui/shops/Buy_other_btn_all.png" /> -->
+ 
+
+<!--<item label="clothesShopTitle" shop="clothes" posX="1" posY="0" icon="igui/shops/Buy_clothes6_btn.png" />
+    <item label="furnitureShopTitle" shop="furniture" posX="0" posY="1" icon="igui/shops/Buy_decor6_btn.png" />
+    <item label="triksCategory" shop="other" posX="2" posY="1" icon="igui/shops/Buy_other6_btn.png" />
+    <item label="giftsShopTitle" shop="gift" posX="1" posY="1" icon="igui/shops/Buy_gift6_btn.png" />
+    <item label="weddingShopTitle" shop="wedding" posX="2" posY="0" icon="igui/shops/Buy_marriage6_btn.png" />
+    <item label="notEnougthGoldLabel" shop="bank" posX="0" posY="0" icon="igui/shops/Buy_bank6_btn.png" />
+ -->
+</config>

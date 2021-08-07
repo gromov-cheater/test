@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <item day="1" id="tblSea" gold="12" />
+
+    <item day="2" id="armchSea" gold="10" />
+
+    <item day="3" id="uSeaSink" gold="55"/>
+
+    <item day="4" id="uSeaStv" gold="79"/>
+
+    <item day="5" id="chrSeaBlue" gold="9"/>
+
+    <item day="6" id="uSeaMcrwvTop" gold="33"/>
+
+    <item day="7" id="boyHat_lkslklldn_r" gold="48" gender="1"/>
+    <item day="7" id="girlOther_lkslkjsmn_ble" gold="55" gender="2"/>
+
+    <item day="8" id="boyShoesParisw" silver="9600" gender="1"/>
+    <item day="8" id="girlShoes_lcbdst_w" silver="6600" gender="2"/>
+
+    <item day="9" id="boyPants_bdssstl_w_o" silver="6500" gender="1"/>
+    <item day="9" id="girlPants_rdcndgl_ble" silver="10000" gender="2"/>
+
+    <item day="10" id="BoyShirts_NewYorker_bl" gold="79" gender="1"/>
+    <item day="10" id="girlShirt_stripeslook_w_ble" silver="9800" gender="2"/>
+
+    <item day="11" id="boyJacket_lkslklldn_t" silver="16800" gender="1"/>
+    <item day="11" id="girlJacket_lkslkjsmn_gr" silver="18000" gender="2"/>
+
+    <item day="12" id="boyShirts_lkslklldn_beq" silver="11600" gender="1"/>
+    <item day="12" id="girlShirts_lkslkjsmn_o" silver="10800" gender="2"/>
+
+    <item day="13" id="boyNecklacewolfman" gold="20" gender="1"/>
+    <item day="13" id="girlNecklace_sctld_p_gr" gold="18" gender="2"/>
+
+    <item day="14" id="Chair_hygge_kitchen" gold="16"/>
+
+    <item day="15" id="Wall_hygge_kitchen" gold="95" />
+
+    <item day="16" id="Sink_hygge_kitchen" gold="55" />
+
+    <item day="17" id="hygge_bath_bathroom" gold="222" />
+
+    <item day="18" id="hygge_shower_bathroom" silver="45000" />
+
+    <item day="19" id="hygge_floor_bathroom" silver="15200" />
+
+    <item day="20" id="hygge_door_bathroom" silver="10400" />
+
+    <item day="21" id="boyTail_catstyle_bk" gold="40" gender="1"/>
+    <item day="21" id="girlTail_catstyle_w" gold="40" gender="2"/>
+
+    <item day="22" id="boyGloves_sxvltshdw_y" gold="18" gender="1"/>
+    <item day="22" id="girlHats_stlshwntrd_r" gold="55" gender="2"/>
+
+    <item day="23" id="boyShirts_sxvltshdw_o" silver="10800" gender="1"/>
+    <item day="23" id="girlShirts_stlshwntrd_y" silver="12400" gender="2"/>
+
+    <item day="24" id="boyHats_dkntssmtg_g" gold="99" gender="1"/>
+    <item day="24" id="girlHats_dkntssmtg_g" gold="99" gender="2"/>
+
+    <item day="25" id="boyShirts_dkntssmtg_g" silver="12600" gender="1"/>
+    <item day="25" id="girlSkirts_dkntssmtg_g" silver="11200" gender="2"/>
+<!-- Planned TILL here -->
+<!-- Planned FROM here -->
+    <item day="26" id="boyShoesPolicemanbl" silver="4000" gender="1"/>
+    <item day="26" id="girlShoesPolicemanbl" silver="6800" gender="2"/>
+
+    <item day="27" id="boyJacket_jstlklkwlss_g" gold="99" gender="1"/>
+    <item day="27" id="girlDress_c6rc4t_g" gold="99" gender="2"/>
+
+    <item day="28" id="boyShirts_jstlklkwlss_y" silver="9600" gender="1"/>
+    <item day="28" id="girlJacket_c6rc4t_v" gold="111" gender="2"/>
+
+    <item day="29" id="boyShoes_jstlklkwlss_g" silver="7000" gender="1"/>
+    <item day="29" id="girlShoes_c6rc4t_v" gold="55" gender="2"/>
+
+    <item day="30" id="boyOtherboomboxblack" gold="48" gender="1"/>
+    <item day="30" id="girlHairpins_winterheart_cherry" gold="12" gender="2"/>
+
+    <item day="31" id="chrSeaWht" gold="9"/>
+
+</config>
